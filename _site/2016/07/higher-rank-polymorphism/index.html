@@ -1,0 +1,439 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.12.1 by Michael Rose
+  Copyright 2013-2018 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE.txt
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Higher-rank Polymorphism - Mansour Ahmed</title>
+<meta name="description" content="On the functional programming course I attended, I learnt about some interesting parts of Haskell’s type system. I figured I’d write a blog post*.">
+
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Mansour Ahmed">
+<meta property="og:title" content="Higher-rank Polymorphism">
+<meta property="og:url" content="http://localhost:4000/2016/07/higher-rank-polymorphism/">
+
+
+  <meta property="og:description" content="On the functional programming course I attended, I learnt about some interesting parts of Haskell’s type system. I figured I’d write a blog post*.">
+
+
+
+
+
+  <meta name="twitter:site" content="@ma489_">
+  <meta name="twitter:title" content="Higher-rank Polymorphism">
+  <meta name="twitter:description" content="On the functional programming course I attended, I learnt about some interesting parts of Haskell’s type system. I figured I’d write a blog post*.">
+  <meta name="twitter:url" content="http://localhost:4000/2016/07/higher-rank-polymorphism/">
+
+  
+    <meta name="twitter:card" content="summary">
+    
+  
+
+  
+
+
+
+  <meta property="article:published_time" content="2016-07-31T09:10:38-04:00">
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="http://localhost:4000/2016/07/higher-rank-polymorphism/">
+
+
+
+
+
+
+
+  <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "Person",
+      "name": "Mansour Ahmed",
+      "url": "http://localhost:4000",
+      "sameAs": null
+    }
+  </script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Mansour Ahmed Feed">
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+
+<!--[if lte IE 9]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single wide">
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    <div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        <a class="site-title" href="/">Mansour Ahmed</a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/about/" >About</a>
+            </li><li class="masthead__menu-item">
+              <a href="/" >Blog</a>
+            </li></ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+
+<div itemscope itemtype="http://schema.org/Person">
+
+  
+    <div class="author__avatar">
+      
+
+      
+        <img src="/assets/img/profile-photo.jpg" alt="Mansour Ahmed" itemprop="image">
+      
+    </div>
+  
+
+  <div class="author__content">
+    
+      <h3 class="author__name" itemprop="name">Mansour Ahmed</h3>
+    
+    
+      <p class="author__bio" itemprop="description">
+        Software Engineer, Inclusion Enthusiast, Haskell Dilettante, 🇬🇧 in 🇺🇸. Views are my own.
+      </p>
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+        <li itemprop="homeLocation" itemscope itemtype="http://schema.org/Place">
+          <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name">NYC</span>
+        </li>
+      
+
+      
+
+      
+        <li>
+          <a href="mailto:mail@mansourahmed.com">
+            <meta itemprop="email" content="mail@mansourahmed.com" />
+            <i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i> Email
+          </a>
+        </li>
+      
+
+      
+        <li>
+          <a href="https://twitter.com/ma489_" itemprop="sameAs">
+            <i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter
+          </a>
+        </li>
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+        <li>
+          <a href="https://github.com/ma489" itemprop="sameAs">
+            <i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub
+          </a>
+        </li>
+      
+
+      
+
+      
+        <li>
+          <a href="https://www.stackoverflow.com/users/4132288/ma489?tab=profile" itemprop="sameAs">
+            <i class="fab fa-fw fa-stack-overflow" aria-hidden="true"></i> Stack Overflow
+          </a>
+        </li>
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+        <li>
+          <a href="https://www.linkedin.com/in/mansourahmed1" itemprop="sameAs">
+            <i class="fab fa-fw fa-linkedin" aria-hidden="true"></i> LinkedIn
+          </a>
+        </li>
+      
+
+      
+        <li>
+          <a href="https://keybase.io/ma489" itemprop="sameAs">
+            <i class="fas fa-fw fa-key" aria-hidden="true"></i> Keybase
+          </a>
+        </li>
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+
+  
+  </div>
+
+
+  <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Higher-rank Polymorphism">
+    <meta itemprop="description" content="On the functional programming course I attended, I learnt about some interesting parts of Haskell’s type system. I figured I’d write a blog post*.">
+    <meta itemprop="datePublished" content="July 31, 2016">
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">Higher-rank Polymorphism
+</h1>
+          
+            <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  1 minute read
+</p>
+          
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+        <p>On the <a href="http://www.mansourahmed.com/2016/07/afp-haskell-utrecht/">functional programming course I attended</a>, I learnt about some interesting parts of Haskell’s type system. I figured I’d write a blog post*.</p>
+
+<p>(Standard) Haskell has what’s called <a href="https://www.haskell.org/tutorial/pitfalls.html">let-bound polymorphism</a>. This means that identifiers bound in a <code class="highlighter-rouge">let</code>, a <code class="highlighter-rouge">where</code> or top-level definitions can be polymorphic, whereas lambda-bound identifiers (function arguments) cannot. Here are some examples, using the (polymorphic) <a href="http://hackage.haskell.org/package/base-4.9.0.0/docs/Prelude.html#v:id"><em>id</em></a> function:</p>
+
+<figure class="highlight"><pre><code class="language-haskell" data-lang="haskell"><span class="c1">-- Let (OK)</span>
+<span class="n">polymorphicLet</span> <span class="o">::</span> <span class="p">(</span><span class="kt">Integer</span><span class="p">,</span> <span class="kt">Char</span><span class="p">)</span>
+<span class="n">polymorphicLet</span> <span class="o">=</span> <span class="kr">let</span> <span class="n">f</span> <span class="o">=</span> <span class="n">id</span> <span class="kr">in</span> <span class="p">(</span><span class="n">f</span> <span class="mi">3</span><span class="p">,</span> <span class="n">f</span> <span class="sc">'a'</span><span class="p">)</span>
+
+<span class="c1">-- Where (OK)</span>
+<span class="n">polymorphicWhere</span> <span class="o">::</span> <span class="p">(</span><span class="kt">Integer</span><span class="p">,</span> <span class="kt">Char</span><span class="p">)</span> 
+<span class="n">polymorphicWhere</span> <span class="o">=</span> <span class="p">(</span><span class="n">f</span> <span class="mi">3</span><span class="p">,</span> <span class="n">f</span> <span class="sc">'a'</span><span class="p">)</span> <span class="kr">where</span> <span class="n">f</span> <span class="o">=</span> <span class="n">id</span>
+ 
+<span class="c1">-- Top-level (OK)</span>
+<span class="n">f</span> <span class="o">::</span> <span class="n">a</span> <span class="o">-&gt;</span> <span class="n">a</span> 
+<span class="n">f</span> <span class="o">=</span> <span class="n">id</span> 
+<span class="n">polymorphicTopLevel</span> <span class="o">::</span> <span class="p">(</span><span class="kt">Integer</span><span class="p">,</span> <span class="kt">Char</span><span class="p">)</span> 
+<span class="n">polymorphicTopLevel</span> <span class="o">=</span> <span class="p">(</span><span class="n">f</span> <span class="mi">3</span><span class="p">,</span> <span class="n">f</span> <span class="sc">'a'</span><span class="p">)</span>
+ 
+<span class="c1">-- Lambda-bound (not OK)</span>
+<span class="n">polymorphicInlineLambda</span> <span class="o">::</span> <span class="p">(</span><span class="kt">Integer</span><span class="p">,</span> <span class="kt">Char</span><span class="p">)</span> 
+<span class="n">polymorphicInlineLambda</span> <span class="o">=</span> <span class="p">(</span><span class="nf">\</span><span class="n">f</span> <span class="o">-&gt;</span> <span class="p">(</span><span class="n">f</span> <span class="mi">3</span><span class="p">,</span> <span class="n">f</span> <span class="sc">'a'</span><span class="p">))</span> <span class="n">id</span></code></pre></figure>
+
+<p>This last example does not work: it is not possible to determine the type of <code class="highlighter-rouge">f</code>, and no explicit type signature has been provided**. How do we fix this? We need to give the compiler more type information!</p>
+
+<p>How do we describe the type of <code class="highlighter-rouge">f</code>? Well, it’s a polymorphic function of type <code class="highlighter-rouge">a -&gt; a</code>. So the type of the inline lambda abstraction above is something like (<code class="highlighter-rouge">∀a.a -&gt; a) -&gt; (Integer, Char)</code>. This is an example of <a href="https://en.wikibooks.org/wiki/Haskell/Polymorphism#Higher_rank_types">higher-rank polymorphism</a> – this is where a polymorphic type appears in another type; in this case the function argument itself is polymorphic (a so-called <em>rank-2</em> <em>type</em>).</p>
+
+<p>How do we express that in Haskell? Well, we need two <a href="https://ocharles.org.uk/blog/posts/2014-12-01-24-days-of-ghc-extensions.html">GHC extensions</a>; namely <a href="https://wiki.haskell.org/Scoped_type_variables">ScopedTypeVariables</a> and <a href="https://wiki.haskell.org/Rank-N_types">RankNTypes</a>. <code class="highlighter-rouge">RankNTypes</code> allows us to express ‘for all’ (and so describe higher-rank types), and ScopeTypeVariables allows us to extend the scope of type variables into the definition of a function.</p>
+
+<figure class="highlight"><pre><code class="language-haskell" data-lang="haskell"><span class="cp">{-# LANGUAGE RankNTypes #-}</span>
+<span class="cp">{-# LANGUAGE ScopedTypeVariables #-}</span>
+ 
+<span class="n">polymorphicInlineLambda'</span> <span class="o">::</span> <span class="p">(</span><span class="kt">Integer</span><span class="p">,</span> <span class="kt">Char</span><span class="p">)</span>
+<span class="n">polymorphicInlineLambda'</span> <span class="o">=</span> <span class="p">(</span><span class="nf">\</span><span class="p">(</span><span class="n">f</span> <span class="o">::</span> <span class="n">forall</span> <span class="n">a</span><span class="o">.</span> <span class="n">a</span> <span class="o">-&gt;</span> <span class="n">a</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="p">(</span><span class="n">f</span> <span class="mi">3</span><span class="p">,</span> <span class="n">f</span> <span class="sc">'a'</span><span class="p">))</span> <span class="n">id</span></code></pre></figure>
+
+<p><em>et voila! </em></p>
+
+<p><a href="https://github.com/ma489/afp/blob/master/src/AdvancedTypeSystems.hs">See here</a> for the full example source code, and <a href="https://github.com/ma489/afp/tree/master/src">here</a> for more Haskell.</p>
+
+<p>*Oh, and if you’re a Haskeller and have noticed some mistake in this post, let me know, feedback welcome!</p>
+
+<p>**I think GHC assumes <code class="highlighter-rouge">f</code> to be monomorphic because of the <a href="https://wiki.haskell.org/Monomorphism_restriction">monomorphism restriction</a></p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+          <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2016-07-31T09:10:38-04:00">July 31, 2016</time></p>
+        
+      </footer>
+
+      
+
+      
+  <nav class="pagination">
+    
+      <a href="/2016/07/afp-haskell-utrecht/" class="pagination--pager" title="Applied Functional Programming @ Utrecht
+">Previous</a>
+    
+    
+      <a href="/2016/09/munihac/" class="pagination--pager" title="MuniHac Hackathon
+">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+    </div>
+
+    
+
+    <div class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+    
+      <li><a href="https://twitter.com/ma489_"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+    
+    
+    
+      <li><a href="https://github.com/ma489"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+    
+    
+    
+    <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2020 Mansour Ahmed. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+  <script src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"></script>
+
+
+
+
+
+
+
+
+  </body>
+</html>

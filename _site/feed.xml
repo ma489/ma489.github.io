@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-08-15T15:48:22-04:00</updated><id>http://localhost:4000/</id><title type="html">Mansour Ahmed</title><subtitle>Mansour's Personal Developer Blog</subtitle><author><name>Mansour Ahmed</name><email>mail@mansourahmed.com</email></author><entry><title type="html">Next chapter, New York</title><link href="http://localhost:4000/2019/03/new-york/" rel="alternate" type="text/html" title="Next chapter, New York" /><published>2019-03-13T15:02:00-04:00</published><updated>2019-03-13T15:02:00-04:00</updated><id>http://localhost:4000/2019/03/new-york</id><content type="html" xml:base="http://localhost:4000/2019/03/new-york/">&lt;p&gt;So, I’ve begun another chapter in life: I’ve moved from London to New York City. A big move geographically, but not a huge difference culturally (really all big cities). I am keen to explore the tech scene here further, I’m sure its just as vibrant as the one back home. I’ve also set myself some personal growth goals while I’m out here, and perhaps this blog post will hold me accountable(!). Onwards!&lt;/p&gt;</content><author><name>Mansour Ahmed</name><email>mail@mansourahmed.com</email></author><summary type="html">So, I’ve begun another chapter in life: I’ve moved from London to New York City. A big move geographically, but not a huge difference culturally (really all big cities). I am keen to explore the tech scene here further, I’m sure its just as vibrant as the one back home. I’ve also set myself some personal growth goals while I’m out here, and perhaps this blog post will hold me accountable(!). Onwards!</summary></entry><entry><title type="html">2018 Retrospective Reading List</title><link href="http://localhost:4000/2018/12/2018-reading-list/" rel="alternate" type="text/html" title="2018 Retrospective Reading List" /><published>2018-12-28T14:02:00-05:00</published><updated>2018-12-28T14:02:00-05:00</updated><id>http://localhost:4000/2018/12/2018-reading-list</id><content type="html" xml:base="http://localhost:4000/2018/12/2018-reading-list/">&lt;p&gt;In keeping with (my relatively) recent tradition, here’s my annual retrospective recommended reading list. It’s a shorter list than usual (just three books this time), but do check them out.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.amazon.co.uk/Designing-Data-Intensive-Applications-Reliable-Maintainable&quot;&gt;Designing Data Intensive Applications&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.amazon.co.uk/Brit-ish-Race-Identity-Belonging/dp/1911214284&quot;&gt;Brit(ish)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.amazon.co.uk/Even-You-Learn-Statistics-Analytics/dp/0133382664&quot;&gt;Even You Can Learn Statistics and Analytics&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Mansour Ahmed</name><email>mail@mansourahmed.com</email></author><summary type="html">In keeping with (my relatively) recent tradition, here’s my annual retrospective recommended reading list. It’s a shorter list than usual (just three books this time), but do check them out.</summary></entry><entry><title type="html">HaskellX 2018</title><link href="http://localhost:4000/2018/10/haskellx/" rel="alternate" type="text/html" title="HaskellX 2018" /><published>2018-10-14T15:02:00-04:00</published><updated>2018-10-14T15:02:00-04:00</updated><id>http://localhost:4000/2018/10/haskellx</id><content type="html" xml:base="http://localhost:4000/2018/10/haskellx/">&lt;p&gt;I attended the 2018 Haskell eXchange (HaskellX) conference this week. It’s a two-day conference on the programming language Haskell, and its use in industry. Below a brief summary of some of the talks that I found to be personal highlights, with links to the recordings - check them out! See the &lt;a href=&quot;https://skillsmatter.com/conferences/10237-haskell-exchange-2018#program&quot;&gt;full programme here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://skillsmatter.com/skillscasts/11654-keynote-how-to-deploy-your-haskell-code-hundreds-of-times-a-day&quot;&gt;How to Deploy your Haskell Code Hundreds of Times a Day&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;One of the keynotes, on how code is rapidly deployed to production at FB.&lt;/li&gt;
+      &lt;li&gt;In the system described, they do this by pushing all their business logic into libraries which are compiled to shared objects, and then hot-swapping these updated shared objects and loading into the main program on demand.&lt;/li&gt;
+      &lt;li&gt;This approach is required for use-cases such as abuse-detection (removing abusive content posted by users) where they need to deploy updated logic/rules/heuristics ASAP in response to some new threat (in seconds), and they cannot tolerate longer times associated with a full deployment (i.e. restarting machines, reconnecting to dependent services, etc).&lt;/li&gt;
+      &lt;li&gt;He also mentioned how they have a tool in their code review system that will run the code-presented-for-review against some simulated production traffic replay and report back performance stats. Nice! (&lt;a href=&quot;https://code.fb.com/developer-tools/sapienz-intelligent-automated-software-testing-at-scale/&quot;&gt;Related?&lt;/a&gt;)&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://skillsmatter.com/skillscasts/12589-headfirst-into-haskell&quot;&gt;Headfirst into Haskell&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;An honest experience report based on the speaker’s first year working with Haskell.&lt;/li&gt;
+      &lt;li&gt;One interesting topic touched on is that of &lt;a href=&quot;https://blog.aurynn.com/2015/12/16-contempt-culture&quot;&gt;Contempt Culture&lt;/a&gt;; for example looking down at people who use other programming languages, and the closed-mindedness that ensues. Contempt Culture disproportionately affects those who are under-represented minorities in Tech, who may have taken non-traditional routes into the industry.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://skillsmatter.com/skillscasts/12930-building-a-multi-billion-dollar-cryptocurrency-with-haskell&quot;&gt;Building a Multi-Billion Dollar Cryptocurrency with Haskell&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;The speaker presents his view on what has setup his organisation for success in building their cryptocurrency/platform.&lt;/li&gt;
+      &lt;li&gt;Its developed in Haskell, and he describes how that’s made it a success: Haskell programmers tend to be more sympathetic to the world of mathematics and academic rigor, which is necessary in defining and solving the underlying engineering problems that arise when building blockchain systems (engineering problems around distributed systems, networking, etc., as well as finance/economics/regulatory concerns)&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://skillsmatter.com/skillscasts/11068-keynote-looking-forward-to-niki-vazou-s-keynote-at-haskellx-2018#video&quot;&gt;Liquid Haskell&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://ucsd-progsys.github.io/liquidhaskell-blog/&quot;&gt;Liquid Haskell&lt;/a&gt; is an extension to the Haskell language that allows you to prove things about your code, which are then confirmed at compile time.&lt;/li&gt;
+      &lt;li&gt;For example, if you had a function that given a list, returned the head of a list, but wanted it to not throw a runtime exception in the case that the list was empty, then using Liquid Haskell you could: encode as a type the notion of a non-empty list, and then annotate your function with a precondition to say that this function only takes non-empty lists. This check would then instead throw a compile-time error if that condition is violated, which can be dealt with more readily.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Mansour Ahmed</name><email>mail@mansourahmed.com</email></author><summary type="html">I attended the 2018 Haskell eXchange (HaskellX) conference this week. It’s a two-day conference on the programming language Haskell, and its use in industry. Below a brief summary of some of the talks that I found to be personal highlights, with links to the recordings - check them out! See the full programme here.</summary></entry><entry><title type="html">Big Code Summit</title><link href="http://localhost:4000/2018/10/big-code-summit/" rel="alternate" type="text/html" title="Big Code Summit" /><published>2018-10-10T15:02:00-04:00</published><updated>2018-10-10T15:02:00-04:00</updated><id>http://localhost:4000/2018/10/big-code-summit</id><content type="html" xml:base="http://localhost:4000/2018/10/big-code-summit/">&lt;p&gt;I’ve just returned from the inaugural ‘Big Code Summit’. A two-day conference on the very interesting topic of &lt;em&gt;Big Code&lt;/em&gt;, which featured a mix of academic and industry speakers. &lt;a href=&quot;https://bigcodesummit.splashthat.com/&quot;&gt;See here&lt;/a&gt; for a link to the full programme.&lt;/p&gt;
+
+&lt;p&gt;By analogy to Big Data, &lt;em&gt;Big Code&lt;/em&gt; is the research area on how to manage large amounts of code in an organization and how best to deal with the complexities that come with that, as well as how to treat your code as data and leverage that large corpus to gain insights into how engineers can work better.&lt;/p&gt;
+
+&lt;p&gt;Below are summary notes on some of the talks that I found to be personal highlights:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://dl.acm.org/citation.cfm?id=3211353&quot;&gt;Neural code search&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Using NLP and IR techniques to search through code&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://software-lab.org/publications/oopsla2018_DeepBugs.pdf&quot;&gt;Learning to find Bugs&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Using ML to detect bugs in code. This is done by formalizing bug-finding as a classification problem: is this code buggy or non-buggy? In contrast, static analysis bug detectors fall short as they are coded to look for specific patterns.&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/michaelpradel/DeepBugs&quot;&gt;DeepBugs&lt;/a&gt; is trained on a labeled code corpus (given snippet of code, label is buggy/non-buggy), and so can learn more general rules. Fortunately, these labels come naturally from source version histories: if a given commit has a bug, then there will be a dual, follow-up commit that fixes the bug. It can even suggest fixes to the bug, based on information from source version history (e.g. commit x had a bug, commit y fixes the bug, that delta is the bug-fix strategy).&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://homepages.inf.ed.ac.uk/csutton/talks/learning4programs/&quot;&gt;Learning for Programs: Connecting code, statistics, semantics, and language&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;A broad-ranging talk, that touched on solving some interesting problems such as generating code comments from some given source snippet, or detecting redundant/inaccurate comments by comparison to their adjacent source code.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://pavol-bielik.github.io/data/slides/BigCodeWorkshop'18.pdf&quot;&gt;Generate program UIs from design layouts&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Given an image from a UI designer, use ML to generate code that creates that UI. This is to save developers time/effort in producing UIs, and reduce inconsistencies from eye-balling.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://arxiv.org/pdf/1703.05698.pdf&quot;&gt;Neural sketch learning&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;All about generating source code given some conditions (syntactic/semantic constraints) that the desired target source code must satisfy. Check out (&lt;a href=&quot;http://askbayou.com/&quot;&gt;Bayou&lt;/a&gt;) (&lt;a href=&quot;https://info.askbayou.com/how-to-use-bayou/&quot;&gt;more info&lt;/a&gt;); which can be used to generate Java code that follows API-calling idioms.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Mansour Ahmed</name><email>mail@mansourahmed.com</email></author><summary type="html">I’ve just returned from the inaugural ‘Big Code Summit’. A two-day conference on the very interesting topic of Big Code, which featured a mix of academic and industry speakers. See here for a link to the full programme.</summary></entry><entry><title type="html">Afrotech Fest 2018</title><link href="http://localhost:4000/2018/02/afrotech-fest/" rel="alternate" type="text/html" title="Afrotech Fest 2018" /><published>2018-02-01T16:06:48-05:00</published><updated>2018-02-01T16:06:48-05:00</updated><id>http://localhost:4000/2018/02/afrotech-fest</id><content type="html" xml:base="http://localhost:4000/2018/02/afrotech-fest/">&lt;p&gt;I very much enjoyed attending &lt;a href=&quot;https://www.afrotechfest.co.uk/&quot;&gt;Afrotech Fest&lt;/a&gt; in London recently. It was ”a two-day tech festival by and for black people of African and Caribbean heritage”, with an exciting programme of events including thought-provoking talks, panels and workshops.&lt;/p&gt;
+
+&lt;p&gt;I think an event like this was vitally needed: various, laudable, efforts have been made to address issues of diversity &amp;amp; inclusion in the technology industry, but &lt;a href=&quot;https://en.oxforddictionaries.com/definition/bame&quot;&gt;BAME&lt;/a&gt; Britons are rarely the focus of these efforts. It was inspiring and re-energising to meet others from this under-represented community, and celebrate their talents in a unique, open-minded and intellectual setting.&lt;/p&gt;
+
+&lt;p&gt;I applaud the work of the organisers of this successful event, and look forward to returning next year!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/20180127_175426-1024x576.jpg&quot; alt=&quot;Afrotech Fest&quot; /&gt;&lt;/p&gt;</content><author><name>Mansour Ahmed</name><email>mail@mansourahmed.com</email></author><summary type="html">I very much enjoyed attending Afrotech Fest in London recently. It was ”a two-day tech festival by and for black people of African and Caribbean heritage”, with an exciting programme of events including thought-provoking talks, panels and workshops.</summary></entry><entry><title type="html">2017 Retrospective Reading List</title><link href="http://localhost:4000/2017/12/2017-reading-list/" rel="alternate" type="text/html" title="2017 Retrospective Reading List" /><published>2017-12-28T14:02:00-05:00</published><updated>2017-12-28T14:02:00-05:00</updated><id>http://localhost:4000/2017/12/2017-reading-list</id><content type="html" xml:base="http://localhost:4000/2017/12/2017-reading-list/">&lt;p&gt;My 2017 retrospective on books I’ve read. It’s a mix of old and new, technical and not (if one can make such a distinction). As ever, I’ve been making full use of my Safari Books subscription, but I’m attaching Amazon links here for simplicity.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.amazon.co.uk/Functional-Reactive-Domain-Modeling-Debasish/dp/1617292249&quot;&gt;Functional and Reactive Domain Modeling&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.amazon.co.uk/Scalability-Startup-Engineers-Artur-Ejsmont/dp/0071843655&quot;&gt;Web Scalability for Startup Engineers&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.amazon.co.uk/Good-Immigrant-Nikesh-Shukla/dp/1783523956&quot;&gt;The Good Immigrant&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.amazon.co.uk/Longer-Talking-White-People-About/dp/140887055X&quot;&gt;Why I’m No Longer Talking…About Race&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Mansour Ahmed</name><email>mail@mansourahmed.com</email></author><summary type="html">My 2017 retrospective on books I’ve read. It’s a mix of old and new, technical and not (if one can make such a distinction). As ever, I’ve been making full use of my Safari Books subscription, but I’m attaching Amazon links here for simplicity.</summary></entry><entry><title type="html">Obligatory Monad Post</title><link href="http://localhost:4000/2017/03/obligatory-monad-post/" rel="alternate" type="text/html" title="Obligatory Monad Post" /><published>2017-03-13T18:46:10-04:00</published><updated>2017-03-13T18:46:10-04:00</updated><id>http://localhost:4000/2017/03/obligatory-monad-post</id><content type="html" xml:base="http://localhost:4000/2017/03/obligatory-monad-post/">&lt;p style=&quot;text-align: left;&quot;&gt;
+  I&amp;#8217;m taking a break from blogging for a while, but before I go, here&amp;#8217;s a (&lt;a href=&quot;https://byorgey.wordpress.com/2009/01/12/abstraction-intuition-and-the-monad-tutorial-fallacy/&quot;&gt;now cliché&lt;/a&gt;) blog post on &lt;a href=&quot;https://en.wikipedia.org/wiki/Monad_(functional_programming)&quot;&gt;monads&lt;/a&gt;.
+&lt;/p&gt;
+
+&lt;p style=&quot;text-align: left;&quot;&gt;
+  There are far more precise, formal descriptions out there; however, I&amp;#8217;ll give a practical, if imprecise, description of monads that I believe (!) makes them easier to think about:
+&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p style=&quot;text-align: left;&quot;&gt;
+  A monad is a datatype&lt;sup&gt;1&lt;/sup&gt; that allows us to: represent computations&lt;sup&gt;2&lt;/sup&gt; that have some structured&lt;sup&gt;3&lt;/sup&gt; result, and chain such computations together&lt;sup&gt;4&lt;/sup&gt;
+&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;The datatype defines two operations, which (in Haskell parlance) are called &lt;em&gt;bind&lt;/em&gt; (»=) and &lt;em&gt;return&lt;/em&gt;. &lt;em&gt;return&lt;/em&gt; places a value in the monad, and &lt;em&gt;bind&lt;/em&gt; is used to pass this monadic value to another function. Implementations of these operations must satisfy &lt;a href=&quot;https://wiki.haskell.org/Monad_laws&quot;&gt;certain laws&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;Some expression to be evaluated.&lt;/li&gt;
+  &lt;li&gt;The result has some additional context. For example, that context could be that the computation may fail (Haskell’s &lt;a href=&quot;https://en.wikibooks.org/wiki/Haskell/Understanding_monads/Maybe&quot;&gt;Maybe&lt;/a&gt; monad), or that it is non-deterministic (&lt;a href=&quot;https://en.wikibooks.org/wiki/Haskell/Understanding_monads/List&quot;&gt;List&lt;/a&gt;), or that some interaction with the outside-world occurs (&lt;a href=&quot;https://en.wikibooks.org/wiki/Haskell/Understanding_monads/IO&quot;&gt;IO&lt;/a&gt;).&lt;/li&gt;
+  &lt;li&gt;Sequential composition. We can combine monadic values by passing them between functions that operate on them (using the bind operator)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/ma489/haskell-sandbox/blob/master/examples/MaybeMonadExample.hs&quot;&gt;Here’s an example&lt;/a&gt; in Haskell:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-haskell&quot; data-lang=&quot;haskell&quot;&gt;&lt;span class=&quot;c1&quot;&gt;-- Placing a value inside the context of the Maybe monad, using 'return'&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;::&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;Maybe&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;Int&lt;/span&gt; 
+&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;
+ 
+&lt;span class=&quot;c1&quot;&gt;-- Let's define a function to operate on x&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;-- It takes on a non-monadic value and produce another monadic value&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;f&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;::&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;Int&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;Maybe&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;String&lt;/span&gt; 
+&lt;span class=&quot;n&quot;&gt;f&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;show&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;err&quot;&gt; &lt;/span&gt;
+ 
+&lt;span class=&quot;c1&quot;&gt;-- Lets apply function f to value 'inside' x using the bind operator&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;applyFtoX&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;::&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;Maybe&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;String&lt;/span&gt; 
+&lt;span class=&quot;n&quot;&gt;applyFtoX&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;f&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;As a bonus, &lt;a href=&quot;https://github.com/ma489/scala-sandbox/blob/master/src/main/scala/example/WriterExample.scala&quot;&gt;here’s an example in Scala,&lt;/a&gt; inspired by some code I wrote recently at work that made use of the Writer monad from the &lt;a href=&quot;https://github.com/scalaz/scalaz&quot;&gt;Scalaz&lt;/a&gt; library. &lt;span style=&quot;color: #000000;&quot;&gt;The &lt;a href=&quot;http://learnyouahaskell.com/for-a-few-monads-more#writer&quot;&gt;Writer&lt;/a&gt; monad is useful for computations that accumulate some additional output alongside the result (e.g. logging).&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;Anyways, I hope this has been useful. If there is anything incorrect, don’t hesitate to mail me 🙂&lt;/p&gt;</content><author><name>Mansour Ahmed</name><email>mail@mansourahmed.com</email></author><summary type="html">I&amp;#8217;m taking a break from blogging for a while, but before I go, here&amp;#8217;s a (now cliché) blog post on monads.</summary></entry><entry><title type="html">2016 Retrospective Reading List</title><link href="http://localhost:4000/2016/12/2016-reading-list/" rel="alternate" type="text/html" title="2016 Retrospective Reading List" /><published>2016-12-28T14:02:00-05:00</published><updated>2016-12-28T14:02:00-05:00</updated><id>http://localhost:4000/2016/12/2016-reading-list</id><content type="html" xml:base="http://localhost:4000/2016/12/2016-reading-list/">&lt;p&gt;As the year draws to end, I’ve been reflecting on the all the new things I’ve learnt. Below is a list of some of the good books I’ve read over the last year (a mix of old and new), that I would recommend. As ever, I’ve been making full use of my Safari Books subscription, but I’m attaching Amazon links here for simplicity.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.amazon.co.uk/Architecting-Scale-Availability-Growing-Applications/dp/1491943394&quot;&gt;Architecting for Scale&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.amazon.co.uk/Site-Reliability-Engineering-Production-Systems/dp/149192912X&quot;&gt;Site Reliability Engineering&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.amazon.co.uk/Building-Microservices-Sam-Newman/dp/B00T3N7XB4&quot;&gt;Building Microservices&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.amazon.co.uk/Algorithm-Design-Manual-Steven-Skiena/dp/1848000693&quot;&gt;The Algorithm Design Manual&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.amazon.co.uk/Scalable-Internet-Architectures-Developers-Library/dp/B001M60BLE&quot;&gt;Scalable Internet Architectures&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.amazon.co.uk/Java-Performance-Definitive-Scott-Oaks-x/dp/1449358454&quot;&gt;Java Performance&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Mansour Ahmed</name><email>mail@mansourahmed.com</email></author><summary type="html">As the year draws to end, I’ve been reflecting on the all the new things I’ve learnt. Below is a list of some of the good books I’ve read over the last year (a mix of old and new), that I would recommend. As ever, I’ve been making full use of my Safari Books subscription, but I’m attaching Amazon links here for simplicity.</summary></entry><entry><title type="html">Improving Listify</title><link href="http://localhost:4000/2016/10/improving-listify/" rel="alternate" type="text/html" title="Improving Listify" /><published>2016-10-16T08:24:00-04:00</published><updated>2016-10-16T08:24:00-04:00</updated><id>http://localhost:4000/2016/10/improving-listify</id><content type="html" xml:base="http://localhost:4000/2016/10/improving-listify/">&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;a href=&quot;http://www.mansourahmed.com/2016/06/spotify-playlister/&quot;&gt;Listify’&lt;/a&gt;s latency, while tolerable, could do with some improvement (p&lt;span style=&quot;color: #000000;&quot;&gt;erformance was a secondary concern while building it; I felt that the application functionality was far more interesting).  So I’ve decided to address this issue and blog about it as I go along. &lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;color: #000000;&quot;&gt;Quick recap: Listify retrieves BBC radio schedule information in order to create Spotify playlists (aside: unfortunately the BBC don’t provide a clean API to retrieve this information, so there’s a fair bit of scraping going on). In order to retrieve that information, the application needs to send requests to the BBC Radio web site.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/Improving-Listify-I1-e1476537639411.jpg&quot; alt=&quot;High-level architecture&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;So, for instance, to create a Spotify playlist, the application must retrieve the radio tracklist for that particular episode of that particular show. This involves making a relatively-expensive external network request to grab that information. Another similar request is then made to create the Spotify playlist. &lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Fortunately the retrieved information is cached in Listify’s local database, so that if the playlist for this episode is requested again, the information is instead retrieved more quickly from the database. But of course, the first user after that playlist still has to take that initial latency hit! Let’s fix this….&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Here are some sample numbers from a basic test, using &lt;a href=&quot;https://en.wikipedia.org/wiki/ApacheBench&quot;&gt;Apache Benchmark&lt;/a&gt;. I’ve got a (&lt;a href=&quot;https://en.wikipedia.org/wiki/Docker_(software)&quot;&gt;Docker&lt;/a&gt;) containerised version of the web app running locally, so these numbers are more useful because they exclude the network time from a user machine to the Listify server. Here I’m hitting the show list for Radio 1, 100 times serially.&lt;/span&gt;&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-shell&quot; data-lang=&quot;shell&quot;&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;ab &lt;span class=&quot;nt&quot;&gt;-n&lt;/span&gt; 100 localhost/shows/radio1
+...
+Percentage of the requests served within a certain &lt;span class=&quot;nb&quot;&gt;time&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;ms&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+50%    34
+95%    49
+100%   1249 &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;longest request&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Now, generally the response time isn’t so bad, but as you can see the longest response time sucks – these are the times for the first visitor to that page. Sure, that cost is amortized over the subsequent requests, but it’s still an unpleasant experience for that first user!&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;One solution to this is to &lt;a href=&quot;http://paweljaniak.co.za/2014/01/07/memcached-lessons/#cache-warming&quot;&gt;pre-warm the cache&lt;/a&gt;. That is, have an automated process run ahead of time doing the job of the first visitor, so that no real human visitors have to endure that latency. My, rather simple, approach is to have a &lt;a href=&quot;https://en.wikipedia.org/wiki/Cron&quot;&gt;cron&lt;/a&gt; job run nightly that uses &lt;a href=&quot;https://en.wikipedia.org/wiki/Wget&quot;&gt;wget&lt;/a&gt; to recursively crawl the site and hit each page.&lt;/span&gt;&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-shell&quot; data-lang=&quot;shell&quot;&gt;wget &lt;span class=&quot;nt&quot;&gt;-r&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;--delete-after&lt;/span&gt; localhost/stations&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;This is the basic form of the command, but &lt;a href=&quot;https://www.gnu.org/software/wget/manual/html_node/Recursive-Retrieval-Options.html&quot;&gt;there are additional options&lt;/a&gt; (e.g. ignore &lt;a href=&quot;https://en.wikipedia.org/wiki/Robots_exclusion_standard&quot;&gt;robots.txt&lt;/a&gt;, specifying a max recursive depth, waiting in between requests, ignore certain pages, etc.). &lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;And now, with a warm cache, here are the new numbers:&lt;/span&gt;&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-shell&quot; data-lang=&quot;shell&quot;&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;ab &lt;span class=&quot;nt&quot;&gt;-n&lt;/span&gt; 100 localhost/shows/radio1
+...
+Percentage of the requests served within a certain &lt;span class=&quot;nb&quot;&gt;time&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;ms&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+50%     33
+95%     47
+100%    91 &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;longest request&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;em&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;A big improvement!&lt;/span&gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;But there are, of course, some downsides: &lt;/span&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;The system may waste time and disk space caching content that may not be used. This is mitigated by only caching the info for the &lt;a href=&quot;https://en.wikipedia.org/wiki/List_of_most-listened-to_radio_programs#Current_top_stations_in_the_United_Kingdom&quot;&gt;most popular stations&lt;/a&gt;. &lt;/span&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Since this cache is only warmed nightly, despite new content continuously being made available throughout the day, some newer content may result in a cache miss. I think this is tolerable because the cache misses now happen less often. &lt;/span&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;A&lt;/span&gt;t the moment, this cache initialisation is a pretty resource-intensive task – essentially, deliberately inducing peak time usage. This is OK for now, since the cache warming happens during a quiet period at night, so has minimal impact on other users of the system.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;That’s all for now. More to come!&lt;/p&gt;</content><author><name>Mansour Ahmed</name><email>mail@mansourahmed.com</email></author><summary type="html">Listify’s latency, while tolerable, could do with some improvement (performance was a secondary concern while building it; I felt that the application functionality was far more interesting).  So I’ve decided to address this issue and blog about it as I go along. </summary></entry><entry><title type="html">HaskellX 2016 Conference &amp;amp; Hackathon</title><link href="http://localhost:4000/2016/10/haskellx/" rel="alternate" type="text/html" title="HaskellX 2016 Conference &amp; Hackathon" /><published>2016-10-10T04:06:00-04:00</published><updated>2016-10-10T04:06:00-04:00</updated><id>http://localhost:4000/2016/10/haskellx</id><content type="html" xml:base="http://localhost:4000/2016/10/haskellx/">&lt;p&gt;I just spent four days hanging with the (very international) Haskell community in London.&lt;/p&gt;
+
+&lt;p&gt;First I attended the two-day &lt;a href=&quot;https://skillsmatter.com/conferences/7276-haskell-exchange-2016&quot;&gt;Haskell eXchange&lt;/a&gt; conference. This was in fact my &lt;em&gt;very first&lt;/em&gt; conference! I watched talks on a range of topics, ranging from notation for category theory to the use of Haskell for games and web development, and even got &lt;a href=&quot;https://skillsmatter.com/skillscasts/8759-hands-on-tutorial-build-yourself-a-reddit-bot&quot;&gt;hands-on in a workshop&lt;/a&gt;. Good fun! The highlights were of course the keynotes (I was left mind-blown by &lt;a href=&quot;https://skillsmatter.com/skillscasts/8893-is-a-type-a-lifebuoy-or-a-lamp&quot;&gt;this one&lt;/a&gt;). All the videos are now &lt;a href=&quot;https://skillsmatter.com/conferences/7276-haskell-exchange-2016#program&quot;&gt;available online&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;After that, there was &lt;a href=&quot;https://skillsmatter.com/conferences/8379-haskell-exchange-hackathon-2016&quot;&gt;HaskellXHack&lt;/a&gt;, a two-day hackathon focused on improving the Haskell infrastructure (&lt;a href=&quot;https://hackage.haskell.org/&quot;&gt;Hackage&lt;/a&gt;, &lt;a href=&quot;https://en.wikipedia.org/wiki/Cabal_(software)&quot;&gt;Cabal&lt;/a&gt;, etc.). I paired up with another developer to contribute to &lt;a href=&quot;https://github.com/haskell/hackage-server&quot;&gt;Hackage&lt;/a&gt;; we looked at a couple issues around rendering webpage content and raised &lt;a href=&quot;https://help.github.com/articles/about-pull-requests/&quot;&gt;pull requests&lt;/a&gt; to fix them.&lt;/p&gt;
+
+&lt;p&gt;It was great seeing many friendly, familiar faces from Munich and Utrecht. I’ll definitely be back next year!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/wp-image-224800533jpg-e1476541836610.jpg&quot; alt=&quot;haskellx-1&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/wp-image-116919683jpg.jpg&quot; alt=&quot;haskellx-2&quot; /&gt;&lt;/p&gt;</content><author><name>Mansour Ahmed</name><email>mail@mansourahmed.com</email></author><summary type="html">I just spent four days hanging with the (very international) Haskell community in London.</summary></entry></feed>

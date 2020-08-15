@@ -1,0 +1,437 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.12.1 by Michael Rose
+  Copyright 2013-2018 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE.txt
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Obligatory Monad Post - Mansour Ahmed</title>
+<meta name="description" content="  I&#8217;m taking a break from blogging for a while, but before I go, here&#8217;s a (now cliché) blog post on monads.">
+
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Mansour Ahmed">
+<meta property="og:title" content="Obligatory Monad Post">
+<meta property="og:url" content="http://localhost:4000/2017/03/obligatory-monad-post/">
+
+
+  <meta property="og:description" content="  I&#8217;m taking a break from blogging for a while, but before I go, here&#8217;s a (now cliché) blog post on monads.">
+
+
+
+
+
+  <meta name="twitter:site" content="@ma489_">
+  <meta name="twitter:title" content="Obligatory Monad Post">
+  <meta name="twitter:description" content="  I&#8217;m taking a break from blogging for a while, but before I go, here&#8217;s a (now cliché) blog post on monads.">
+  <meta name="twitter:url" content="http://localhost:4000/2017/03/obligatory-monad-post/">
+
+  
+    <meta name="twitter:card" content="summary">
+    
+  
+
+  
+
+
+
+  <meta property="article:published_time" content="2017-03-13T18:46:10-04:00">
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="http://localhost:4000/2017/03/obligatory-monad-post/">
+
+
+
+
+
+
+
+  <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "Person",
+      "name": "Mansour Ahmed",
+      "url": "http://localhost:4000",
+      "sameAs": null
+    }
+  </script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Mansour Ahmed Feed">
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+
+<!--[if lte IE 9]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single wide">
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    <div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        <a class="site-title" href="/">Mansour Ahmed</a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/about/" >About</a>
+            </li><li class="masthead__menu-item">
+              <a href="/" >Blog</a>
+            </li></ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+
+<div itemscope itemtype="http://schema.org/Person">
+
+  
+    <div class="author__avatar">
+      
+
+      
+        <img src="/assets/img/profile-photo.jpg" alt="Mansour Ahmed" itemprop="image">
+      
+    </div>
+  
+
+  <div class="author__content">
+    
+      <h3 class="author__name" itemprop="name">Mansour Ahmed</h3>
+    
+    
+      <p class="author__bio" itemprop="description">
+        Software Engineer, Inclusion Enthusiast, Haskell Dilettante, 🇬🇧 in 🇺🇸. Views are my own.
+      </p>
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+        <li itemprop="homeLocation" itemscope itemtype="http://schema.org/Place">
+          <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name">NYC</span>
+        </li>
+      
+
+      
+
+      
+        <li>
+          <a href="mailto:mail@mansourahmed.com">
+            <meta itemprop="email" content="mail@mansourahmed.com" />
+            <i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i> Email
+          </a>
+        </li>
+      
+
+      
+        <li>
+          <a href="https://twitter.com/ma489_" itemprop="sameAs">
+            <i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter
+          </a>
+        </li>
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+        <li>
+          <a href="https://github.com/ma489" itemprop="sameAs">
+            <i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub
+          </a>
+        </li>
+      
+
+      
+
+      
+        <li>
+          <a href="https://www.stackoverflow.com/users/4132288/ma489?tab=profile" itemprop="sameAs">
+            <i class="fab fa-fw fa-stack-overflow" aria-hidden="true"></i> Stack Overflow
+          </a>
+        </li>
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+        <li>
+          <a href="https://www.linkedin.com/in/mansourahmed1" itemprop="sameAs">
+            <i class="fab fa-fw fa-linkedin" aria-hidden="true"></i> LinkedIn
+          </a>
+        </li>
+      
+
+      
+        <li>
+          <a href="https://keybase.io/ma489" itemprop="sameAs">
+            <i class="fas fa-fw fa-key" aria-hidden="true"></i> Keybase
+          </a>
+        </li>
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+
+  
+  </div>
+
+
+  <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Obligatory Monad Post">
+    <meta itemprop="description" content="  I&#8217;m taking a break from blogging for a while, but before I go, here&#8217;s a (now cliché) blog post on monads.">
+    <meta itemprop="datePublished" content="March 13, 2017">
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">Obligatory Monad Post
+</h1>
+          
+            <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  1 minute read
+</p>
+          
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+        <p style="text-align: left;">
+  I&#8217;m taking a break from blogging for a while, but before I go, here&#8217;s a (<a href="https://byorgey.wordpress.com/2009/01/12/abstraction-intuition-and-the-monad-tutorial-fallacy/">now cliché</a>) blog post on <a href="https://en.wikipedia.org/wiki/Monad_(functional_programming)">monads</a>.
+</p>
+
+<p style="text-align: left;">
+  There are far more precise, formal descriptions out there; however, I&#8217;ll give a practical, if imprecise, description of monads that I believe (!) makes them easier to think about:
+</p>
+
+<blockquote>
+  <p style="text-align: left;">
+  A monad is a datatype<sup>1</sup> that allows us to: represent computations<sup>2</sup> that have some structured<sup>3</sup> result, and chain such computations together<sup>4</sup>
+</p>
+</blockquote>
+
+<ol>
+  <li>The datatype defines two operations, which (in Haskell parlance) are called <em>bind</em> (»=) and <em>return</em>. <em>return</em> places a value in the monad, and <em>bind</em> is used to pass this monadic value to another function. Implementations of these operations must satisfy <a href="https://wiki.haskell.org/Monad_laws">certain laws</a>.</li>
+  <li>Some expression to be evaluated.</li>
+  <li>The result has some additional context. For example, that context could be that the computation may fail (Haskell’s <a href="https://en.wikibooks.org/wiki/Haskell/Understanding_monads/Maybe">Maybe</a> monad), or that it is non-deterministic (<a href="https://en.wikibooks.org/wiki/Haskell/Understanding_monads/List">List</a>), or that some interaction with the outside-world occurs (<a href="https://en.wikibooks.org/wiki/Haskell/Understanding_monads/IO">IO</a>).</li>
+  <li>Sequential composition. We can combine monadic values by passing them between functions that operate on them (using the bind operator)</li>
+</ol>
+
+<p><a href="https://github.com/ma489/haskell-sandbox/blob/master/examples/MaybeMonadExample.hs">Here’s an example</a> in Haskell:</p>
+
+<figure class="highlight"><pre><code class="language-haskell" data-lang="haskell"><span class="c1">-- Placing a value inside the context of the Maybe monad, using 'return'</span>
+<span class="n">x</span> <span class="o">::</span> <span class="kt">Maybe</span> <span class="kt">Int</span> 
+<span class="n">x</span> <span class="o">=</span> <span class="n">return</span> <span class="mi">3</span>
+ 
+<span class="c1">-- Let's define a function to operate on x</span>
+<span class="c1">-- It takes on a non-monadic value and produce another monadic value</span>
+<span class="n">f</span> <span class="o">::</span> <span class="kt">Int</span> <span class="o">-&gt;</span> <span class="kt">Maybe</span> <span class="kt">String</span> 
+<span class="n">f</span> <span class="n">a</span> <span class="o">=</span> <span class="n">return</span> <span class="o">$</span> <span class="n">show</span> <span class="n">a</span><span class="err"> </span>
+ 
+<span class="c1">-- Lets apply function f to value 'inside' x using the bind operator</span>
+<span class="n">applyFtoX</span> <span class="o">::</span> <span class="kt">Maybe</span> <span class="kt">String</span> 
+<span class="n">applyFtoX</span> <span class="o">=</span> <span class="n">x</span> <span class="o">&gt;&gt;=</span> <span class="n">f</span></code></pre></figure>
+
+<p>As a bonus, <a href="https://github.com/ma489/scala-sandbox/blob/master/src/main/scala/example/WriterExample.scala">here’s an example in Scala,</a> inspired by some code I wrote recently at work that made use of the Writer monad from the <a href="https://github.com/scalaz/scalaz">Scalaz</a> library. <span style="color: #000000;">The <a href="http://learnyouahaskell.com/for-a-few-monads-more#writer">Writer</a> monad is useful for computations that accumulate some additional output alongside the result (e.g. logging).</span></p>
+
+<p>Anyways, I hope this has been useful. If there is anything incorrect, don’t hesitate to mail me 🙂</p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+          <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2017-03-13T18:46:10-04:00">March 13, 2017</time></p>
+        
+      </footer>
+
+      
+
+      
+  <nav class="pagination">
+    
+      <a href="/2016/12/2016-reading-list/" class="pagination--pager" title="2016 Retrospective Reading List
+">Previous</a>
+    
+    
+      <a href="/2017/12/2017-reading-list/" class="pagination--pager" title="2017 Retrospective Reading List
+">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+    </div>
+
+    
+
+    <div class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+    
+      <li><a href="https://twitter.com/ma489_"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+    
+    
+    
+      <li><a href="https://github.com/ma489"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+    
+    
+    
+    <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2020 Mansour Ahmed. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+  <script src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"></script>
+
+
+
+
+
+
+
+
+  </body>
+</html>

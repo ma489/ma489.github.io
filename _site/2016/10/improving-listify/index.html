@@ -1,0 +1,443 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.12.1 by Michael Rose
+  Copyright 2013-2018 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE.txt
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Improving Listify - Mansour Ahmed</title>
+<meta name="description" content="Listify’s latency, while tolerable, could do with some improvement (performance was a secondary concern while building it; I felt that the application functionality was far more interesting).  So I’ve decided to address this issue and blog about it as I go along. ">
+
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Mansour Ahmed">
+<meta property="og:title" content="Improving Listify">
+<meta property="og:url" content="http://localhost:4000/2016/10/improving-listify/">
+
+
+  <meta property="og:description" content="Listify’s latency, while tolerable, could do with some improvement (performance was a secondary concern while building it; I felt that the application functionality was far more interesting).  So I’ve decided to address this issue and blog about it as I go along. ">
+
+
+
+
+
+  <meta name="twitter:site" content="@ma489_">
+  <meta name="twitter:title" content="Improving Listify">
+  <meta name="twitter:description" content="Listify’s latency, while tolerable, could do with some improvement (performance was a secondary concern while building it; I felt that the application functionality was far more interesting).  So I’ve decided to address this issue and blog about it as I go along. ">
+  <meta name="twitter:url" content="http://localhost:4000/2016/10/improving-listify/">
+
+  
+    <meta name="twitter:card" content="summary">
+    
+  
+
+  
+
+
+
+  <meta property="article:published_time" content="2016-10-16T08:24:00-04:00">
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="http://localhost:4000/2016/10/improving-listify/">
+
+
+
+
+
+
+
+  <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "Person",
+      "name": "Mansour Ahmed",
+      "url": "http://localhost:4000",
+      "sameAs": null
+    }
+  </script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Mansour Ahmed Feed">
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+
+<!--[if lte IE 9]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single wide">
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    <div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        <a class="site-title" href="/">Mansour Ahmed</a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/about/" >About</a>
+            </li><li class="masthead__menu-item">
+              <a href="/" >Blog</a>
+            </li></ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+
+<div itemscope itemtype="http://schema.org/Person">
+
+  
+    <div class="author__avatar">
+      
+
+      
+        <img src="/assets/img/profile-photo.jpg" alt="Mansour Ahmed" itemprop="image">
+      
+    </div>
+  
+
+  <div class="author__content">
+    
+      <h3 class="author__name" itemprop="name">Mansour Ahmed</h3>
+    
+    
+      <p class="author__bio" itemprop="description">
+        Software Engineer, Inclusion Enthusiast, Haskell Dilettante, 🇬🇧 in 🇺🇸. Views are my own.
+      </p>
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+        <li itemprop="homeLocation" itemscope itemtype="http://schema.org/Place">
+          <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name">NYC</span>
+        </li>
+      
+
+      
+
+      
+        <li>
+          <a href="mailto:mail@mansourahmed.com">
+            <meta itemprop="email" content="mail@mansourahmed.com" />
+            <i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i> Email
+          </a>
+        </li>
+      
+
+      
+        <li>
+          <a href="https://twitter.com/ma489_" itemprop="sameAs">
+            <i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter
+          </a>
+        </li>
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+        <li>
+          <a href="https://github.com/ma489" itemprop="sameAs">
+            <i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub
+          </a>
+        </li>
+      
+
+      
+
+      
+        <li>
+          <a href="https://www.stackoverflow.com/users/4132288/ma489?tab=profile" itemprop="sameAs">
+            <i class="fab fa-fw fa-stack-overflow" aria-hidden="true"></i> Stack Overflow
+          </a>
+        </li>
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+        <li>
+          <a href="https://www.linkedin.com/in/mansourahmed1" itemprop="sameAs">
+            <i class="fab fa-fw fa-linkedin" aria-hidden="true"></i> LinkedIn
+          </a>
+        </li>
+      
+
+      
+        <li>
+          <a href="https://keybase.io/ma489" itemprop="sameAs">
+            <i class="fas fa-fw fa-key" aria-hidden="true"></i> Keybase
+          </a>
+        </li>
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+
+  
+  </div>
+
+
+  <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Improving Listify">
+    <meta itemprop="description" content="Listify’s latency, while tolerable, could do with some improvement (performance was a secondary concern while building it; I felt that the application functionality was far more interesting).  So I’ve decided to address this issue and blog about it as I go along. ">
+    <meta itemprop="datePublished" content="October 16, 2016">
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">Improving Listify
+</h1>
+          
+            <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  2 minute read
+</p>
+          
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+        <p><span style="font-weight: 400;"><a href="http://www.mansourahmed.com/2016/06/spotify-playlister/">Listify’</a>s latency, while tolerable, could do with some improvement (p<span style="color: #000000;">erformance was a secondary concern while building it; I felt that the application functionality was far more interesting).  So I’ve decided to address this issue and blog about it as I go along. </span></span></p>
+
+<p><span style="font-weight: 400;"><span style="color: #000000;">Quick recap: Listify retrieves BBC radio schedule information in order to create Spotify playlists (aside: unfortunately the BBC don’t provide a clean API to retrieve this information, so there’s a fair bit of scraping going on). In order to retrieve that information, the application needs to send requests to the BBC Radio web site.</span></span></p>
+
+<p><img src="/assets/img/Improving-Listify-I1-e1476537639411.jpg" alt="High-level architecture" /></p>
+
+<p><span style="font-weight: 400;">So, for instance, to create a Spotify playlist, the application must retrieve the radio tracklist for that particular episode of that particular show. This involves making a relatively-expensive external network request to grab that information. Another similar request is then made to create the Spotify playlist. </span><span style="font-weight: 400;">Fortunately the retrieved information is cached in Listify’s local database, so that if the playlist for this episode is requested again, the information is instead retrieved more quickly from the database. But of course, the first user after that playlist still has to take that initial latency hit! Let’s fix this….</span></p>
+
+<p><span style="font-weight: 400;">Here are some sample numbers from a basic test, using <a href="https://en.wikipedia.org/wiki/ApacheBench">Apache Benchmark</a>. I’ve got a (<a href="https://en.wikipedia.org/wiki/Docker_(software)">Docker</a>) containerised version of the web app running locally, so these numbers are more useful because they exclude the network time from a user machine to the Listify server. Here I’m hitting the show list for Radio 1, 100 times serially.</span></p>
+
+<figure class="highlight"><pre><code class="language-shell" data-lang="shell"><span class="nv">$ </span>ab <span class="nt">-n</span> 100 localhost/shows/radio1
+...
+Percentage of the requests served within a certain <span class="nb">time</span> <span class="o">(</span>ms<span class="o">)</span>
+50%    34
+95%    49
+100%   1249 <span class="o">(</span>longest request<span class="o">)</span></code></pre></figure>
+
+<p><span style="font-weight: 400;">Now, generally the response time isn’t so bad, but as you can see the longest response time sucks – these are the times for the first visitor to that page. Sure, that cost is amortized over the subsequent requests, but it’s still an unpleasant experience for that first user!</span></p>
+
+<p><span style="font-weight: 400;">One solution to this is to <a href="http://paweljaniak.co.za/2014/01/07/memcached-lessons/#cache-warming">pre-warm the cache</a>. That is, have an automated process run ahead of time doing the job of the first visitor, so that no real human visitors have to endure that latency. My, rather simple, approach is to have a <a href="https://en.wikipedia.org/wiki/Cron">cron</a> job run nightly that uses <a href="https://en.wikipedia.org/wiki/Wget">wget</a> to recursively crawl the site and hit each page.</span></p>
+
+<figure class="highlight"><pre><code class="language-shell" data-lang="shell">wget <span class="nt">-r</span> <span class="nt">--delete-after</span> localhost/stations</code></pre></figure>
+
+<p><span style="font-weight: 400;">This is the basic form of the command, but <a href="https://www.gnu.org/software/wget/manual/html_node/Recursive-Retrieval-Options.html">there are additional options</a> (e.g. ignore <a href="https://en.wikipedia.org/wiki/Robots_exclusion_standard">robots.txt</a>, specifying a max recursive depth, waiting in between requests, ignore certain pages, etc.). </span></p>
+
+<p><span style="font-weight: 400;">And now, with a warm cache, here are the new numbers:</span></p>
+
+<figure class="highlight"><pre><code class="language-shell" data-lang="shell"><span class="nv">$ </span>ab <span class="nt">-n</span> 100 localhost/shows/radio1
+...
+Percentage of the requests served within a certain <span class="nb">time</span> <span class="o">(</span>ms<span class="o">)</span>
+50%     33
+95%     47
+100%    91 <span class="o">(</span>longest request<span class="o">)</span></code></pre></figure>
+
+<p><em><span style="font-weight: 400;">A big improvement!</span></em></p>
+
+<p><span style="font-weight: 400;">But there are, of course, some downsides: </span></p>
+
+<ol>
+  <li><span style="font-weight: 400;">The system may waste time and disk space caching content that may not be used. This is mitigated by only caching the info for the <a href="https://en.wikipedia.org/wiki/List_of_most-listened-to_radio_programs#Current_top_stations_in_the_United_Kingdom">most popular stations</a>. </span></li>
+  <li><span style="font-weight: 400;">Since this cache is only warmed nightly, despite new content continuously being made available throughout the day, some newer content may result in a cache miss. I think this is tolerable because the cache misses now happen less often. </span></li>
+  <li><span style="font-weight: 400;">A</span>t the moment, this cache initialisation is a pretty resource-intensive task – essentially, deliberately inducing peak time usage. This is OK for now, since the cache warming happens during a quiet period at night, so has minimal impact on other users of the system.</li>
+</ol>
+
+<p>That’s all for now. More to come!</p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+          <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2016-10-16T08:24:00-04:00">October 16, 2016</time></p>
+        
+      </footer>
+
+      
+
+      
+  <nav class="pagination">
+    
+      <a href="/2016/10/haskellx/" class="pagination--pager" title="HaskellX 2016 Conference &amp; Hackathon
+">Previous</a>
+    
+    
+      <a href="/2016/12/2016-reading-list/" class="pagination--pager" title="2016 Retrospective Reading List
+">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+    </div>
+
+    
+
+    <div class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+    
+      <li><a href="https://twitter.com/ma489_"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+    
+    
+    
+      <li><a href="https://github.com/ma489"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+    
+    
+    
+    <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2020 Mansour Ahmed. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+  <script src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"></script>
+
+
+
+
+
+
+
+
+  </body>
+</html>
