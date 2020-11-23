@@ -79,6 +79,11 @@ var store = [{
         "tags": [],
         "url": "http://localhost:4000/2017/03/obligatory-monad-post/",
         "teaser":null},{
+        "title": "Celebrating Turing",
+        "excerpt":"I’ve returned from attending the inaugural ‘Alan Turing Lecture’, celebrating Turing’s genius and pioneering Computer Science work. It was held at his (and incidentally mine) alma mater. The Turing Machine model is a very clever and accessible way of thinking about computation. An advantage it has over the equivalent (and...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/2017/04/turing/",
+        "teaser":null},{
         "title": "2017 Retrospective Reading List",
         "excerpt":"My 2017 retrospective on books I’ve read. It’s a mix of old and new, technical and not (if one can make such a distinction). As ever, I’ve been making full use of my Safari Books subscription, but I’m attaching Amazon links here for simplicity. Functional and Reactive Domain Modeling Web...","categories": [],
         "tags": [],
@@ -108,4 +113,19 @@ var store = [{
         "excerpt":"So, I’ve begun another chapter in life: I’ve moved from London to New York City. A big move geographically, but not a huge difference culturally (really all big cities). I am keen to explore the tech scene here further, I’m sure its just as vibrant as the one back home....","categories": [],
         "tags": [],
         "url": "http://localhost:4000/2019/03/new-york/",
+        "teaser":null},{
+        "title": "2019 Retrospective Reading List",
+        "excerpt":"A little different this year, with the addition of audiobooks! As ever, this isn’t necessarily an endorsement of any of these books :) Books The Basics of Financial Econometrics (Fabozzi, et al.) The ‘Very British Problems’ series (Temple)Audiobooks Outliers (Gladwell) Guns Germs And Steel (Diamond) Lab Rats (Lyons) Disrupted: Ludicrous...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/2019/12/2019-reading-list/",
+        "teaser":null},{
+        "title": "AWS Certified",
+        "excerpt":"I am now an AWS Certified Solutions Architect (Associate). I was a little nervous before taking the exam (it’s been a while!), but I’m glad to have been able to validate my technical skills.  Learn more about it here. ","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/2020/01/2020-aws-certified/",
+        "teaser":null},{
+        "title": "2020 Retrospective Reading List",
+        "excerpt":"Another year, another retrospective reading list. With the ongoing pandemic, I have found myself reading more. I have continued with the trend of leaning towards audiobooks (I think this format works really well for non-fiction that is not too technical). This year, the list is mostly a mix of pop-science...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/2020/12/2020-reading-list/",
         "teaser":null}]

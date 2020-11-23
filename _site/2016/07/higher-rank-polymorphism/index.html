@@ -27,7 +27,7 @@
 
 
 
-  <meta name="twitter:site" content="@ma489_">
+  <meta name="twitter:site" content="@ma489">
   <meta name="twitter:title" content="Higher-rank Polymorphism">
   <meta name="twitter:description" content="On the functional programming course I attended, I learnt about some interesting parts of Haskell’s type system. I figured I’d write a blog post*.">
   <meta name="twitter:url" content="http://localhost:4000/2016/07/higher-rank-polymorphism/">
@@ -174,7 +174,7 @@
     
     
       <p class="author__bio" itemprop="description">
-        Software Engineer, Inclusion Enthusiast, Haskell Dilettante, 🇬🇧 in 🇺🇸. Views are my own.
+        Software Engineer • 🇬🇧 in 🇺🇸 • Interests: Functional Programming, Machine Learning, Inclusion • Views are my own.
       </p>
     
   </div>
@@ -201,7 +201,7 @@
 
       
         <li>
-          <a href="https://twitter.com/ma489_" itemprop="sameAs">
+          <a href="https://twitter.com/ma489" itemprop="sameAs">
             <i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter
           </a>
         </li>
@@ -259,18 +259,12 @@
 
       
         <li>
-          <a href="https://www.linkedin.com/in/mansourahmed1" itemprop="sameAs">
+          <a href="https://www.linkedin.com/in/ma489" itemprop="sameAs">
             <i class="fab fa-fw fa-linkedin" aria-hidden="true"></i> LinkedIn
           </a>
         </li>
       
 
-      
-        <li>
-          <a href="https://keybase.io/ma489" itemprop="sameAs">
-            <i class="fas fa-fw fa-key" aria-hidden="true"></i> Keybase
-          </a>
-        </li>
       
 
       
@@ -317,7 +311,7 @@
         
         <p>On the <a href="http://www.mansourahmed.com/2016/07/afp-haskell-utrecht/">functional programming course I attended</a>, I learnt about some interesting parts of Haskell’s type system. I figured I’d write a blog post*.</p>
 
-<p>(Standard) Haskell has what’s called <a href="https://www.haskell.org/tutorial/pitfalls.html">let-bound polymorphism</a>. This means that identifiers bound in a <code class="highlighter-rouge">let</code>, a <code class="highlighter-rouge">where</code> or top-level definitions can be polymorphic, whereas lambda-bound identifiers (function arguments) cannot. Here are some examples, using the (polymorphic) <a href="http://hackage.haskell.org/package/base-4.9.0.0/docs/Prelude.html#v:id"><em>id</em></a> function:</p>
+<p>(Standard) Haskell has what’s called <a href="https://www.haskell.org/tutorial/pitfalls.html">let-bound polymorphism</a>. This means that identifiers bound in a <code class="language-plaintext highlighter-rouge">let</code>, a <code class="language-plaintext highlighter-rouge">where</code> or top-level definitions can be polymorphic, whereas lambda-bound identifiers (function arguments) cannot. Here are some examples, using the (polymorphic) <a href="http://hackage.haskell.org/package/base-4.9.0.0/docs/Prelude.html#v:id"><em>id</em></a> function:</p>
 
 <figure class="highlight"><pre><code class="language-haskell" data-lang="haskell"><span class="c1">-- Let (OK)</span>
 <span class="n">polymorphicLet</span> <span class="o">::</span> <span class="p">(</span><span class="kt">Integer</span><span class="p">,</span> <span class="kt">Char</span><span class="p">)</span>
@@ -337,11 +331,11 @@
 <span class="n">polymorphicInlineLambda</span> <span class="o">::</span> <span class="p">(</span><span class="kt">Integer</span><span class="p">,</span> <span class="kt">Char</span><span class="p">)</span> 
 <span class="n">polymorphicInlineLambda</span> <span class="o">=</span> <span class="p">(</span><span class="nf">\</span><span class="n">f</span> <span class="o">-&gt;</span> <span class="p">(</span><span class="n">f</span> <span class="mi">3</span><span class="p">,</span> <span class="n">f</span> <span class="sc">'a'</span><span class="p">))</span> <span class="n">id</span></code></pre></figure>
 
-<p>This last example does not work: it is not possible to determine the type of <code class="highlighter-rouge">f</code>, and no explicit type signature has been provided**. How do we fix this? We need to give the compiler more type information!</p>
+<p>This last example does not work: it is not possible to determine the type of <code class="language-plaintext highlighter-rouge">f</code>, and no explicit type signature has been provided**. How do we fix this? We need to give the compiler more type information!</p>
 
-<p>How do we describe the type of <code class="highlighter-rouge">f</code>? Well, it’s a polymorphic function of type <code class="highlighter-rouge">a -&gt; a</code>. So the type of the inline lambda abstraction above is something like (<code class="highlighter-rouge">∀a.a -&gt; a) -&gt; (Integer, Char)</code>. This is an example of <a href="https://en.wikibooks.org/wiki/Haskell/Polymorphism#Higher_rank_types">higher-rank polymorphism</a> – this is where a polymorphic type appears in another type; in this case the function argument itself is polymorphic (a so-called <em>rank-2</em> <em>type</em>).</p>
+<p>How do we describe the type of <code class="language-plaintext highlighter-rouge">f</code>? Well, it’s a polymorphic function of type <code class="language-plaintext highlighter-rouge">a -&gt; a</code>. So the type of the inline lambda abstraction above is something like (<code class="language-plaintext highlighter-rouge">∀a.a -&gt; a) -&gt; (Integer, Char)</code>. This is an example of <a href="https://en.wikibooks.org/wiki/Haskell/Polymorphism#Higher_rank_types">higher-rank polymorphism</a> – this is where a polymorphic type appears in another type; in this case the function argument itself is polymorphic (a so-called <em>rank-2</em> <em>type</em>).</p>
 
-<p>How do we express that in Haskell? Well, we need two <a href="https://ocharles.org.uk/blog/posts/2014-12-01-24-days-of-ghc-extensions.html">GHC extensions</a>; namely <a href="https://wiki.haskell.org/Scoped_type_variables">ScopedTypeVariables</a> and <a href="https://wiki.haskell.org/Rank-N_types">RankNTypes</a>. <code class="highlighter-rouge">RankNTypes</code> allows us to express ‘for all’ (and so describe higher-rank types), and ScopeTypeVariables allows us to extend the scope of type variables into the definition of a function.</p>
+<p>How do we express that in Haskell? Well, we need two <a href="https://ocharles.org.uk/blog/posts/2014-12-01-24-days-of-ghc-extensions.html">GHC extensions</a>; namely <a href="https://wiki.haskell.org/Scoped_type_variables">ScopedTypeVariables</a> and <a href="https://wiki.haskell.org/Rank-N_types">RankNTypes</a>. <code class="language-plaintext highlighter-rouge">RankNTypes</code> allows us to express ‘for all’ (and so describe higher-rank types), and ScopeTypeVariables allows us to extend the scope of type variables into the definition of a function.</p>
 
 <figure class="highlight"><pre><code class="language-haskell" data-lang="haskell"><span class="cp">{-# LANGUAGE RankNTypes #-}</span>
 <span class="cp">{-# LANGUAGE ScopedTypeVariables #-}</span>
@@ -355,7 +349,7 @@
 
 <p>*Oh, and if you’re a Haskeller and have noticed some mistake in this post, let me know, feedback welcome!</p>
 
-<p>**I think GHC assumes <code class="highlighter-rouge">f</code> to be monomorphic because of the <a href="https://wiki.haskell.org/Monomorphism_restriction">monomorphism restriction</a></p>
+<p>**I think GHC assumes <code class="language-plaintext highlighter-rouge">f</code> to be monomorphic because of the <a href="https://wiki.haskell.org/Monomorphism_restriction">monomorphism restriction</a></p>
 
         
       </section>
@@ -407,7 +401,7 @@
       <li><strong>Follow:</strong></li>
     
     
-      <li><a href="https://twitter.com/ma489_"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+      <li><a href="https://twitter.com/ma489"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
     
     
     
@@ -419,7 +413,7 @@
   </ul>
 </div>
 
-<div class="page__footer-copyright">&copy; 2020 Mansour Ahmed. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>. <a href="/pp/">Privacy Policy.</a></div>
+<div class="page__footer-copyright">&copy; 2021 Mansour Ahmed. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>. <a href="/pp/">Privacy Policy.</a></div>
 
       </footer>
     </div>
