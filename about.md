@@ -3,8 +3,10 @@ layout: archive
 author_profile: true
 classes: wide
 ---
-Hello! I'm Mansour, an expat British Software Engineer living in New York City. I've worked in the domains of banking, ad tech, e-commerce and supply chain management. I hold a Computer Science degree from Cambridge.
+Hello! I'm Mansour, an expat British Software Engineer living in New York City.
 
-This is my personal engineering blog, where I mainly post about hobby projects, programming puzzles, my use of programming languages, and general musings on the tech industry.
+I have significant experience in banking, adtech, e-commerce, supply chain management, and risk management. I hold a Computer Science degree from Cambridge. I enjoy building software that is correct, robust, scalable, and solves interesting problems. I’m really into functional programming, big data, machine learning, and cloud computing. I’ve succeeded in both small startups and large corporations. I lead projects and enjoy mentoring engineers. I continually enhance my skills by keeping up with the latest tech developments by reading engineering blogs and technical books and attending meetups.
 
-I hope you enjoy reading. Feedback is always welcome. Views are, of course, my own.
+This is my personal engineering blog, where I mainly post about hobby projects, programming puzzles, my use of programming languages, and general musings on the tech industry. I hope you enjoy reading. Feedback is _always_ welcome. 
+
+The views expressed are my own and not those of my employer.
