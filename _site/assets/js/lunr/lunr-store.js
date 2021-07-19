@@ -114,6 +114,11 @@ var store = [{
         "tags": [],
         "url": "http://localhost:4000/2019/03/new-york/",
         "teaser":null},{
+        "title": "Intern Mentoring",
+        "excerpt":"Over the summer, we had a university student join us at work for an internship program, and I was fortunate enough to have the opportunity to mentor them for those three months. I found it to be a rewarding and successful experience. While I had had various internships myself years...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/2019/09/mentoring/",
+        "teaser":null},{
         "title": "2019 Retrospective Reading List",
         "excerpt":"A little different this year, with the addition of audiobooks! As ever, this isn’t necessarily an endorsement of any of these books :) Books The Basics of Financial Econometrics (Fabozzi, et al.) The ‘Very British Problems’ series (Temple)Audiobooks Outliers (Gladwell) Guns Germs And Steel (Diamond) Lab Rats (Lyons) Disrupted: Ludicrous...","categories": [],
         "tags": [],
@@ -128,4 +133,9 @@ var store = [{
         "excerpt":"Another year, another retrospective reading list. With the ongoing pandemic, I have found myself reading more. I have continued with the trend of leaning towards audiobooks (I think this format works really well for non-fiction that is not too technical). This year, the list is mostly a mix of pop-science...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/2020/12/2020-reading-list/",
+        "teaser":null},{
+        "title": "Working From Home",
+        "excerpt":"For me and countless others, this week marks one year of working from home (WFH). I decided to take a moment to reflect on what it’s been like, lessons learnt, and a view of the future. What it’s been like I’ll admit, I wildly underestimated how long this would all...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/2021/03/wfh/",
         "teaser":null}]
