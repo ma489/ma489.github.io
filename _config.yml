@@ -103,7 +103,7 @@ author:
   name             : "Mansour Ahmed"
   avatar           : "/assets/img/profile-photo.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Software Engineer • 🇬🇧 in 🇺🇸 • Interests: Functional Programming, Machine Learning, Inclusion • Views are my own."
-  location         : "NYC"
+  location         : "NYC / LDN"
   email            : mail@mansourahmed.com
   uri              :
   home             : # null (default), "absolute or relative url to link to author home"
