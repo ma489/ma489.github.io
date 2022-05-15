@@ -4,17 +4,18 @@ date: 2019-09-08T18:01:00+00:00
 layout: single
 permalink: /2019/09/mentoring/
 classes: wide
+toc: true
 ---
 Over the summer, we had a university student join us at work for an internship program, and I was fortunate enough to have the opportunity to mentor them for those three months. I found it to be a rewarding and successful experience. While I had had various internships myself years ago, this was my first time being on _the other side_. This post is a summary and reflection of that time, and hopefully a chance to share some tips.
 
-**Before they arrive**
+## Before they arrive
 
 Some initial housekeeping will ensure a smooth start:
 
 - Email them before their first day to introduce yourself and prepare any necessary logistics. It may be their first job, and the world of work can seem new and daunting; the smallest gestures can help.
 - Decide on the project that they'll be working on. Give them 'real work': a meaningful project with real impact (i.e., it's _at least_ of value to your team) and that can be practically completed in the internship duration. However, you might like to consider keeping the deliverables off the 'critical path.'
 
-**Starting out**
+## Starting out
 
 Setting your intern up for success:
 
@@ -23,7 +24,7 @@ Setting your intern up for success:
 - Draw up a list of estimated weekly milestones for the internship program. This will help to give structure, set the pace, and track progress. It will also help to set expectations and identify any stretch goals.
 - Have an early conversation to figure out the best management style (e.g., will it be hands-on or hands-off?)
 
-**Into the swing of things**
+## Into the swing of things
 
 As the internship progresses, be sure to keep the momentum going:
 
@@ -36,7 +37,7 @@ As the internship progresses, be sure to keep the momentum going:
 - Halfway through the internship, have a 'mid-point review'. This is an excellent opportunity to offer and receive feedback and gives plenty of time to act on it during the program's remainder.
 - Have fun! Schedule in some team-bonding, e.g., a team lunch, or play pool in your office games room
 
-**The end**
+## Wrapping up
 
 As the internship draws to a close:
 
