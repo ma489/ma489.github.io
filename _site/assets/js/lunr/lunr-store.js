@@ -75,7 +75,7 @@ var store = [{
         "url": "http://localhost:4000/2016/12/2016-reading-list/",
         "teaser":null},{
         "title": "Obligatory Monad Post",
-        "excerpt":"I&#8217;m taking a break from blogging for a while, but before I go, here&#8217;s a (now cliché) blog post on monads. There are far more precise, formal descriptions out there; however, I&#8217;ll give a practical, if imprecise, description of monads that I believe (!) makes them easier to think about:...","categories": [],
+        "excerpt":"I'm taking a break from blogging for a while, but before I go, here is a (now cliché) blog post on monads. There are far more precise, formal descriptions out there; however, I'll give a practical but imprecise description of monads that I believe makes them easier to think about:...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/2017/03/obligatory-monad-post/",
         "teaser":null},{
@@ -93,6 +93,11 @@ var store = [{
         "excerpt":"I very much enjoyed attending Afrotech Fest in London recently. It was ”a two-day tech festival by and for black people of African and Caribbean heritage”, with an exciting programme of events including thought-provoking talks, panels and workshops. I think an event like this was vitally needed: various, laudable, efforts have been made...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/2018/02/afrotech-fest/",
+        "teaser":null},{
+        "title": "Listify in Haskell (Part I)",
+        "excerpt":"I’m rewriting Listify in Haskell, with a few changes. As a reminder, the original Listify (henceforth Listify-js) is a web app that scrapes the BBC radio website for tracklisting and program schedule information, and allows users to browse these tracklists and create Spotify playlists from them. The new version (henceforth...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/2018/03/rewriting-listify-in-haskell-part-i/",
         "teaser":null},{
         "title": "Big Code Summit",
         "excerpt":"I’ve just returned from the inaugural ‘Big Code Summit’. A two-day conference on the very interesting topic of Big Code, which featured a mix of academic and industry speakers. See here for a link to the full programme. By analogy to Big Data, Big Code is the research area on...","categories": [],
@@ -138,4 +143,24 @@ var store = [{
         "excerpt":"For me and countless others, this week marks one year of working from home (WFH). I decided to take a moment to reflect on what it’s been like, lessons learnt, and a view of the future. What it’s been like I’ll admit, I wildly underestimated how long this would all...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/2021/03/wfh/",
+        "teaser":null},{
+        "title": "Movie data analysis",
+        "excerpt":"Intro I decided to dig into my film-watching habits as a data exploration exercise. I used to watch a lot of films. And while watching movies is no longer a significant pastime for me, it was fun at the time. Aside from the apparent interest in the films themselves, the...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/2021/09/movie-data-analysis/",
+        "teaser":null},{
+        "title": "2021 Retrospective Reading List",
+        "excerpt":"This year I discovered I could get Kindle ebooks through my local public library! I also joined a book club, which has been useful in diversifying the range of books I read. I’m also starting to learn how to abandon books part-way that I no longer enjoy reading - rather...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/2021/12/2021-reading-list/",
+        "teaser":null},{
+        "title": "Mathematics for Machine Learning Specialisation",
+        "excerpt":"I have just completed the Mathematics for Machine Learning Specialisation, by Imperial College London on Coursera. It was a three part course, covering: Linear Algebra, Multivariate Calculus and Principal Component Analysis.  ","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/2022/5/maths-ml/",
+        "teaser":null},{
+        "title": "2022 Retrospective Reading List",
+        "excerpt":"A much shorter list this year, as I’m reading more academic papers instead Audiobooks   Black Spartacus (Hazareesingh)  Solve For Happy (Gawdat)  Nice Girls Don’t Get the Corner Office (Frankel)  Indistractable (Eyal)  When Prophecy Fails (Fesinger et al)  Marry Him (Gottlieb)Books   Limbo (Lubrano)  The Ethical Algorithm (Kearns &amp; Roth)","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/2022/12/2022-reading-list/",
         "teaser":null}]
