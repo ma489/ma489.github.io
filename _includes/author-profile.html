@@ -257,6 +257,14 @@
         </li>
       {% endif %}
 
+      {% if author.mastodon %}
+        <li>
+          <a href="{{ author.mastodon }}" itemprop="sameAs">
+            <i class="fab fa-fw fa-mastodon" aria-hidden="true"></i> Mastodon
+          </a>
+        </li>
+      {% endif %}
+
       {% include author-profile-custom-links.html %}
     </ul>
   </div>
