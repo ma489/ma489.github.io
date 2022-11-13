@@ -10,7 +10,7 @@
     <meta charset="utf-8">
 
 <!-- begin _includes/seo.html --><title>Obligatory Monad Post - Mansour Ahmed</title>
-<meta name="description" content="  I&#8217;m taking a break from blogging for a while, but before I go, here&#8217;s a (now cliché) blog post on monads.">
+<meta name="description" content="  I&#39;m taking a break from blogging for a while, but before I go, here is a (now cliché) blog post on monads.">
 
 
 
@@ -21,7 +21,7 @@
 <meta property="og:url" content="http://localhost:4000/2017/03/obligatory-monad-post/">
 
 
-  <meta property="og:description" content="  I&#8217;m taking a break from blogging for a while, but before I go, here&#8217;s a (now cliché) blog post on monads.">
+  <meta property="og:description" content="  I&#39;m taking a break from blogging for a while, but before I go, here is a (now cliché) blog post on monads.">
 
 
 
@@ -29,7 +29,7 @@
 
   <meta name="twitter:site" content="@ma489">
   <meta name="twitter:title" content="Obligatory Monad Post">
-  <meta name="twitter:description" content="  I&#8217;m taking a break from blogging for a while, but before I go, here&#8217;s a (now cliché) blog post on monads.">
+  <meta name="twitter:description" content="  I&#39;m taking a break from blogging for a while, but before I go, here is a (now cliché) blog post on monads.">
   <meta name="twitter:url" content="http://localhost:4000/2017/03/obligatory-monad-post/">
 
   
@@ -41,7 +41,7 @@
 
 
 
-  <meta property="article:published_time" content="2017-03-13T22:46:10+00:00">
+  <meta property="article:published_time" content="2017-03-13T18:46:10-04:00">
 
 
 
@@ -174,7 +174,7 @@
     
     
       <p class="author__bio" itemprop="description">
-        Software Engineer • 🇬🇧 in 🇺🇸 • Interests: Functional Programming, Machine Learning, Inclusion • Views are my own.
+        Software Engineer • 🇬🇧 in 🇺🇸 • Interests: ML 🤖, FP λ, Cloud ☁️
       </p>
     
   </div>
@@ -184,7 +184,7 @@
     <ul class="author__urls social-icons">
       
         <li itemprop="homeLocation" itemscope itemtype="http://schema.org/Place">
-          <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name">NYC</span>
+          <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name">NYC / LDN</span>
         </li>
       
 
@@ -269,6 +269,14 @@
 
       
 
+      
+        <li>
+          <a href="https://mastodon.online/@ma489" itemprop="sameAs">
+            <i class="fab fa-fw fa-mastodon" aria-hidden="true"></i> Mastodon
+          </a>
+        </li>
+      
+
       <!--
   <li>
     <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs">
@@ -286,7 +294,7 @@
 
   <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
     <meta itemprop="headline" content="Obligatory Monad Post">
-    <meta itemprop="description" content="  I&#8217;m taking a break from blogging for a while, but before I go, here&#8217;s a (now cliché) blog post on monads.">
+    <meta itemprop="description" content="  I&#39;m taking a break from blogging for a while, but before I go, here is a (now cliché) blog post on monads.">
     <meta itemprop="datePublished" content="March 13, 2017">
     
 
@@ -310,21 +318,21 @@
       <section class="page__content" itemprop="text">
         
         <p style="text-align: left;">
-  I&#8217;m taking a break from blogging for a while, but before I go, here&#8217;s a (<a href="https://byorgey.wordpress.com/2009/01/12/abstraction-intuition-and-the-monad-tutorial-fallacy/">now cliché</a>) blog post on <a href="https://en.wikipedia.org/wiki/Monad_(functional_programming)">monads</a>.
+  I'm taking a break from blogging for a while, but before I go, here is a (<a href="https://byorgey.wordpress.com/2009/01/12/abstraction-intuition-and-the-monad-tutorial-fallacy/">now cliché</a>) blog post on <a href="https://en.wikipedia.org/wiki/Monad_(functional_programming)">monads</a>.
 </p>
 
 <p style="text-align: left;">
-  There are far more precise, formal descriptions out there; however, I&#8217;ll give a practical, if imprecise, description of monads that I believe (!) makes them easier to think about:
+  There are far more precise, formal descriptions out there; however, I'll give a practical but imprecise description of monads that I believe makes them easier to think about:
 </p>
 
 <blockquote>
   <p style="text-align: left;">
-  A monad is a datatype<sup>1</sup> that allows us to: represent computations<sup>2</sup> that have some structured<sup>3</sup> result, and chain such computations together<sup>4</sup>
+  A monad is a datatype<sup>1</sup> that allows us to: represent computations<sup>2</sup> that have some structured<sup>3</sup> result, and chain such computations together<sup>4</sup>
 </p>
 </blockquote>
 
 <ol>
-  <li>The datatype defines two operations, which (in Haskell parlance) are called <em>bind</em> (»=) and <em>return</em>. <em>return</em> places a value in the monad, and <em>bind</em> is used to pass this monadic value to another function. Implementations of these operations must satisfy <a href="https://wiki.haskell.org/Monad_laws">certain laws</a>.</li>
+  <li>The datatype defines two operations, which (in Haskell parlance) are called <em>bind</em> (»=) and <em>return</em>. <em>return</em> places a value in the monad, and <em>bind</em> is used to pass this monadic value to another function. Implementations of these operations must satisfy <a href="https://wiki.haskell.org/Monad_laws">certain laws</a>.</li>
   <li>Some expression to be evaluated.</li>
   <li>The result has some additional context. For example, that context could be that the computation may fail (Haskell’s <a href="https://en.wikibooks.org/wiki/Haskell/Understanding_monads/Maybe">Maybe</a> monad), or that it is non-deterministic (<a href="https://en.wikibooks.org/wiki/Haskell/Understanding_monads/List">List</a>), or that some interaction with the outside-world occurs (<a href="https://en.wikibooks.org/wiki/Haskell/Understanding_monads/IO">IO</a>).</li>
   <li>Sequential composition. We can combine monadic values by passing them between functions that operate on them (using the bind operator)</li>
@@ -337,17 +345,17 @@
 <span class="n">x</span> <span class="o">=</span> <span class="n">return</span> <span class="mi">3</span>
  
 <span class="c1">-- Let's define a function to operate on x</span>
-<span class="c1">-- It takes on a non-monadic value and produce another monadic value</span>
+<span class="c1">-- It takes in a non-monadic value and produces a monadic value</span>
 <span class="n">f</span> <span class="o">::</span> <span class="kt">Int</span> <span class="o">-&gt;</span> <span class="kt">Maybe</span> <span class="kt">String</span> 
-<span class="n">f</span> <span class="n">a</span> <span class="o">=</span> <span class="n">return</span> <span class="o">$</span> <span class="n">show</span> <span class="n">a</span><span class="err"> </span>
+<span class="n">f</span> <span class="n">a</span> <span class="o">=</span> <span class="n">return</span> <span class="o">$</span> <span class="n">show</span> <span class="n">a</span>
  
 <span class="c1">-- Lets apply function f to value 'inside' x using the bind operator</span>
 <span class="n">applyFtoX</span> <span class="o">::</span> <span class="kt">Maybe</span> <span class="kt">String</span> 
 <span class="n">applyFtoX</span> <span class="o">=</span> <span class="n">x</span> <span class="o">&gt;&gt;=</span> <span class="n">f</span></code></pre></figure>
 
-<p>As a bonus, <a href="https://github.com/ma489/scala-sandbox/blob/master/src/main/scala/example/WriterExample.scala">here’s an example in Scala,</a> inspired by some code I wrote recently at work that made use of the Writer monad from the <a href="https://github.com/scalaz/scalaz">Scalaz</a> library. <span style="color: #000000;">The <a href="http://learnyouahaskell.com/for-a-few-monads-more#writer">Writer</a> monad is useful for computations that accumulate some additional output alongside the result (e.g. logging).</span></p>
+<p>As a bonus, <a href="https://github.com/ma489/scala-sandbox/blob/master/src/main/scala/example/WriterExample.scala">here’s an example in Scala</a> making use of the Writer monad from the <a href="https://github.com/scalaz/scalaz">Scalaz</a> library. <span style="color: #000000;">The <a href="http://learnyouahaskell.com/for-a-few-monads-more#writer">Writer</a> monad is useful for computations that accumulate some additional output alongside the result (e.g. logging).</span></p>
 
-<p>Anyways, I hope this has been useful. If there is anything incorrect, don’t hesitate to mail me 🙂</p>
+<p>I hope this has been useful 🙂</p>
 
         
       </section>
@@ -358,7 +366,7 @@
 
 
         
-          <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2017-03-13T22:46:10+00:00">March 13, 2017</time></p>
+          <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2017-03-13T18:46:10-04:00">March 13, 2017</time></p>
         
       </footer>
 
@@ -411,7 +419,7 @@
   </ul>
 </div>
 
-<div class="page__footer-copyright">&copy; 2021 Mansour Ahmed. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>. <a href="/pp/">Privacy Policy.</a></div>
+<div class="page__footer-copyright">&copy; 2023 Mansour Ahmed. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>. <a href="/pp/">Privacy Policy.</a> <b>Views are my own.</b></div>
 
       </footer>
     </div>

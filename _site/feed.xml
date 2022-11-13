@@ -1,6 +1,975 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-07-19T18:55:14+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Mansour Ahmed</title><subtitle>Mansour's Personal Engineering Blog</subtitle><author><name>Mansour Ahmed</name><email>mail@mansourahmed.com</email></author><entry><title type="html">Working From Home</title><link href="http://localhost:4000/2021/03/wfh/" rel="alternate" type="text/html" title="Working From Home" /><published>2021-03-10T18:01:00+00:00</published><updated>2021-03-10T18:01:00+00:00</updated><id>http://localhost:4000/2021/03/wfh</id><content type="html" xml:base="http://localhost:4000/2021/03/wfh/">&lt;p&gt;For me and countless others, this week marks one year of working from home (WFH). I decided to take a moment to reflect on what it’s been like, lessons learnt, and a view of the future.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-01-06T18:30:08-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Mansour Ahmed</title><subtitle>Mansour Ahmed&apos;s Personal Blog</subtitle><author><name>Mansour Ahmed</name><email>mail@mansourahmed.com</email></author><entry><title type="html">2022 Retrospective Reading List</title><link href="http://localhost:4000/2022/12/2022-reading-list/" rel="alternate" type="text/html" title="2022 Retrospective Reading List" /><published>2022-12-11T07:02:00-05:00</published><updated>2022-12-11T07:02:00-05:00</updated><id>http://localhost:4000/2022/12/2022-reading-list</id><content type="html" xml:base="http://localhost:4000/2022/12/2022-reading-list/">&lt;p&gt;A much shorter list this year, as I’m reading more academic papers instead&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;What it’s been like&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&quot;books&quot;&gt;Books&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.goodreads.com/book/show/46074.Limbo&quot;&gt;Limbo (Lubrano)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.goodreads.com/en/book/show/44244975-the-ethical-algorithm&quot;&gt;The Ethical Algorithm (Kearns &amp;amp; Roth)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;audiobooks&quot;&gt;Audiobooks&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.goodreads.com/en/book/show/60149538-virtual-society&quot;&gt;Virtual Society (Narula)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.goodreads.com/en/book/show/49933627-black-spartacus&quot;&gt;Black Spartacus (Hazareesingh)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.goodreads.com/book/show/30354426-solve-for-happy&quot;&gt;Solve For Happy (Gawdat)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.goodreads.com/book/show/1835405.When_Prophecy_Fails&quot;&gt;When Prophecy Fails (Fesinger et al)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.goodreads.com/book/show/45748989-indistractable&quot;&gt;Indistractable (Eyal)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.goodreads.com/book/show/97641.Nice_Girls_Don_t_Get_the_Corner_Office&quot;&gt;Nice Girls Don’t Get the Corner Office (Frankel)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.goodreads.com/book/show/6692099-marry-him&quot;&gt;Marry Him (Gottlieb)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Mansour Ahmed</name><email>mail@mansourahmed.com</email></author><summary type="html">A much shorter list this year, as I’m reading more academic papers instead</summary></entry><entry><title type="html">Mathematics for Machine Learning Specialisation</title><link href="http://localhost:4000/2022/5/maths-ml/" rel="alternate" type="text/html" title="Mathematics for Machine Learning Specialisation" /><published>2022-05-15T15:02:00-04:00</published><updated>2022-05-15T15:02:00-04:00</updated><id>http://localhost:4000/2022/5/2022-maths-ml</id><content type="html" xml:base="http://localhost:4000/2022/5/maths-ml/">&lt;p&gt;I have just &lt;a href=&quot;https://www.coursera.org/account/accomplishments/specialization/ZC9LYDJ8A9RP&quot;&gt;completed&lt;/a&gt; the &lt;a href=&quot;https://www.coursera.org/specializations/mathematics-machine-learning&quot;&gt;Mathematics for Machine Learning Specialisation&lt;/a&gt;, by Imperial College London on Coursera. It was a three part course, covering: Linear Algebra, Multivariate Calculus and Principal Component Analysis.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.coursera.org/account/accomplishments/specialization/ZC9LYDJ8A9RP&quot;&gt;&lt;img src=&quot;/assets/img/Coursera_mml.png&quot; alt=&quot;certificate&quot; /&gt;&lt;/a&gt;&lt;/p&gt;</content><author><name>Mansour Ahmed</name><email>mail@mansourahmed.com</email></author><summary type="html">I have just completed the Mathematics for Machine Learning Specialisation, by Imperial College London on Coursera. It was a three part course, covering: Linear Algebra, Multivariate Calculus and Principal Component Analysis.</summary></entry><entry><title type="html">2021 Retrospective Reading List</title><link href="http://localhost:4000/2021/12/2021-reading-list/" rel="alternate" type="text/html" title="2021 Retrospective Reading List" /><published>2021-12-16T14:02:00-05:00</published><updated>2021-12-16T14:02:00-05:00</updated><id>http://localhost:4000/2021/12/2021-reading-list</id><content type="html" xml:base="http://localhost:4000/2021/12/2021-reading-list/">&lt;p&gt;This year I discovered I could get Kindle ebooks through my local public library! I also joined a book club, which has been useful in diversifying the range of books I read. I’m also starting to learn how to abandon books part-way that I no longer enjoy reading - rather than finishing them &lt;em&gt;just because&lt;/em&gt; I started (I’m no longer convinced this is a good thing).&lt;/p&gt;
+
+&lt;h3 id=&quot;books&quot;&gt;Books&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.goodreads.com/book/show/3869.A_Brief_History_of_Time&quot;&gt;A Brief History of Time (Hawking)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.goodreads.com/book/show/41457400-the-life-changing-magic-of-numbers&quot;&gt;The Life-Changing Magic of Numbers (Seagull)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.goodreads.com/book/show/40745.Mindset&quot;&gt;Mindset (Dweck)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;audiobooks&quot;&gt;Audiobooks&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.goodreads.com/book/show/55361205-a-promised-land&quot;&gt;A Promised Land (Obama)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.goodreads.com/book/show/170448.Animal_Farm&quot;&gt;Animal Farm (Orwell)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.goodreads.com/book/show/18144590-the-alchemist&quot;&gt;The Alchemist (Coelho)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.goodreads.com/book/show/37424706-the-art-of-gathering&quot;&gt;The Art of Gathering (Parker)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.goodreads.com/book/show/51933.Madness_and_Civilization&quot;&gt;Madness &amp;amp; Civilization (Foucault)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.goodreads.com/book/show/52585099-surrender-white-people&quot;&gt;Surrender! (Hughley)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.goodreads.com/en/book/show/53302332-sea-wall-a-life&quot;&gt;Sea Wall/A Life (Stephens/Payne)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.goodreads.com/book/show/29502354-rest&quot;&gt;Rest (Pang)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.goodreads.com/en/book/show/41882450-the-fate-of-food&quot;&gt;The Fate of Food (Little)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.goodreads.com/book/show/3828382-tribes&quot;&gt;Tribes (Godin)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.goodreads.com/book/show/23878688-the-5-love-languages&quot;&gt;The Five Love Languages (Chapman)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.goodreads.com/book/show/4069.Man_s_Search_for_Meaning&quot;&gt;Man’s Search for Meaning (Frankl)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.goodreads.com/book/show/57509170-the-science-of-love&quot;&gt;The Science of Love (Goodfriend)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.goodreads.com/book/show/485894.The_Metamorphosis&quot;&gt;Metamorphosis (Kafka)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.goodreads.com/book/show/17690.The_Trial&quot;&gt;The Trial (Kafka)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.goodreads.com/book/show/27213329-grit&quot;&gt;Grit (Duckworth)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.goodreads.com/book/show/46002342-me-and-white-supremacy&quot;&gt;Me and White Supremacy (Saad)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.goodreads.com/book/show/25387895-the-confidence-game&quot;&gt;Confidence Game (Konnikova)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.goodreads.com/book/show/25744928-deep-work&quot;&gt;Deep Work (Newport)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.goodreads.com/book/show/52879286-humankind&quot;&gt;Humankind (Bregman)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.goodreads.com/book/show/28862.The_Prince&quot;&gt;The Prince (Machiavelli)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.goodreads.com/book/show/368593.The_4_Hour_Workweek&quot;&gt;4-Hour Work Week (Ferris)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.goodreads.com/book/show/52529.The_Secret&quot;&gt;The Secret (Byrne)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.goodreads.com/book/show/57205027-nice-racism&quot;&gt;Nice Racism (DiAngelo)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.goodreads.com/book/show/51022071-catch-and-kill&quot;&gt;Catch and Kill (Farrow)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.goodreads.com/en/book/show/53138238-the-three-mothers&quot;&gt;The Three Mothers (Tubbs)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.goodreads.com/book/show/58408562-move-fast&quot;&gt;Move Fast (Meyerson)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.goodreads.com/book/show/26156469-never-split-the-difference&quot;&gt;Never Split The Difference (Voss)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.goodreads.com/book/show/56668328-the-bomber-mafia&quot;&gt;Bomber Mafia (Gladwell)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.goodreads.com/book/show/9547888-attached&quot;&gt;Attached (Levine)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.goodreads.com/book/show/56019043-beyond-order&quot;&gt;Beyond Order (Peterson)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.goodreads.com/book/show/45731395-the-deficit-myth&quot;&gt;The Deficit Myth (Kelton)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.goodreads.com/book/show/7873438-sleights-of-mind&quot;&gt;Sleights of Mind (Macknik et al)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Mansour Ahmed</name><email>mail@mansourahmed.com</email></author><summary type="html">This year I discovered I could get Kindle ebooks through my local public library! I also joined a book club, which has been useful in diversifying the range of books I read. I’m also starting to learn how to abandon books part-way that I no longer enjoy reading - rather than finishing them just because I started (I’m no longer convinced this is a good thing).</summary></entry><entry><title type="html">Movie data analysis</title><link href="http://localhost:4000/2021/09/movie-data-analysis/" rel="alternate" type="text/html" title="Movie data analysis" /><published>2021-09-01T15:02:00-04:00</published><updated>2021-09-01T15:02:00-04:00</updated><id>http://localhost:4000/2021/09/movie-data-analysis</id><content type="html" xml:base="http://localhost:4000/2021/09/movie-data-analysis/">&lt;h2 id=&quot;intro&quot;&gt;Intro&lt;/h2&gt;
+&lt;p&gt;I decided to dig into my film-watching habits as a data exploration exercise.&lt;/p&gt;
+
+&lt;p&gt;I &lt;em&gt;used&lt;/em&gt; to watch a &lt;em&gt;lot&lt;/em&gt; of films. And while watching movies is no longer a significant pastime for me, it was fun at the time. Aside from the apparent interest in the films themselves, the extensive pop-culture knowledge I gained acted as some social currency. Back then, I would make the (outrageous) claim that I’d probably watched every film that would ever come up in casual conversation.&lt;/p&gt;
+
+&lt;p&gt;After each film I watched, I would immediately then give it a rating out of 10 on &lt;a href=&quot;https://www.imdb.com/&quot;&gt;IMDb&lt;/a&gt;. I didn’t think I was a critic - this was just the best way to get recommendations for even more films in the pre-Netflix era. A pleasant side effect of this ritual is that I now have a record of every movie I ever watched in that time, along with when I watched it, what I thought of it and other metadata. With the help of IMDb’s data export feature, I now have my hands on my own little cinematic time capsule &lt;em&gt;!&lt;/em&gt; This blog post aims to take a look at that data in pursuit of insights.&lt;/p&gt;
+
+&lt;h3 id=&quot;some-of-the-questions-i-want-to-answer&quot;&gt;Some of the questions I want to answer&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;What were my viewing habits?&lt;/li&gt;
+  &lt;li&gt;Did I have interesting or unusual tastes, or was I poser?&lt;/li&gt;
+  &lt;li&gt;How do my ratings compare to other IMDB users?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;housekeeping-notes&quot;&gt;Housekeeping notes&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;I’ve written this post as a &lt;a href=&quot;https://jupyter.org/&quot;&gt;Jupyter&lt;/a&gt; notebook, with inline code snippets, and exported as markdown (you can see the original notebook &lt;a href=&quot;https://github.com/ma489/imdb/blob/main/imdb_data.ipynb&quot;&gt;here&lt;/a&gt;).&lt;/li&gt;
+  &lt;li&gt;If you’re not familiar with Jupyter, it’s a &lt;a href=&quot;https://en.wikipedia.org/wiki/Notebook_interface&quot;&gt;notebook environment&lt;/a&gt; that enables &lt;a href=&quot;https://en.wikipedia.org/wiki/Literate_programming&quot;&gt;literate programming&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;I will keep my dataset private (see &lt;a href=&quot;https://arxiv.org/abs/cs/0610105&quot;&gt;here&lt;/a&gt; for why &lt;em&gt;!&lt;/em&gt;), but you can grab your own dataset &lt;a href=&quot;https://www.imdb.com/list/ratings&quot;&gt;here&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;I’ll be using the terms &lt;em&gt;‘movies’&lt;/em&gt; and &lt;em&gt;‘films’&lt;/em&gt; interchangably throughout. I’m sure there’s some technical distinction, but generally I think &lt;a href=&quot;https://en.wiktionary.org/wiki/movie#Noun&quot;&gt;the former is an Americanism&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;I’ll be making use of the two canonical Python libraries: &lt;a href=&quot;https://pandas.pydata.org/&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;pandas&lt;/code&gt;&lt;/a&gt; (for data analysis) and &lt;a href=&quot;https://seaborn.pydata.org/&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;seaborn&lt;/code&gt;&lt;/a&gt; (for visualisation).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;setup&quot;&gt;Setup&lt;/h2&gt;
+&lt;p&gt;First, some (non-interesting) initial setup&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;# Imports
+&lt;/span&gt;&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;pandas&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pd&lt;/span&gt;
+&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;seaborn&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sns&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;# Configuration
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pd&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;options&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;display&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;float_format&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&apos;{:.1f}&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;format&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;pd&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;options&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;mode&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;chained_assignment&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;None&lt;/span&gt;  &lt;span class=&quot;c1&quot;&gt;# default=&apos;warn&apos;
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sns&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;set&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;rc&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;figure.figsize&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;16&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;12&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)})&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;# Let&apos;s read in the data
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;INPUT_FILE_ENCODING&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;ISO-8859-1&quot;&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;input_data_path&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;imdb_ratings.csv&quot;&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;imdb_data&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pd&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;read_csv&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;input_data_path&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;encoding&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;INPUT_FILE_ENCODING&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;# ... and preview it
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;imdb_data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;head&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;style&gt;
+  table {
+    display: block;
+    max-width: -moz-fit-content;
+    max-width: fit-content;
+    margin: 50 auto;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+&lt;/style&gt;
+
+&lt;div&gt;
+&lt;style scoped=&quot;&quot;&gt;
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+&lt;/style&gt;
+&lt;table border=&quot;1&quot; class=&quot;dataframe&quot;&gt;
+  &lt;thead&gt;
+    &lt;tr style=&quot;text-align: right;&quot;&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;th&gt;Const&lt;/th&gt;
+      &lt;th&gt;Your Rating&lt;/th&gt;
+      &lt;th&gt;Date Rated&lt;/th&gt;
+      &lt;th&gt;Title&lt;/th&gt;
+      &lt;th&gt;URL&lt;/th&gt;
+      &lt;th&gt;Title Type&lt;/th&gt;
+      &lt;th&gt;IMDb Rating&lt;/th&gt;
+      &lt;th&gt;Runtime (mins)&lt;/th&gt;
+      &lt;th&gt;Year&lt;/th&gt;
+      &lt;th&gt;Genres&lt;/th&gt;
+      &lt;th&gt;Num Votes&lt;/th&gt;
+      &lt;th&gt;Release Date&lt;/th&gt;
+      &lt;th&gt;Directors&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;th&gt;0&lt;/th&gt;
+      &lt;td&gt;tt0100053&lt;/td&gt;
+      &lt;td&gt;1&lt;/td&gt;
+      &lt;td&gt;2013-01-18&lt;/td&gt;
+      &lt;td&gt;Loose Cannons&lt;/td&gt;
+      &lt;td&gt;https://www.imdb.com/title/tt0100053/&lt;/td&gt;
+      &lt;td&gt;movie&lt;/td&gt;
+      &lt;td&gt;4.9&lt;/td&gt;
+      &lt;td&gt;94.0&lt;/td&gt;
+      &lt;td&gt;1990&lt;/td&gt;
+      &lt;td&gt;Action, Comedy, Crime, Thriller&lt;/td&gt;
+      &lt;td&gt;4394.0&lt;/td&gt;
+      &lt;td&gt;1990-02-09&lt;/td&gt;
+      &lt;td&gt;Bob Clark&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;# Let&apos;s perform some minor cleanup of the data
+# ... filtering out the non-movie entries (TV shows, video games, etc.)
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;movies&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;imdb_data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;imdb_data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;Title Type&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&apos;movie&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;# ... and formatting the date field
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;movies&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;Date Rated&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pd&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;to_datetime&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;movies&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;Date Rated&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;])&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Great, now we’re ready to explore!&lt;/p&gt;
+
+&lt;h2 id=&quot;summary&quot;&gt;Summary&lt;/h2&gt;
+&lt;p&gt;Next, let’s look at some &lt;a href=&quot;https://en.wikipedia.org/wiki/Summary_statistics&quot;&gt;summary statistics&lt;/a&gt; to get an overview of the dataset. Think of this as a &lt;a href=&quot;https://en.wiktionary.org/wiki/tl;dr#Phrase&quot;&gt;tl;dr&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;We have different datatypes in our dataset, so we’ll summarize these separately:&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;# Numeric fields
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;movies&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;describe&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div&gt;
+&lt;style scoped=&quot;&quot;&gt;
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+&lt;/style&gt;
+&lt;table border=&quot;1&quot; class=&quot;dataframe&quot;&gt;
+  &lt;thead&gt;
+    &lt;tr style=&quot;text-align: right;&quot;&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;th&gt;Your Rating&lt;/th&gt;
+      &lt;th&gt;IMDb Rating&lt;/th&gt;
+      &lt;th&gt;Runtime (mins)&lt;/th&gt;
+      &lt;th&gt;Year&lt;/th&gt;
+      &lt;th&gt;Num Votes&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;th&gt;count&lt;/th&gt;
+      &lt;td&gt;869.0&lt;/td&gt;
+      &lt;td&gt;868.0&lt;/td&gt;
+      &lt;td&gt;868.0&lt;/td&gt;
+      &lt;td&gt;869.0&lt;/td&gt;
+      &lt;td&gt;868.0&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;mean&lt;/th&gt;
+      &lt;td&gt;5.1&lt;/td&gt;
+      &lt;td&gt;6.8&lt;/td&gt;
+      &lt;td&gt;111.6&lt;/td&gt;
+      &lt;td&gt;2000.3&lt;/td&gt;
+      &lt;td&gt;273587.3&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;std&lt;/th&gt;
+      &lt;td&gt;2.2&lt;/td&gt;
+      &lt;td&gt;1.1&lt;/td&gt;
+      &lt;td&gt;22.2&lt;/td&gt;
+      &lt;td&gt;11.7&lt;/td&gt;
+      &lt;td&gt;320816.3&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;min&lt;/th&gt;
+      &lt;td&gt;1.0&lt;/td&gt;
+      &lt;td&gt;2.1&lt;/td&gt;
+      &lt;td&gt;60.0&lt;/td&gt;
+      &lt;td&gt;1941.0&lt;/td&gt;
+      &lt;td&gt;88.0&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;25%&lt;/th&gt;
+      &lt;td&gt;4.0&lt;/td&gt;
+      &lt;td&gt;6.2&lt;/td&gt;
+      &lt;td&gt;96.0&lt;/td&gt;
+      &lt;td&gt;1995.0&lt;/td&gt;
+      &lt;td&gt;65191.5&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;50%&lt;/th&gt;
+      &lt;td&gt;6.0&lt;/td&gt;
+      &lt;td&gt;6.9&lt;/td&gt;
+      &lt;td&gt;107.0&lt;/td&gt;
+      &lt;td&gt;2002.0&lt;/td&gt;
+      &lt;td&gt;166071.5&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;75%&lt;/th&gt;
+      &lt;td&gt;7.0&lt;/td&gt;
+      &lt;td&gt;7.6&lt;/td&gt;
+      &lt;td&gt;123.2&lt;/td&gt;
+      &lt;td&gt;2009.0&lt;/td&gt;
+      &lt;td&gt;361292.5&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;max&lt;/th&gt;
+      &lt;td&gt;10.0&lt;/td&gt;
+      &lt;td&gt;9.3&lt;/td&gt;
+      &lt;td&gt;210.0&lt;/td&gt;
+      &lt;td&gt;2018.0&lt;/td&gt;
+      &lt;td&gt;2301033.0&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;# Object fields
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;movies&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;describe&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;include&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;object&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;])&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div&gt;
+&lt;style scoped=&quot;&quot;&gt;
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+&lt;/style&gt;
+&lt;table border=&quot;1&quot; class=&quot;dataframe&quot;&gt;
+  &lt;thead&gt;
+    &lt;tr style=&quot;text-align: right;&quot;&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;th&gt;Const&lt;/th&gt;
+      &lt;th&gt;Title&lt;/th&gt;
+      &lt;th&gt;URL&lt;/th&gt;
+      &lt;th&gt;Title Type&lt;/th&gt;
+      &lt;th&gt;Genres&lt;/th&gt;
+      &lt;th&gt;Release Date&lt;/th&gt;
+      &lt;th&gt;Directors&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;th&gt;count&lt;/th&gt;
+      &lt;td&gt;869&lt;/td&gt;
+      &lt;td&gt;869&lt;/td&gt;
+      &lt;td&gt;869&lt;/td&gt;
+      &lt;td&gt;869&lt;/td&gt;
+      &lt;td&gt;868&lt;/td&gt;
+      &lt;td&gt;868&lt;/td&gt;
+      &lt;td&gt;869&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;unique&lt;/th&gt;
+      &lt;td&gt;869&lt;/td&gt;
+      &lt;td&gt;867&lt;/td&gt;
+      &lt;td&gt;869&lt;/td&gt;
+      &lt;td&gt;1&lt;/td&gt;
+      &lt;td&gt;300&lt;/td&gt;
+      &lt;td&gt;835&lt;/td&gt;
+      &lt;td&gt;533&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;top&lt;/th&gt;
+      &lt;td&gt;tt0277371&lt;/td&gt;
+      &lt;td&gt;The Omen&lt;/td&gt;
+      &lt;td&gt;https://www.imdb.com/title/tt0061695/&lt;/td&gt;
+      &lt;td&gt;movie&lt;/td&gt;
+      &lt;td&gt;Comedy&lt;/td&gt;
+      &lt;td&gt;2007-06-12&lt;/td&gt;
+      &lt;td&gt;Steven Spielberg&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;freq&lt;/th&gt;
+      &lt;td&gt;1&lt;/td&gt;
+      &lt;td&gt;2&lt;/td&gt;
+      &lt;td&gt;1&lt;/td&gt;
+      &lt;td&gt;869&lt;/td&gt;
+      &lt;td&gt;56&lt;/td&gt;
+      &lt;td&gt;3&lt;/td&gt;
+      &lt;td&gt;14&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+
+&lt;p&gt;OK, so I’ve watched (at least) 869 films. A quick glance of the IMDb website shows that figure includes 96 of &lt;a href=&quot;https://www.imdb.com/chart/top/&quot;&gt;their Top 250 films&lt;/a&gt; (and also 6 of &lt;a href=&quot;https://www.imdb.com/chart/bottom&quot;&gt;their bottom 100 films&lt;/a&gt;). It goes without saying that 869 is a lower-bound for my total lifetime count, since I’ve continued to watch films but not rate them, and of course I watched films before I discovered IMDb.&lt;/p&gt;
+
+&lt;h2 id=&quot;questions&quot;&gt;Questions&lt;/h2&gt;
+&lt;p&gt;Now, let’s ask some questions of the data&lt;/p&gt;
+
+&lt;h3 id=&quot;what-do-my-ratings-look-like&quot;&gt;What do my ratings look like?&lt;/h3&gt;
+&lt;p&gt;Zooming in on just the &lt;em&gt;ratings&lt;/em&gt;, I’ll use a &lt;a href=&quot;https://en.wikipedia.org/wiki/Histogram&quot;&gt;histogram&lt;/a&gt; to visualise the &lt;a href=&quot;https://en.wikipedia.org/wiki/Frequency_distribution&quot;&gt;frequency distribution&lt;/a&gt;:&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;sns&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;catplot&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;movies&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;kind&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;count&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;  &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;Your Rating&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/output_12_1.png&quot; alt=&quot;png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;A lot more ‘1’ ratings than I expected! I must have been hard to please.&lt;/p&gt;
+
+&lt;p&gt;We can also plot the &lt;a href=&quot;https://en.wikipedia.org/wiki/Kernel_density_estimation&quot;&gt;KDE&lt;/a&gt; for an estimate of the &lt;a href=&quot;https://en.wikipedia.org/wiki/Probability_density_function&quot;&gt;probability density&lt;/a&gt; (the y-axis here is ‘density’):&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;sns&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;set&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;rc&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;figure.figsize&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;8&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)})&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;sns&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;distplot&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;movies&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;Your Rating&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;bins&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;range&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;11&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/output_14_1.png&quot; alt=&quot;png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;It look’s like about half of my ratings were either a 6 or a 7 out of 10. How very diplomatic(!)&lt;/p&gt;
+
+&lt;h3 id=&quot;how-do-my-ratings-compare-to-other-imdb-users&quot;&gt;How do my ratings compare to other IMDB users?&lt;/h3&gt;
+&lt;p&gt;Let’s calculate the &lt;a href=&quot;https://en.wikipedia.org/wiki/Spearman%27s_rank_correlation_coefficient&quot;&gt;Spearman’s rank correlation coefficient&lt;/a&gt;, as a measure of &lt;a href=&quot;https://en.wikipedia.org/wiki/Inter-rater_reliability&quot;&gt;Inter-rater reliability&lt;/a&gt;. It’s values range from -1 to 1 (fully opposed to identical). We’re using Spearman here because our data (Ratings out of 10) is &lt;a href=&quot;https://en.wikipedia.org/wiki/Ordinal_data&quot;&gt;ordinal&lt;/a&gt;.&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;movies&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;Your Rating&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;].&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;corr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;movies&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;IMDb Rating&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;method&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;spearman&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;0.4413428717210753
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Intuitively, a weak positive correlation.&lt;/p&gt;
+
+&lt;p&gt;Let’s visualize this relationship. I’ll use a catplot here to get around the problem of representing categorical data with a scatter plot&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;sns&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;catplot&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;Your Rating&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;y&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;IMDb Rating&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;movies&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/output_19_1.png&quot; alt=&quot;png&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;what-day-did-i-tend-to-watch-films&quot;&gt;What day did I tend to watch films?&lt;/h3&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;# non-interesting date formatting
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;movies&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;Weekday&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;movies&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;Date Rated&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;].&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;dt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;day_name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;movies&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;WeekdayNumeric&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;movies&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;Date Rated&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;].&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;dt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;weekday&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;movies&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;movies&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sort_values&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;WeekdayNumeric&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;inplace&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;False&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;# Let&apos;s plot 
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sns&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;catplot&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Weekday&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;kind&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;count&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;movies&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;height&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;aspect&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;12&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;9&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/output_21_1.png&quot; alt=&quot;png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The weekends of course make sense. But Monday is unexpected - TGIM?&lt;/p&gt;
+
+&lt;h3 id=&quot;what-year-did-i-watch-the-most-films&quot;&gt;What year did I watch the most films?&lt;/h3&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;movies&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;YearWatched&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;movies&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;Date Rated&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;].&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;dt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;year&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;sns&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;catplot&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;YearWatched&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;kind&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;count&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;movies&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;height&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;aspect&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;12&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;9&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/output_24_1.png&quot; alt=&quot;png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;2008, clearly! That was about 1 film per weekday! It looks like the intensity waned over time: 2010, in contrast, was my first year in college - studying obviously took precedence!&lt;/p&gt;
+
+&lt;h3 id=&quot;what-is-the-least-well-known-film-ive-watched-by-number-of-ratings-by-other-users&quot;&gt;What is the &lt;em&gt;least&lt;/em&gt; well-known film I’ve watched? (by number of ratings by other users)&lt;/h3&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;movies&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sort_values&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;Num Votes&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;head&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div&gt;
+&lt;style scoped=&quot;&quot;&gt;
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+&lt;/style&gt;
+&lt;table border=&quot;1&quot; class=&quot;dataframe&quot;&gt;
+  &lt;thead&gt;
+    &lt;tr style=&quot;text-align: right;&quot;&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;th&gt;Const&lt;/th&gt;
+      &lt;th&gt;Your Rating&lt;/th&gt;
+      &lt;th&gt;Date Rated&lt;/th&gt;
+      &lt;th&gt;Title&lt;/th&gt;
+      &lt;th&gt;URL&lt;/th&gt;
+      &lt;th&gt;Title Type&lt;/th&gt;
+      &lt;th&gt;IMDb Rating&lt;/th&gt;
+      &lt;th&gt;Runtime (mins)&lt;/th&gt;
+      &lt;th&gt;Year&lt;/th&gt;
+      &lt;th&gt;Genres&lt;/th&gt;
+      &lt;th&gt;Num Votes&lt;/th&gt;
+      &lt;th&gt;Release Date&lt;/th&gt;
+      &lt;th&gt;Directors&lt;/th&gt;
+      &lt;th&gt;Weekday&lt;/th&gt;
+      &lt;th&gt;WeekdayNumeric&lt;/th&gt;
+      &lt;th&gt;YearWatched&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;th&gt;878&lt;/th&gt;
+      &lt;td&gt;tt0097073&lt;/td&gt;
+      &lt;td&gt;1&lt;/td&gt;
+      &lt;td&gt;2007-08-11&lt;/td&gt;
+      &lt;td&gt;Code Name Vengeance&lt;/td&gt;
+      &lt;td&gt;https://www.imdb.com/title/tt0097073/&lt;/td&gt;
+      &lt;td&gt;movie&lt;/td&gt;
+      &lt;td&gt;4.1&lt;/td&gt;
+      &lt;td&gt;96.0&lt;/td&gt;
+      &lt;td&gt;1987&lt;/td&gt;
+      &lt;td&gt;Action, Adventure, Drama, Thriller&lt;/td&gt;
+      &lt;td&gt;88.0&lt;/td&gt;
+      &lt;td&gt;1987-12-31&lt;/td&gt;
+      &lt;td&gt;David Winters&lt;/td&gt;
+      &lt;td&gt;Saturday&lt;/td&gt;
+      &lt;td&gt;5&lt;/td&gt;
+      &lt;td&gt;2007&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Frankly, this movie looks terrible. Thankfully, I don’t remember watching it (!)&lt;/p&gt;
+
+&lt;h3 id=&quot;what-is-the-most-well-known-film-ive-watched-by-number-of-ratings-by-other-users&quot;&gt;What is the &lt;em&gt;most&lt;/em&gt; well-known film I’ve watched? (by number of ratings by other users)&lt;/h3&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;movies&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sort_values&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;Num Votes&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ascending&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;False&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;head&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div&gt;
+&lt;style scoped=&quot;&quot;&gt;
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+&lt;/style&gt;
+&lt;table border=&quot;1&quot; class=&quot;dataframe&quot;&gt;
+  &lt;thead&gt;
+    &lt;tr style=&quot;text-align: right;&quot;&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;th&gt;Const&lt;/th&gt;
+      &lt;th&gt;Your Rating&lt;/th&gt;
+      &lt;th&gt;Date Rated&lt;/th&gt;
+      &lt;th&gt;Title&lt;/th&gt;
+      &lt;th&gt;URL&lt;/th&gt;
+      &lt;th&gt;Title Type&lt;/th&gt;
+      &lt;th&gt;IMDb Rating&lt;/th&gt;
+      &lt;th&gt;Runtime (mins)&lt;/th&gt;
+      &lt;th&gt;Year&lt;/th&gt;
+      &lt;th&gt;Genres&lt;/th&gt;
+      &lt;th&gt;Num Votes&lt;/th&gt;
+      &lt;th&gt;Release Date&lt;/th&gt;
+      &lt;th&gt;Directors&lt;/th&gt;
+      &lt;th&gt;Weekday&lt;/th&gt;
+      &lt;th&gt;WeekdayNumeric&lt;/th&gt;
+      &lt;th&gt;YearWatched&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;th&gt;100&lt;/th&gt;
+      &lt;td&gt;tt0111161&lt;/td&gt;
+      &lt;td&gt;10&lt;/td&gt;
+      &lt;td&gt;2007-08-11&lt;/td&gt;
+      &lt;td&gt;The Shawshank Redemption&lt;/td&gt;
+      &lt;td&gt;https://www.imdb.com/title/tt0111161/&lt;/td&gt;
+      &lt;td&gt;movie&lt;/td&gt;
+      &lt;td&gt;9.3&lt;/td&gt;
+      &lt;td&gt;142.0&lt;/td&gt;
+      &lt;td&gt;1994&lt;/td&gt;
+      &lt;td&gt;Drama&lt;/td&gt;
+      &lt;td&gt;2301033.0&lt;/td&gt;
+      &lt;td&gt;1994-09-10&lt;/td&gt;
+      &lt;td&gt;Frank Darabont&lt;/td&gt;
+      &lt;td&gt;Saturday&lt;/td&gt;
+      &lt;td&gt;5&lt;/td&gt;
+      &lt;td&gt;2007&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+
+&lt;p&gt;This one needs no introduction!&lt;/p&gt;
+
+&lt;h3 id=&quot;what-was-the-least-liked-film-ive-watched-by-ratings-by-other-users&quot;&gt;What was the &lt;em&gt;least&lt;/em&gt; liked film I’ve watched? (by ratings by other users)&lt;/h3&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;movies&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sort_values&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;IMDb Rating&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;head&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div&gt;
+&lt;style scoped=&quot;&quot;&gt;
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+&lt;/style&gt;
+&lt;table border=&quot;1&quot; class=&quot;dataframe&quot;&gt;
+  &lt;thead&gt;
+    &lt;tr style=&quot;text-align: right;&quot;&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;th&gt;Const&lt;/th&gt;
+      &lt;th&gt;Your Rating&lt;/th&gt;
+      &lt;th&gt;Date Rated&lt;/th&gt;
+      &lt;th&gt;Title&lt;/th&gt;
+      &lt;th&gt;URL&lt;/th&gt;
+      &lt;th&gt;Title Type&lt;/th&gt;
+      &lt;th&gt;IMDb Rating&lt;/th&gt;
+      &lt;th&gt;Runtime (mins)&lt;/th&gt;
+      &lt;th&gt;Year&lt;/th&gt;
+      &lt;th&gt;Genres&lt;/th&gt;
+      &lt;th&gt;Num Votes&lt;/th&gt;
+      &lt;th&gt;Release Date&lt;/th&gt;
+      &lt;th&gt;Directors&lt;/th&gt;
+      &lt;th&gt;Weekday&lt;/th&gt;
+      &lt;th&gt;WeekdayNumeric&lt;/th&gt;
+      &lt;th&gt;YearWatched&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;th&gt;704&lt;/th&gt;
+      &lt;td&gt;tt0473024&lt;/td&gt;
+      &lt;td&gt;1&lt;/td&gt;
+      &lt;td&gt;2007-08-11&lt;/td&gt;
+      &lt;td&gt;Crossover&lt;/td&gt;
+      &lt;td&gt;https://www.imdb.com/title/tt0473024/&lt;/td&gt;
+      &lt;td&gt;movie&lt;/td&gt;
+      &lt;td&gt;2.1&lt;/td&gt;
+      &lt;td&gt;95.0&lt;/td&gt;
+      &lt;td&gt;2006&lt;/td&gt;
+      &lt;td&gt;Action, Sport&lt;/td&gt;
+      &lt;td&gt;8910.0&lt;/td&gt;
+      &lt;td&gt;2006-07-22&lt;/td&gt;
+      &lt;td&gt;Preston A. Whitmore II&lt;/td&gt;
+      &lt;td&gt;Saturday&lt;/td&gt;
+      &lt;td&gt;5&lt;/td&gt;
+      &lt;td&gt;2007&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Ah, this doesn’t look &lt;em&gt;that&lt;/em&gt; bad&lt;/p&gt;
+
+&lt;h3 id=&quot;what-was-the-most-liked-film-ive-watched-by-ratings-by-other-users&quot;&gt;What was the &lt;em&gt;most&lt;/em&gt; liked film I’ve watched? (by ratings by other users)&lt;/h3&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;movies&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sort_values&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;IMDb Rating&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ascending&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;False&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;head&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div&gt;
+&lt;style scoped=&quot;&quot;&gt;
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+&lt;/style&gt;
+&lt;table border=&quot;1&quot; class=&quot;dataframe&quot;&gt;
+  &lt;thead&gt;
+    &lt;tr style=&quot;text-align: right;&quot;&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;th&gt;Const&lt;/th&gt;
+      &lt;th&gt;Your Rating&lt;/th&gt;
+      &lt;th&gt;Date Rated&lt;/th&gt;
+      &lt;th&gt;Title&lt;/th&gt;
+      &lt;th&gt;URL&lt;/th&gt;
+      &lt;th&gt;Title Type&lt;/th&gt;
+      &lt;th&gt;IMDb Rating&lt;/th&gt;
+      &lt;th&gt;Runtime (mins)&lt;/th&gt;
+      &lt;th&gt;Year&lt;/th&gt;
+      &lt;th&gt;Genres&lt;/th&gt;
+      &lt;th&gt;Num Votes&lt;/th&gt;
+      &lt;th&gt;Release Date&lt;/th&gt;
+      &lt;th&gt;Directors&lt;/th&gt;
+      &lt;th&gt;Weekday&lt;/th&gt;
+      &lt;th&gt;WeekdayNumeric&lt;/th&gt;
+      &lt;th&gt;YearWatched&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;th&gt;100&lt;/th&gt;
+      &lt;td&gt;tt0111161&lt;/td&gt;
+      &lt;td&gt;10&lt;/td&gt;
+      &lt;td&gt;2007-08-11&lt;/td&gt;
+      &lt;td&gt;The Shawshank Redemption&lt;/td&gt;
+      &lt;td&gt;https://www.imdb.com/title/tt0111161/&lt;/td&gt;
+      &lt;td&gt;movie&lt;/td&gt;
+      &lt;td&gt;9.3&lt;/td&gt;
+      &lt;td&gt;142.0&lt;/td&gt;
+      &lt;td&gt;1994&lt;/td&gt;
+      &lt;td&gt;Drama&lt;/td&gt;
+      &lt;td&gt;2301033.0&lt;/td&gt;
+      &lt;td&gt;1994-09-10&lt;/td&gt;
+      &lt;td&gt;Frank Darabont&lt;/td&gt;
+      &lt;td&gt;Saturday&lt;/td&gt;
+      &lt;td&gt;5&lt;/td&gt;
+      &lt;td&gt;2007&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+
+&lt;p&gt;A certified classic.&lt;/p&gt;
+
+&lt;h3 id=&quot;biggest-disparity-in-my-vote-vs-imdb&quot;&gt;Biggest disparity in my vote vs IMDB?&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;What was the popularly-least-liked film I’ve enjoyed?&lt;/li&gt;
+  &lt;li&gt;And the popularly-most-liked film I didn’t?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;movies&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;Vote Disparity - IMDb Liked more&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;movies&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;IMDb Rating&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;movies&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;Your Rating&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;movies&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sort_values&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;([&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;Vote Disparity - IMDb Liked more&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&apos;IMDb Rating&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&apos;Num Votes&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ascending&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;False&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;head&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div&gt;
+&lt;style scoped=&quot;&quot;&gt;
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+&lt;/style&gt;
+&lt;table border=&quot;1&quot; class=&quot;dataframe&quot;&gt;
+  &lt;thead&gt;
+    &lt;tr style=&quot;text-align: right;&quot;&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;th&gt;Const&lt;/th&gt;
+      &lt;th&gt;Your Rating&lt;/th&gt;
+      &lt;th&gt;Date Rated&lt;/th&gt;
+      &lt;th&gt;Title&lt;/th&gt;
+      &lt;th&gt;URL&lt;/th&gt;
+      &lt;th&gt;Title Type&lt;/th&gt;
+      &lt;th&gt;IMDb Rating&lt;/th&gt;
+      &lt;th&gt;Runtime (mins)&lt;/th&gt;
+      &lt;th&gt;Year&lt;/th&gt;
+      &lt;th&gt;Genres&lt;/th&gt;
+      &lt;th&gt;Num Votes&lt;/th&gt;
+      &lt;th&gt;Release Date&lt;/th&gt;
+      &lt;th&gt;Directors&lt;/th&gt;
+      &lt;th&gt;Weekday&lt;/th&gt;
+      &lt;th&gt;WeekdayNumeric&lt;/th&gt;
+      &lt;th&gt;YearWatched&lt;/th&gt;
+      &lt;th&gt;Vote Disparity - IMDb Liked more&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;th&gt;95&lt;/th&gt;
+      &lt;td&gt;tt0110912&lt;/td&gt;
+      &lt;td&gt;1&lt;/td&gt;
+      &lt;td&gt;2008-08-19&lt;/td&gt;
+      &lt;td&gt;Pulp Fiction&lt;/td&gt;
+      &lt;td&gt;https://www.imdb.com/title/tt0110912/&lt;/td&gt;
+      &lt;td&gt;movie&lt;/td&gt;
+      &lt;td&gt;8.9&lt;/td&gt;
+      &lt;td&gt;154.0&lt;/td&gt;
+      &lt;td&gt;1994&lt;/td&gt;
+      &lt;td&gt;Crime, Drama&lt;/td&gt;
+      &lt;td&gt;1796406.0&lt;/td&gt;
+      &lt;td&gt;1994-05-21&lt;/td&gt;
+      &lt;td&gt;Quentin Tarantino&lt;/td&gt;
+      &lt;td&gt;Tuesday&lt;/td&gt;
+      &lt;td&gt;1&lt;/td&gt;
+      &lt;td&gt;2008&lt;/td&gt;
+      &lt;td&gt;7.9&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Yeah, Pulp Fiction is overrated.&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;movies&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;Vote Disparity - I Liked more&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;movies&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;Your Rating&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;movies&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;IMDb Rating&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;movies&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sort_values&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;([&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;Vote Disparity - I Liked more&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&apos;IMDb Rating&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&apos;Num Votes&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ascending&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;False&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;head&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div&gt;
+&lt;style scoped=&quot;&quot;&gt;
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+&lt;/style&gt;
+&lt;table border=&quot;1&quot; class=&quot;dataframe&quot;&gt;
+  &lt;thead&gt;
+    &lt;tr style=&quot;text-align: right;&quot;&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;th&gt;Const&lt;/th&gt;
+      &lt;th&gt;Your Rating&lt;/th&gt;
+      &lt;th&gt;Date Rated&lt;/th&gt;
+      &lt;th&gt;Title&lt;/th&gt;
+      &lt;th&gt;URL&lt;/th&gt;
+      &lt;th&gt;Title Type&lt;/th&gt;
+      &lt;th&gt;IMDb Rating&lt;/th&gt;
+      &lt;th&gt;Runtime (mins)&lt;/th&gt;
+      &lt;th&gt;Year&lt;/th&gt;
+      &lt;th&gt;Genres&lt;/th&gt;
+      &lt;th&gt;Num Votes&lt;/th&gt;
+      &lt;th&gt;Release Date&lt;/th&gt;
+      &lt;th&gt;Directors&lt;/th&gt;
+      &lt;th&gt;Weekday&lt;/th&gt;
+      &lt;th&gt;WeekdayNumeric&lt;/th&gt;
+      &lt;th&gt;YearWatched&lt;/th&gt;
+      &lt;th&gt;Vote Disparity - IMDb Liked more&lt;/th&gt;
+      &lt;th&gt;Vote Disparity - I Liked more&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;th&gt;469&lt;/th&gt;
+      &lt;td&gt;tt0250310&lt;/td&gt;
+      &lt;td&gt;7&lt;/td&gt;
+      &lt;td&gt;2009-02-19&lt;/td&gt;
+      &lt;td&gt;Corky Romano&lt;/td&gt;
+      &lt;td&gt;https://www.imdb.com/title/tt0250310/&lt;/td&gt;
+      &lt;td&gt;movie&lt;/td&gt;
+      &lt;td&gt;4.7&lt;/td&gt;
+      &lt;td&gt;86.0&lt;/td&gt;
+      &lt;td&gt;2001&lt;/td&gt;
+      &lt;td&gt;Comedy, Crime&lt;/td&gt;
+      &lt;td&gt;12425.0&lt;/td&gt;
+      &lt;td&gt;2001-10-12&lt;/td&gt;
+      &lt;td&gt;Rob Pritts&lt;/td&gt;
+      &lt;td&gt;Thursday&lt;/td&gt;
+      &lt;td&gt;3&lt;/td&gt;
+      &lt;td&gt;2009&lt;/td&gt;
+      &lt;td&gt;-2.3&lt;/td&gt;
+      &lt;td&gt;2.3&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Corky Romano is a masterpiece!&lt;/p&gt;
+
+&lt;h1 id=&quot;general-patterns&quot;&gt;General patterns&lt;/h1&gt;
+&lt;p&gt;Finally, let’s visualize some general patterns&lt;/p&gt;
+
+&lt;h3 id=&quot;film-durations&quot;&gt;Film durations&lt;/h3&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;sns&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;distplot&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;movies&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;Runtime (mins)&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;])&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/output_45_1.png&quot; alt=&quot;png&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;film-release-years&quot;&gt;Film Release Years&lt;/h3&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;sns&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;catplot&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Year&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;kind&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;count&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;movies&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;height&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;aspect&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;21&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;9&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/output_47_1.png&quot; alt=&quot;png&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;film-genres&quot;&gt;Film genres&lt;/h3&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;genres&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;movies&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;Genres&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;].&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;astype&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;str&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;tolist&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;genres&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;list&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;map&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;lambda&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;split&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;,&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;genres&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;genres&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;sum&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;list&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;genres&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[])&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;genres&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;list&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;map&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;lambda&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;strip&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(),&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;genres&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;genres&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;list&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;map&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;lambda&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;genres&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;genres&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pd&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;DataFrame&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;genres&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;columns&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;Genres&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;])&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;sns&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;catplot&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Genres&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;kind&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;count&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;genres&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;height&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;9&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;aspect&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;21&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;9&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;order&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;genres&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;Genres&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;].&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;value_counts&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;().&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;index&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/output_49_1.png&quot; alt=&quot;png&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;directors&quot;&gt;Directors&lt;/h3&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;directors&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;movies&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;Directors&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;].&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;astype&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;str&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;tolist&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;directors&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;list&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;map&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;lambda&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;split&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;,&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;directors&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;directors&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;sum&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;list&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;directors&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[])&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;directors&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;list&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;map&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;lambda&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;strip&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(),&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;directors&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;directors&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;list&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;map&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;lambda&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;directors&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;directors&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pd&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;DataFrame&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;directors&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;columns&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;Directors&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;])&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;directors&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;directors&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;groupby&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;([&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;Directors&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]).&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;size&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;directors&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;directors&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;reset_index&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;size&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;directors&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;directors&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sort_values&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;([&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;size&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ascending&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;False&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;directors&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;head&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div&gt;
+&lt;style scoped=&quot;&quot;&gt;
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+&lt;/style&gt;
+&lt;table border=&quot;1&quot; class=&quot;dataframe&quot;&gt;
+  &lt;thead&gt;
+    &lt;tr style=&quot;text-align: right;&quot;&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;th&gt;Directors&lt;/th&gt;
+      &lt;th&gt;size&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;th&gt;514&lt;/th&gt;
+      &lt;td&gt;Steven Spielberg&lt;/td&gt;
+      &lt;td&gt;15&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;453&lt;/th&gt;
+      &lt;td&gt;Robert Zemeckis&lt;/td&gt;
+      &lt;td&gt;10&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;111&lt;/th&gt;
+      &lt;td&gt;David Fincher&lt;/td&gt;
+      &lt;td&gt;8&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;345&lt;/th&gt;
+      &lt;td&gt;Martin Scorsese&lt;/td&gt;
+      &lt;td&gt;8&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;415&lt;/th&gt;
+      &lt;td&gt;Peter Jackson&lt;/td&gt;
+      &lt;td&gt;7&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;423&lt;/th&gt;
+      &lt;td&gt;Quentin Tarantino&lt;/td&gt;
+      &lt;td&gt;7&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;256&lt;/th&gt;
+      &lt;td&gt;John Hughes&lt;/td&gt;
+      &lt;td&gt;7&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;85&lt;/th&gt;
+      &lt;td&gt;Christopher Nolan&lt;/td&gt;
+      &lt;td&gt;6&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;464&lt;/th&gt;
+      &lt;td&gt;Ron Howard&lt;/td&gt;
+      &lt;td&gt;6&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;155&lt;/th&gt;
+      &lt;td&gt;Ethan Coen&lt;/td&gt;
+      &lt;td&gt;6&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;whats-the-perfect-film-for-me&quot;&gt;What’s the perfect film for me?&lt;/h3&gt;
+&lt;p&gt;Based on frequent attributes: It looks like that would be a Drama or Comedy, directed by Spielberg, made in 2011, that is about 100 minutes long! ‘War Horse’, anybody?&lt;/p&gt;
+
+&lt;p&gt;If we base it on rating, by restricting this to just films I rated &amp;gt;= 8: A Drama, directed by Spielberg, made in 1999, that’s 120 minutes long. Perhaps, ‘Saving Private Ryan’?&lt;/p&gt;
+
+&lt;p&gt;This however would be an interesting small ML project: to create a model to predict a numeric rating for a given film, based on my previous ratings.&lt;/p&gt;</content><author><name>Mansour Ahmed</name><email>mail@mansourahmed.com</email></author><summary type="html">Intro I decided to dig into my film-watching habits as a data exploration exercise.</summary></entry><entry><title type="html">Working From Home</title><link href="http://localhost:4000/2021/03/wfh/" rel="alternate" type="text/html" title="Working From Home" /><published>2021-03-10T13:01:00-05:00</published><updated>2021-03-10T13:01:00-05:00</updated><id>http://localhost:4000/2021/03/wfh</id><content type="html" xml:base="http://localhost:4000/2021/03/wfh/">&lt;p&gt;For me and countless others, this week marks one year of working from home (WFH). I decided to take a moment to reflect on what it’s been like, lessons learnt, and a view of the future.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-its-been-like&quot;&gt;What it’s been like&lt;/h2&gt;
 
 &lt;p&gt;I’ll admit, I wildly underestimated how long this would all go on for (not a unique thought, I’m sure). I smile as I recall thinking it would just be a couple of weeks (I confidently left some snacks in my desk drawer!).&lt;/p&gt;
 
@@ -31,7 +1000,7 @@
   &lt;li&gt;Needing to recreate the structure and routine that a conventional in-office workday naturally provides&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;strong&gt;Lessons learnt&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&quot;lessons-learnt&quot;&gt;Lessons learnt&lt;/h2&gt;
 
 &lt;p&gt;I hope the circumstances which brought about this shift to WFH never recur. But should I find myself WFH for an extended period again, for whatever reason, I’ll leave a note to myself with some helpful tips to hit the ground running:&lt;/p&gt;
 
@@ -61,7 +1030,7 @@
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;strong&gt;The future&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&quot;the-future&quot;&gt;The future&lt;/h2&gt;
 
 &lt;p&gt;I now go into the office one day per week, making for a nice change of scenery. Fortunately, I live within cycling distance of the office, and so I can avoid the subway!&lt;/p&gt;
 
@@ -71,7 +1040,7 @@
 
 &lt;p&gt;From a human perspective, I think we’re fundamentally social beings who need to connect to others in a way that video calls can never really replace. That alone might provide the impetus to return to the office. I look forward to Normal.&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;The views expressed are my own and not those of my employer.&lt;/em&gt;&lt;/p&gt;</content><author><name>Mansour Ahmed</name><email>mail@mansourahmed.com</email></author><summary type="html">For me and countless others, this week marks one year of working from home (WFH). I decided to take a moment to reflect on what it’s been like, lessons learnt, and a view of the future.</summary></entry><entry><title type="html">2020 Retrospective Reading List</title><link href="http://localhost:4000/2020/12/2020-reading-list/" rel="alternate" type="text/html" title="2020 Retrospective Reading List" /><published>2020-12-01T19:02:00+00:00</published><updated>2020-12-01T19:02:00+00:00</updated><id>http://localhost:4000/2020/12/2020-reading-list</id><content type="html" xml:base="http://localhost:4000/2020/12/2020-reading-list/">&lt;p&gt;Another year, another retrospective reading list. With the ongoing pandemic, I have found myself reading more. I have continued with the trend of leaning towards audiobooks (I think this format works really well for non-fiction that is not &lt;em&gt;too&lt;/em&gt; technical). This year, the list is mostly a mix of pop-science and racism analyses.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;The views expressed are my own and not those of my employer.&lt;/em&gt;&lt;/p&gt;</content><author><name>Mansour Ahmed</name><email>mail@mansourahmed.com</email></author><summary type="html">For me and countless others, this week marks one year of working from home (WFH). I decided to take a moment to reflect on what it’s been like, lessons learnt, and a view of the future.</summary></entry><entry><title type="html">2020 Retrospective Reading List</title><link href="http://localhost:4000/2020/12/2020-reading-list/" rel="alternate" type="text/html" title="2020 Retrospective Reading List" /><published>2020-12-01T14:02:00-05:00</published><updated>2020-12-01T14:02:00-05:00</updated><id>http://localhost:4000/2020/12/2020-reading-list</id><content type="html" xml:base="http://localhost:4000/2020/12/2020-reading-list/">&lt;p&gt;Another year, another retrospective reading list. With the ongoing pandemic, I have found myself reading more. I have continued with the trend of leaning towards audiobooks (I think this format works really well for non-fiction that is not &lt;em&gt;too&lt;/em&gt; technical). This year, the list is mostly a mix of pop-science and racism analyses.&lt;/p&gt;
 
 &lt;p&gt;As usual, this isn’t necessarily an endorsement of any of these books, but I hope, at least, that you might find them interesting to read.&lt;/p&gt;
 
@@ -98,11 +1067,11 @@
   &lt;li&gt;&lt;a href=&quot;https://www.goodreads.com/book/show/40121378-atomic-habits&quot;&gt;Atomic Habits (Clear)&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.goodreads.com/book/show/40792344-mere-christianity&quot;&gt;Mere Christianity (Lewis)&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.goodreads.com/book/show/52300107-caffeine&quot;&gt;Caffeine (Pollan)&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Mansour Ahmed</name><email>mail@mansourahmed.com</email></author><summary type="html">Another year, another retrospective reading list. With the ongoing pandemic, I have found myself reading more. I have continued with the trend of leaning towards audiobooks (I think this format works really well for non-fiction that is not too technical). This year, the list is mostly a mix of pop-science and racism analyses.</summary></entry><entry><title type="html">AWS Certified</title><link href="http://localhost:4000/2020/01/2020-aws-certified/" rel="alternate" type="text/html" title="AWS Certified" /><published>2020-01-07T19:02:00+00:00</published><updated>2020-01-07T19:02:00+00:00</updated><id>http://localhost:4000/2020/01/aws-certified</id><content type="html" xml:base="http://localhost:4000/2020/01/2020-aws-certified/">&lt;p&gt;I am now an &lt;em&gt;AWS Certified Solutions Architect (Associate)&lt;/em&gt;.&lt;/p&gt;
+&lt;/ul&gt;</content><author><name>Mansour Ahmed</name><email>mail@mansourahmed.com</email></author><summary type="html">Another year, another retrospective reading list. With the ongoing pandemic, I have found myself reading more. I have continued with the trend of leaning towards audiobooks (I think this format works really well for non-fiction that is not too technical). This year, the list is mostly a mix of pop-science and racism analyses.</summary></entry><entry><title type="html">AWS Certified</title><link href="http://localhost:4000/2020/01/2020-aws-certified/" rel="alternate" type="text/html" title="AWS Certified" /><published>2020-01-07T14:02:00-05:00</published><updated>2020-01-07T14:02:00-05:00</updated><id>http://localhost:4000/2020/01/aws-certified</id><content type="html" xml:base="http://localhost:4000/2020/01/2020-aws-certified/">&lt;p&gt;I am now an &lt;em&gt;AWS Certified Solutions Architect (Associate)&lt;/em&gt;.&lt;/p&gt;
 
 &lt;p&gt;I was a little nervous before taking the exam (it’s been a while!), but I’m glad to have been able to validate my technical skills.  Learn more about it &lt;a href=&quot;https://aws.amazon.com/certification/certified-solutions-architect-associate/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
 
-&lt;center&gt;&lt;a href=&quot;https://www.youracclaim.com/badges/9622ebb8-ad75-4937-aceb-119d3cbdd3b7/public_url&quot;&gt;&lt;img src=&quot;/assets/img/aws.png&quot; alt=&quot;AWS Certified&quot; width=&quot;300px&quot; align=&quot;middle&quot; /&gt;&lt;/a&gt;&lt;/center&gt;</content><author><name>Mansour Ahmed</name><email>mail@mansourahmed.com</email></author><summary type="html">I am now an AWS Certified Solutions Architect (Associate).</summary></entry><entry><title type="html">2019 Retrospective Reading List</title><link href="http://localhost:4000/2019/12/2019-reading-list/" rel="alternate" type="text/html" title="2019 Retrospective Reading List" /><published>2019-12-30T19:02:00+00:00</published><updated>2019-12-30T19:02:00+00:00</updated><id>http://localhost:4000/2019/12/2019-reading-list</id><content type="html" xml:base="http://localhost:4000/2019/12/2019-reading-list/">&lt;p&gt;A little different this year, with the addition of audiobooks!&lt;/p&gt;
+&lt;center&gt;&lt;a href=&quot;https://www.youracclaim.com/badges/9622ebb8-ad75-4937-aceb-119d3cbdd3b7/public_url&quot;&gt;&lt;img src=&quot;/assets/img/aws.png&quot; alt=&quot;AWS Certified&quot; width=&quot;300px&quot; align=&quot;middle&quot; /&gt;&lt;/a&gt;&lt;/center&gt;</content><author><name>Mansour Ahmed</name><email>mail@mansourahmed.com</email></author><summary type="html">I am now an AWS Certified Solutions Architect (Associate).</summary></entry><entry><title type="html">2019 Retrospective Reading List</title><link href="http://localhost:4000/2019/12/2019-reading-list/" rel="alternate" type="text/html" title="2019 Retrospective Reading List" /><published>2019-12-30T14:02:00-05:00</published><updated>2019-12-30T14:02:00-05:00</updated><id>http://localhost:4000/2019/12/2019-reading-list</id><content type="html" xml:base="http://localhost:4000/2019/12/2019-reading-list/">&lt;p&gt;A little different this year, with the addition of audiobooks!&lt;/p&gt;
 
 &lt;p&gt;As ever, this isn’t necessarily an endorsement of any of these books :)&lt;/p&gt;
 
@@ -134,9 +1103,9 @@
   &lt;li&gt;&lt;a href=&quot;https://www.goodreads.com/book/show/29780253-born-a-crime&quot;&gt;Born a Crime: Stories from a South African Childhood (Noah)&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.goodreads.com/book/show/900.The_Game&quot;&gt;The Game (Strauss)&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.goodreads.com/book/show/33559198-black-privilege&quot;&gt;Black Privilege (Charlamagne)&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Mansour Ahmed</name><email>mail@mansourahmed.com</email></author><summary type="html">A little different this year, with the addition of audiobooks!</summary></entry><entry><title type="html">Intern Mentoring</title><link href="http://localhost:4000/2019/09/mentoring/" rel="alternate" type="text/html" title="Intern Mentoring" /><published>2019-09-08T19:01:00+01:00</published><updated>2019-09-08T19:01:00+01:00</updated><id>http://localhost:4000/2019/09/mentoring</id><content type="html" xml:base="http://localhost:4000/2019/09/mentoring/">&lt;p&gt;Over the summer, we had a university student join us at work for an internship program, and I was fortunate enough to have the opportunity to mentor them for those three months. I found it to be a rewarding and successful experience. While I had had various internships myself years ago, this was my first time being on &lt;em&gt;the other side&lt;/em&gt;. This post is a summary and reflection of that time, and hopefully a chance to share some tips.&lt;/p&gt;
+&lt;/ul&gt;</content><author><name>Mansour Ahmed</name><email>mail@mansourahmed.com</email></author><summary type="html">A little different this year, with the addition of audiobooks!</summary></entry><entry><title type="html">Intern Mentoring</title><link href="http://localhost:4000/2019/09/mentoring/" rel="alternate" type="text/html" title="Intern Mentoring" /><published>2019-09-08T14:01:00-04:00</published><updated>2019-09-08T14:01:00-04:00</updated><id>http://localhost:4000/2019/09/mentoring</id><content type="html" xml:base="http://localhost:4000/2019/09/mentoring/">&lt;p&gt;Over the summer, we had a university student join us at work for an internship program, and I was fortunate enough to have the opportunity to mentor them for those three months. I found it to be a rewarding and successful experience. While I had had various internships myself years ago, this was my first time being on &lt;em&gt;the other side&lt;/em&gt;. This post is a summary and reflection of that time, and hopefully a chance to share some tips.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Before they arrive&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&quot;before-they-arrive&quot;&gt;Before they arrive&lt;/h2&gt;
 
 &lt;p&gt;Some initial housekeeping will ensure a smooth start:&lt;/p&gt;
 
@@ -145,7 +1114,7 @@
   &lt;li&gt;Decide on the project that they’ll be working on. Give them ‘real work’: a meaningful project with real impact (i.e., it’s &lt;em&gt;at least&lt;/em&gt; of value to your team) and that can be practically completed in the internship duration. However, you might like to consider keeping the deliverables off the ‘critical path.’&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;strong&gt;Starting out&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&quot;starting-out&quot;&gt;Starting out&lt;/h2&gt;
 
 &lt;p&gt;Setting your intern up for success:&lt;/p&gt;
 
@@ -156,7 +1125,7 @@
   &lt;li&gt;Have an early conversation to figure out the best management style (e.g., will it be hands-on or hands-off?)&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;strong&gt;Into the swing of things&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&quot;into-the-swing-of-things&quot;&gt;Into the swing of things&lt;/h2&gt;
 
 &lt;p&gt;As the internship progresses, be sure to keep the momentum going:&lt;/p&gt;
 
@@ -171,7 +1140,7 @@
   &lt;li&gt;Have fun! Schedule in some team-bonding, e.g., a team lunch, or play pool in your office games room&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;strong&gt;The end&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&quot;wrapping-up&quot;&gt;Wrapping up&lt;/h2&gt;
 
 &lt;p&gt;As the internship draws to a close:&lt;/p&gt;
 
@@ -186,78 +1155,4 @@
 
 &lt;p&gt;Good luck!&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;The views expressed are my own and not those of my employer.&lt;/em&gt;&lt;/p&gt;</content><author><name>Mansour Ahmed</name><email>mail@mansourahmed.com</email></author><summary type="html">Over the summer, we had a university student join us at work for an internship program, and I was fortunate enough to have the opportunity to mentor them for those three months. I found it to be a rewarding and successful experience. While I had had various internships myself years ago, this was my first time being on the other side. This post is a summary and reflection of that time, and hopefully a chance to share some tips.</summary></entry><entry><title type="html">Next chapter, New York</title><link href="http://localhost:4000/2019/03/new-york/" rel="alternate" type="text/html" title="Next chapter, New York" /><published>2019-03-13T19:02:00+00:00</published><updated>2019-03-13T19:02:00+00:00</updated><id>http://localhost:4000/2019/03/new-york</id><content type="html" xml:base="http://localhost:4000/2019/03/new-york/">&lt;p&gt;So, I’ve begun another chapter in life: I’ve moved from London to New York City. A big move geographically, but not a huge difference culturally (really all big cities). I am keen to explore the tech scene here further, I’m sure its just as vibrant as the one back home. I’ve also set myself some personal growth goals while I’m out here, and perhaps this blog post will hold me accountable(!). Onwards!&lt;/p&gt;</content><author><name>Mansour Ahmed</name><email>mail@mansourahmed.com</email></author><summary type="html">So, I’ve begun another chapter in life: I’ve moved from London to New York City. A big move geographically, but not a huge difference culturally (really all big cities). I am keen to explore the tech scene here further, I’m sure its just as vibrant as the one back home. I’ve also set myself some personal growth goals while I’m out here, and perhaps this blog post will hold me accountable(!). Onwards!</summary></entry><entry><title type="html">2018 Retrospective Reading List</title><link href="http://localhost:4000/2018/12/2018-reading-list/" rel="alternate" type="text/html" title="2018 Retrospective Reading List" /><published>2018-12-28T19:02:00+00:00</published><updated>2018-12-28T19:02:00+00:00</updated><id>http://localhost:4000/2018/12/2018-reading-list</id><content type="html" xml:base="http://localhost:4000/2018/12/2018-reading-list/">&lt;p&gt;In keeping with (my relatively) recent tradition, here’s my annual retrospective recommended reading list. It’s a shorter list than usual (just three books this time), but do check them out.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.amazon.co.uk/Designing-Data-Intensive-Applications-Reliable-Maintainable&quot;&gt;Designing Data Intensive Applications&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.amazon.co.uk/Brit-ish-Race-Identity-Belonging/dp/1911214284&quot;&gt;Brit(ish)&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.amazon.co.uk/Even-You-Learn-Statistics-Analytics/dp/0133382664&quot;&gt;Even You Can Learn Statistics and Analytics&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Mansour Ahmed</name><email>mail@mansourahmed.com</email></author><summary type="html">In keeping with (my relatively) recent tradition, here’s my annual retrospective recommended reading list. It’s a shorter list than usual (just three books this time), but do check them out.</summary></entry><entry><title type="html">HaskellX 2018</title><link href="http://localhost:4000/2018/10/haskellx/" rel="alternate" type="text/html" title="HaskellX 2018" /><published>2018-10-14T20:02:00+01:00</published><updated>2018-10-14T20:02:00+01:00</updated><id>http://localhost:4000/2018/10/haskellx</id><content type="html" xml:base="http://localhost:4000/2018/10/haskellx/">&lt;p&gt;I attended the 2018 Haskell eXchange (HaskellX) conference this week. It’s a two-day conference on the programming language Haskell, and its use in industry. Below a brief summary of some of the talks that I found to be personal highlights, with links to the recordings - check them out! See the &lt;a href=&quot;https://skillsmatter.com/conferences/10237-haskell-exchange-2018#program&quot;&gt;full programme here&lt;/a&gt;.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://skillsmatter.com/skillscasts/11654-keynote-how-to-deploy-your-haskell-code-hundreds-of-times-a-day&quot;&gt;How to Deploy your Haskell Code Hundreds of Times a Day&lt;/a&gt;
-    &lt;ul&gt;
-      &lt;li&gt;One of the keynotes, on how code is rapidly deployed to production at FB.&lt;/li&gt;
-      &lt;li&gt;In the system described, they do this by pushing all their business logic into libraries which are compiled to shared objects, and then hot-swapping these updated shared objects and loading into the main program on demand.&lt;/li&gt;
-      &lt;li&gt;This approach is required for use-cases such as abuse-detection (removing abusive content posted by users) where they need to deploy updated logic/rules/heuristics ASAP in response to some new threat (in seconds), and they cannot tolerate longer times associated with a full deployment (i.e. restarting machines, reconnecting to dependent services, etc).&lt;/li&gt;
-      &lt;li&gt;He also mentioned how they have a tool in their code review system that will run the code-presented-for-review against some simulated production traffic replay and report back performance stats. Nice! (&lt;a href=&quot;https://code.fb.com/developer-tools/sapienz-intelligent-automated-software-testing-at-scale/&quot;&gt;Related?&lt;/a&gt;)&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://skillsmatter.com/skillscasts/12589-headfirst-into-haskell&quot;&gt;Headfirst into Haskell&lt;/a&gt;
-    &lt;ul&gt;
-      &lt;li&gt;An honest experience report based on the speaker’s first year working with Haskell.&lt;/li&gt;
-      &lt;li&gt;One interesting topic touched on is that of &lt;a href=&quot;https://blog.aurynn.com/2015/12/16-contempt-culture&quot;&gt;Contempt Culture&lt;/a&gt;; for example looking down at people who use other programming languages, and the closed-mindedness that ensues. Contempt Culture disproportionately affects those who are under-represented minorities in Tech, who may have taken non-traditional routes into the industry.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://skillsmatter.com/skillscasts/12930-building-a-multi-billion-dollar-cryptocurrency-with-haskell&quot;&gt;Building a Multi-Billion Dollar Cryptocurrency with Haskell&lt;/a&gt;
-    &lt;ul&gt;
-      &lt;li&gt;The speaker presents his view on what has setup his organisation for success in building their cryptocurrency/platform.&lt;/li&gt;
-      &lt;li&gt;Its developed in Haskell, and he describes how that’s made it a success: Haskell programmers tend to be more sympathetic to the world of mathematics and academic rigor, which is necessary in defining and solving the underlying engineering problems that arise when building blockchain systems (engineering problems around distributed systems, networking, etc., as well as finance/economics/regulatory concerns)&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://skillsmatter.com/skillscasts/11068-keynote-looking-forward-to-niki-vazou-s-keynote-at-haskellx-2018#video&quot;&gt;Liquid Haskell&lt;/a&gt;
-    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;https://ucsd-progsys.github.io/liquidhaskell-blog/&quot;&gt;Liquid Haskell&lt;/a&gt; is an extension to the Haskell language that allows you to prove things about your code, which are then confirmed at compile time.&lt;/li&gt;
-      &lt;li&gt;For example, if you had a function that given a list, returned the head of a list, but wanted it to not throw a runtime exception in the case that the list was empty, then using Liquid Haskell you could: encode as a type the notion of a non-empty list, and then annotate your function with a precondition to say that this function only takes non-empty lists. This check would then instead throw a compile-time error if that condition is violated, which can be dealt with more readily.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Mansour Ahmed</name><email>mail@mansourahmed.com</email></author><summary type="html">I attended the 2018 Haskell eXchange (HaskellX) conference this week. It’s a two-day conference on the programming language Haskell, and its use in industry. Below a brief summary of some of the talks that I found to be personal highlights, with links to the recordings - check them out! See the full programme here.</summary></entry><entry><title type="html">Big Code Summit</title><link href="http://localhost:4000/2018/10/big-code-summit/" rel="alternate" type="text/html" title="Big Code Summit" /><published>2018-10-10T20:02:00+01:00</published><updated>2018-10-10T20:02:00+01:00</updated><id>http://localhost:4000/2018/10/big-code-summit</id><content type="html" xml:base="http://localhost:4000/2018/10/big-code-summit/">&lt;p&gt;I’ve just returned from the inaugural ‘Big Code Summit’. A two-day conference on the very interesting topic of &lt;em&gt;Big Code&lt;/em&gt;, which featured a mix of academic and industry speakers. &lt;a href=&quot;https://bigcodesummit.splashthat.com/&quot;&gt;See here&lt;/a&gt; for a link to the full programme.&lt;/p&gt;
-
-&lt;p&gt;By analogy to Big Data, &lt;em&gt;Big Code&lt;/em&gt; is the research area on how to manage large amounts of code in an organization and how best to deal with the complexities that come with that, as well as how to treat your code as data and leverage that large corpus to gain insights into how engineers can work better.&lt;/p&gt;
-
-&lt;p&gt;Below are summary notes on some of the talks that I found to be personal highlights:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://dl.acm.org/citation.cfm?id=3211353&quot;&gt;Neural code search&lt;/a&gt;
-    &lt;ul&gt;
-      &lt;li&gt;Using NLP and IR techniques to search through code&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://software-lab.org/publications/oopsla2018_DeepBugs.pdf&quot;&gt;Learning to find Bugs&lt;/a&gt;
-    &lt;ul&gt;
-      &lt;li&gt;Using ML to detect bugs in code. This is done by formalizing bug-finding as a classification problem: is this code buggy or non-buggy? In contrast, static analysis bug detectors fall short as they are coded to look for specific patterns.&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;https://github.com/michaelpradel/DeepBugs&quot;&gt;DeepBugs&lt;/a&gt; is trained on a labeled code corpus (given snippet of code, label is buggy/non-buggy), and so can learn more general rules. Fortunately, these labels come naturally from source version histories: if a given commit has a bug, then there will be a dual, follow-up commit that fixes the bug. It can even suggest fixes to the bug, based on information from source version history (e.g. commit x had a bug, commit y fixes the bug, that delta is the bug-fix strategy).&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://homepages.inf.ed.ac.uk/csutton/talks/learning4programs/&quot;&gt;Learning for Programs: Connecting code, statistics, semantics, and language&lt;/a&gt;
-    &lt;ul&gt;
-      &lt;li&gt;A broad-ranging talk, that touched on solving some interesting problems such as generating code comments from some given source snippet, or detecting redundant/inaccurate comments by comparison to their adjacent source code.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://pavol-bielik.github.io/data/slides/BigCodeWorkshop'18.pdf&quot;&gt;Generate program UIs from design layouts&lt;/a&gt;
-    &lt;ul&gt;
-      &lt;li&gt;Given an image from a UI designer, use ML to generate code that creates that UI. This is to save developers time/effort in producing UIs, and reduce inconsistencies from eye-balling.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://arxiv.org/pdf/1703.05698.pdf&quot;&gt;Neural sketch learning&lt;/a&gt;
-    &lt;ul&gt;
-      &lt;li&gt;All about generating source code given some conditions (syntactic/semantic constraints) that the desired target source code must satisfy. Check out (&lt;a href=&quot;http://askbayou.com/&quot;&gt;Bayou&lt;/a&gt;) (&lt;a href=&quot;https://info.askbayou.com/how-to-use-bayou/&quot;&gt;more info&lt;/a&gt;); which can be used to generate Java code that follows API-calling idioms.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Mansour Ahmed</name><email>mail@mansourahmed.com</email></author><summary type="html">I’ve just returned from the inaugural ‘Big Code Summit’. A two-day conference on the very interesting topic of Big Code, which featured a mix of academic and industry speakers. See here for a link to the full programme.</summary></entry><entry><title type="html">Afrotech Fest 2018</title><link href="http://localhost:4000/2018/02/afrotech-fest/" rel="alternate" type="text/html" title="Afrotech Fest 2018" /><published>2018-02-01T21:06:48+00:00</published><updated>2018-02-01T21:06:48+00:00</updated><id>http://localhost:4000/2018/02/afrotech-fest</id><content type="html" xml:base="http://localhost:4000/2018/02/afrotech-fest/">&lt;p&gt;I very much enjoyed attending &lt;a href=&quot;https://www.afrotechfest.co.uk/&quot;&gt;Afrotech Fest&lt;/a&gt; in London recently. It was ”a two-day tech festival by and for black people of African and Caribbean heritage”, with an exciting programme of events including thought-provoking talks, panels and workshops.&lt;/p&gt;
-
-&lt;p&gt;I think an event like this was vitally needed: various, laudable, efforts have been made to address issues of diversity &amp;amp; inclusion in the technology industry, but &lt;a href=&quot;https://en.oxforddictionaries.com/definition/bame&quot;&gt;BAME&lt;/a&gt; Britons are rarely the focus of these efforts. It was inspiring and re-energising to meet others from this under-represented community, and celebrate their talents in a unique, open-minded and intellectual setting.&lt;/p&gt;
-
-&lt;p&gt;I applaud the work of the organisers of this successful event, and look forward to returning next year!&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/img/20180127_175426-1024x576.jpg&quot; alt=&quot;Afrotech Fest&quot; /&gt;&lt;/p&gt;</content><author><name>Mansour Ahmed</name><email>mail@mansourahmed.com</email></author><summary type="html">I very much enjoyed attending Afrotech Fest in London recently. It was ”a two-day tech festival by and for black people of African and Caribbean heritage”, with an exciting programme of events including thought-provoking talks, panels and workshops.</summary></entry></feed>
+&lt;p&gt;&lt;em&gt;The views expressed are my own and not those of my employer.&lt;/em&gt;&lt;/p&gt;</content><author><name>Mansour Ahmed</name><email>mail@mansourahmed.com</email></author><summary type="html">Over the summer, we had a university student join us at work for an internship program, and I was fortunate enough to have the opportunity to mentor them for those three months. I found it to be a rewarding and successful experience. While I had had various internships myself years ago, this was my first time being on the other side. This post is a summary and reflection of that time, and hopefully a chance to share some tips.</summary></entry><entry><title type="html">Next chapter, New York</title><link href="http://localhost:4000/2019/03/new-york/" rel="alternate" type="text/html" title="Next chapter, New York" /><published>2019-03-13T15:02:00-04:00</published><updated>2019-03-13T15:02:00-04:00</updated><id>http://localhost:4000/2019/03/new-york</id><content type="html" xml:base="http://localhost:4000/2019/03/new-york/">&lt;p&gt;So, I’ve begun another chapter in life: I’ve moved from London to New York City. A big move geographically, but not a huge difference culturally (really all big cities). I am keen to explore the tech scene here further, I’m sure its just as vibrant as the one back home. I’ve also set myself some personal growth goals while I’m out here, and perhaps this blog post will hold me accountable(!). Onwards!&lt;/p&gt;</content><author><name>Mansour Ahmed</name><email>mail@mansourahmed.com</email></author><summary type="html">So, I’ve begun another chapter in life: I’ve moved from London to New York City. A big move geographically, but not a huge difference culturally (really all big cities). I am keen to explore the tech scene here further, I’m sure its just as vibrant as the one back home. I’ve also set myself some personal growth goals while I’m out here, and perhaps this blog post will hold me accountable(!). Onwards!</summary></entry></feed>
