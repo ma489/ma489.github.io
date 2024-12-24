@@ -103,7 +103,8 @@ analytics:
 author:
   name             : "Mansour Ahmed"
   avatar           : "/assets/img/profile-photo.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Software Engineer • 🇬🇧 in 🇺🇸 • Interests: ML 🤖, FP λ, Cloud ☁️"
+  bio              : "Software Engineer • 🇬🇧 in 🇺🇸 • <i>Interests</i>: AI/ML 🧠, FP <strong>λ</strong>"
+  bio_extended     : "<i>All views expressed are my own.</i>"
   location         : "NYC / LDN"
   email            : mail@mansourahmed.com
   uri              :
@@ -132,6 +133,7 @@ author:
   xing             :
   youtube          : # "https://youtube.com/c/MichaelRoseDesign"
   mastodon         : https://mastodon.online/@ma489
+  bluesky          : http://ma489.bsky.social
 
 
 # Reading Files

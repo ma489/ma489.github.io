@@ -14,7 +14,7 @@ var store = [{
         "tags": [],
         "url": "http://localhost:4000/2015/12/fx-simulation-and-data-visualisation/",
         "teaser":null},{
-        "title": "2015 Retrospective Reading List",
+        "title": "2015 Reading List",
         "excerpt":"As the year draws to end, I’ve been reflecting on the all the new things I’ve learnt. Below is a list of some of the good books I’ve read over the last year, that I would recommend. It’s a mix of old and new, technical and finance-related (the domain I...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/2015/12/2015-reading-list/",
@@ -39,7 +39,7 @@ var store = [{
         "tags": [],
         "url": "http://localhost:4000/2016/05/bloom-filter/",
         "teaser":null},{
-        "title": "Radio => Spotify Playlists",
+        "title": "Listify: Radio to Spotify Playlists",
         "excerpt":"Listify is a Web app that combines information from the BBC radio schedule with the Spotify API, to automate the creation of Spotify playlists from radio shows. I was motivated to build it because I realised that what I love about the radio shows that I listen to is the music, and...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/2016/06/listify/",
@@ -69,7 +69,7 @@ var store = [{
         "tags": [],
         "url": "http://localhost:4000/2016/10/improving-listify/",
         "teaser":null},{
-        "title": "2016 Retrospective Reading List",
+        "title": "2016 Reading List",
         "excerpt":"As the year draws to end, I’ve been reflecting on the all the new things I’ve learnt. Below is a list of some of the good books I’ve read over the last year (a mix of old and new), that I would recommend. As ever, I’ve been making full use...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/2016/12/2016-reading-list/",
@@ -84,7 +84,7 @@ var store = [{
         "tags": [],
         "url": "http://localhost:4000/2017/04/turing/",
         "teaser":null},{
-        "title": "2017 Retrospective Reading List",
+        "title": "2017 Reading List",
         "excerpt":"My 2017 retrospective on books I’ve read. It’s a mix of old and new, technical and not (if one can make such a distinction). As ever, I’ve been making full use of my Safari Books subscription, but I’m attaching Amazon links here for simplicity. Functional and Reactive Domain Modeling Web...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/2017/12/2017-reading-list/",
@@ -109,7 +109,7 @@ var store = [{
         "tags": [],
         "url": "http://localhost:4000/2018/10/haskellx/",
         "teaser":null},{
-        "title": "2018 Retrospective Reading List",
+        "title": "2018 Reading List",
         "excerpt":"In keeping with (my relatively) recent tradition, here’s my annual retrospective recommended reading list. It’s a shorter list than usual (just three books this time), but do check them out.   Designing Data Intensive Applications  Brit(ish)  Even You Can Learn Statistics and Analytics","categories": [],
         "tags": [],
         "url": "http://localhost:4000/2018/12/2018-reading-list/",
@@ -124,7 +124,7 @@ var store = [{
         "tags": [],
         "url": "http://localhost:4000/2019/09/mentoring/",
         "teaser":null},{
-        "title": "2019 Retrospective Reading List",
+        "title": "2019 Reading List",
         "excerpt":"A little different this year, with the addition of audiobooks! As ever, this isn’t necessarily an endorsement of any of these books :) Books The Basics of Financial Econometrics (Fabozzi, et al.) The ‘Very British Problems’ series (Temple)Audiobooks Outliers (Gladwell) Guns Germs And Steel (Diamond) Lab Rats (Lyons) Disrupted: Ludicrous...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/2019/12/2019-reading-list/",
@@ -134,7 +134,7 @@ var store = [{
         "tags": [],
         "url": "http://localhost:4000/2020/01/2020-aws-certified/",
         "teaser":null},{
-        "title": "2020 Retrospective Reading List",
+        "title": "2020 Reading List",
         "excerpt":"Another year, another retrospective reading list. With the ongoing pandemic, I have found myself reading more. I have continued with the trend of leaning towards audiobooks (I think this format works really well for non-fiction that is not too technical). This year, the list is mostly a mix of pop-science...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/2020/12/2020-reading-list/",
@@ -149,7 +149,7 @@ var store = [{
         "tags": [],
         "url": "http://localhost:4000/2021/09/movie-data-analysis/",
         "teaser":null},{
-        "title": "2021 Retrospective Reading List",
+        "title": "2021 Reading List",
         "excerpt":"This year I discovered I could get Kindle ebooks through my local public library! I also joined a book club, which has been useful in diversifying the range of books I read. I’m also starting to learn how to abandon books part-way that I no longer enjoy reading - rather...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/2021/12/2021-reading-list/",
@@ -159,8 +159,18 @@ var store = [{
         "tags": [],
         "url": "http://localhost:4000/2022/5/maths-ml/",
         "teaser":null},{
-        "title": "2022 Retrospective Reading List",
-        "excerpt":"A much shorter list this year, as I’m reading more academic papers instead Books Limbo (Lubrano) The Ethical Algorithm (Kearns &amp; Roth)Audiobooks Virtual Society (Narula) Black Spartacus (Hazareesingh) Solve For Happy (Gawdat) When Prophecy Fails (Fesinger et al) Indistractable (Eyal) Nice Girls Don’t Get the Corner Office (Frankel) Marry Him...","categories": [],
+        "title": "2022 Reading List",
+        "excerpt":"A much shorter list of books this year, as I’m reading more academic papers instead Books Limbo (Lubrano, 2003) The Ethical Algorithm (Kearns &amp; Roth, 2019)Audiobooks Virtual Society (Narula, 2022) Black Spartacus (Hazareesingh, 2020) Solve For Happy (Gawdat, 2017) When Prophecy Fails (Festinger et al, 1956) Indistractable (Eyal, 2019) Nice...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/2022/12/2022-reading-list/",
+        "teaser":null},{
+        "title": "2023 Reading List",
+        "excerpt":"Another year, another journey through a fascinating set of books. Some of my selections this year were inspired by the excellent Rebel Book Club, a community I’m proud to be part of. Others were part of my ongoing Master’s degree studies in Machine learning. Explore my curated list below! Books...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/2023/12/2023-reading-list/",
+        "teaser":null},{
+        "title": "2024 Reading List",
+        "excerpt":"As 2024 draws to a close, it’s time for another retrospective list of the most interesting books I’ve read this year. The list is decidedly shorter than usual, a result of my focus on completing my Master’s degree — a year spent diving into academic papers more than leisure reading....","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/2024/12/2024-reading-list/",
         "teaser":null}]
