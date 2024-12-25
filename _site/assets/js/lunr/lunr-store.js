@@ -115,7 +115,7 @@ var store = [{
         "url": "http://localhost:4000/2018/12/2018-reading-list/",
         "teaser":null},{
         "title": "Next chapter, New York",
-        "excerpt":"So, I’ve begun another chapter in life: I’ve moved from London to New York City. A big move geographically, but not a huge difference culturally (really all big cities). I am keen to explore the tech scene here further, I’m sure its just as vibrant as the one back home....","categories": [],
+        "excerpt":"So, I’ve begun another chapter in life: I’ve moved from London to New York City. A huge move geographically, but not a huge difference culturally (really, two big cities). I am keen to explore the tech scene here further, I’m sure its just as vibrant as the one back home....","categories": [],
         "tags": [],
         "url": "http://localhost:4000/2019/03/new-york/",
         "teaser":null},{
@@ -129,8 +129,8 @@ var store = [{
         "tags": [],
         "url": "http://localhost:4000/2019/12/2019-reading-list/",
         "teaser":null},{
-        "title": "AWS Certified",
-        "excerpt":"I am now an AWS Certified Solutions Architect (Associate). I was a little nervous before taking the exam (it’s been a while!), but I’m glad to have been able to validate my technical skills.  Learn more about it here. ","categories": [],
+        "title": "AWS Certified Solutions Architect",
+        "excerpt":"I’m pleased to share that I am now an AWS Certified Solutions Architect (Associate). I was a little nervous before taking the exam (it’s been a while!), but I’m glad to have been able to validate my technical skills.  Learn more about it here. ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/2020/01/2020-aws-certified/",
         "teaser":null},{
@@ -164,10 +164,30 @@ var store = [{
         "tags": [],
         "url": "http://localhost:4000/2022/12/2022-reading-list/",
         "teaser":null},{
+        "title": "Exploring Language in Classic Fiction with Data and R",
+        "excerpt":"Introduction In this post, I will present an exploratory data analysis and visualisation of natural language data from a collection of 26 fiction books by six English-language authors. The data was downloaded from the Project Gutenberg website [1]. For the purposes of this analysis, we treat each book as a...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/2023/04/analysing-language-fiction/",
+        "teaser":null},{
+        "title": "Census Data Classification with PySpark ML",
+        "excerpt":"Introduction In this post, I’ll present a statistical analysis of the ‘Census Income’ dataset created by Becker &amp; Kohavi [1], using the PySpark MLlib package [2]. The dataset was downloaded from the UCI Machine Learning Repository, and contains various demographic details of ~48k individuals (from the 1996 US Census) and...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/2023/07/pyspark-ml-classification/",
+        "teaser":null},{
+        "title": "Multiclass Image Classification with CNNs",
+        "excerpt":"Introduction In this post, I’ll present the analysis and processing of an images dataset, and the training and application of Convolutional Neural Network (CNN) models (using PyTorch) for the purpose of multiclass classification of the dataset. The dataset is the ‘The Simpsons Characters Dataset’ [1] (obtained from Kaggle [1]), and...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/2023/12/cnn-image-classification/",
+        "teaser":null},{
         "title": "2023 Reading List",
         "excerpt":"Another year, another journey through a fascinating set of books. Some of my selections this year were inspired by the excellent Rebel Book Club, a community I’m proud to be part of. Others were part of my ongoing Master’s degree studies in Machine learning. Explore my curated list below! Books...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/2023/12/2023-reading-list/",
+        "teaser":null},{
+        "title": "Master's Thesis: Spatial Regression with Deep Learning and Attention",
+        "excerpt":"I am excited to share that I have successfully completed and submitted my Master’s thesis, fulfilling the final requirement for my degree in Machine Learning and Data Science at Imperial College London. At a high-level, the project focused on using Deep Learning to predict property prices (with TensorFlow). I was...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/2024/09/thesis-deep-learning-attention-spatial-regression/",
         "teaser":null},{
         "title": "2024 Reading List",
         "excerpt":"As 2024 draws to a close, it’s time for another retrospective list of the most interesting books I’ve read this year. The list is decidedly shorter than usual, a result of my focus on completing my Master’s degree — a year spent diving into academic papers more than leisure reading....","categories": [],

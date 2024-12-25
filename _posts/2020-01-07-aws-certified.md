@@ -1,12 +1,12 @@
 ---
-title: AWS Certified
+title: AWS Certified Solutions Architect
 date: 2020-01-07T19:02:00+00:00
 layout: single
 permalink: /2020/01/2020-aws-certified/
 classes: wide
 ---
 
-I am now an *AWS Certified Solutions Architect (Associate)*. 
+I'm pleased to share that I am now an **AWS Certified Solutions Architect (Associate)**.
 
 I was a little nervous before taking the exam (it's been a while!), but I'm glad to have been able to validate my technical skills.  Learn more about it [here](https://aws.amazon.com/certification/certified-solutions-architect-associate/).
 

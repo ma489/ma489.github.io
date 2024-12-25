@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-12-25T07:56:52-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Mansour Ahmed</title><subtitle>Mansour Ahmed&apos;s Personal Blog</subtitle><author><name>Mansour Ahmed</name><email>mail@mansourahmed.com</email></author><entry><title type="html">2024 Reading List</title><link href="http://localhost:4000/2024/12/2024-reading-list/" rel="alternate" type="text/html" title="2024 Reading List" /><published>2024-12-20T07:02:00-05:00</published><updated>2024-12-20T07:02:00-05:00</updated><id>http://localhost:4000/2024/12/2024-reading-list</id><content type="html" xml:base="http://localhost:4000/2024/12/2024-reading-list/"><![CDATA[<p>As 2024 draws to a close, it’s time for another retrospective list of the most interesting books I’ve read this year.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-12-30T20:00:02-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Mansour Ahmed</title><subtitle>Mansour Ahmed&apos;s Personal Blog</subtitle><author><name>Mansour Ahmed</name><email>mail@mansourahmed.com</email></author><entry><title type="html">2024 Reading List</title><link href="http://localhost:4000/2024/12/2024-reading-list/" rel="alternate" type="text/html" title="2024 Reading List" /><published>2024-12-20T07:02:00-05:00</published><updated>2024-12-20T07:02:00-05:00</updated><id>http://localhost:4000/2024/12/2024-reading-list</id><content type="html" xml:base="http://localhost:4000/2024/12/2024-reading-list/"><![CDATA[<p>As 2024 draws to a close, it’s time for another retrospective list of the most interesting books I’ve read this year.</p>
 
 <p>The list is decidedly shorter than usual, a result of my focus on completing my Master’s degree — a year spent diving into academic papers more than leisure reading. (I’ve not included the papers I read for my thesis here).</p>
 
@@ -26,7 +26,28 @@
   <li>Chen, H., Gilad-Bachrach, R., Han, K. et al. <a href="https://doi.org/10.1186/s12920-018-0397-z">Logistic Regression over Encrypted Data from Fully Homomorphic Encryption</a>. <em>BMC Med Genomics 11 (Suppl 4), 81 (2018)</em>.</li>
   <li>T. Li, A. K. Sahu, A. Talwalkar and V. Smith (2020). <a href="https://doi.org/10.1109/MSP.2020.2975749">Federated Learning: Challenges, Methods, and Future Directions</a>. <em>IEEE Signal Processing Magazine, vol. 37, no. 3, pp. 50-60, May 2020</em>.</li>
   <li>Rigaki, Maria, and Sebastian Garcia. (2023). <a href="https://doi.org/10.1145/3624010">A Survey of Privacy Attacks in Machine Learning</a>. <em>ACM Computing Surveys, vol. 56, no. 4, Nov. 2023, pp. 1–34</em>.</li>
-</ul>]]></content><author><name>Mansour Ahmed</name><email>mail@mansourahmed.com</email></author><summary type="html"><![CDATA[As 2024 draws to a close, it’s time for another retrospective list of the most interesting books I’ve read this year.]]></summary></entry><entry><title type="html">2023 Reading List</title><link href="http://localhost:4000/2023/12/2023-reading-list/" rel="alternate" type="text/html" title="2023 Reading List" /><published>2023-12-28T07:02:00-05:00</published><updated>2023-12-28T07:02:00-05:00</updated><id>http://localhost:4000/2023/12/2023-reading-list</id><content type="html" xml:base="http://localhost:4000/2023/12/2023-reading-list/"><![CDATA[<p>Another year, another journey through a fascinating set of books. Some of my selections this year were inspired by the excellent <a href="https://www.rebelbook.club/"><em>Rebel Book Club</em></a>, a community I’m proud to be part of. Others were part of my ongoing Master’s degree studies in Machine learning. Explore my curated list below!</p>
+</ul>]]></content><author><name>Mansour Ahmed</name><email>mail@mansourahmed.com</email></author><summary type="html"><![CDATA[As 2024 draws to a close, it’s time for another retrospective list of the most interesting books I’ve read this year.]]></summary></entry><entry><title type="html">Master’s Thesis: Spatial Regression with Deep Learning and Attention</title><link href="http://localhost:4000/2024/09/thesis-deep-learning-attention-spatial-regression/" rel="alternate" type="text/html" title="Master’s Thesis: Spatial Regression with Deep Learning and Attention" /><published>2024-09-20T08:02:00-04:00</published><updated>2024-09-20T08:02:00-04:00</updated><id>http://localhost:4000/2024/09/thesis-dl-spatial</id><content type="html" xml:base="http://localhost:4000/2024/09/thesis-deep-learning-attention-spatial-regression/"><![CDATA[<p>I am excited to share that I have successfully completed and submitted my <strong>Master’s thesis</strong>, fulfilling the final requirement for my degree in <strong>Machine Learning and Data Science</strong> at <a href="https://www.imperial.ac.uk">Imperial College London</a>.</p>
+
+<p>At a high-level, the project focused on using Deep Learning to predict property prices (with <a href="https://www.tensorflow.org/">TensorFlow</a>). I was supervised by the inspiring, highly knowledgable and supportive Dr. J Martin. The thesis is titled:</p>
+
+<blockquote>
+  <p><strong>Predicting Property Prices in New York City: Deep Learning with Attention for Spatial Regression on Areal Data</strong>.</p>
+</blockquote>
+
+<p>Below, you’ll find the abstract. If you’re interested in reading the full text (~10,000 words), feel free to reach out via email — I’d be happy to share a copy!</p>
+
+<h2 id="abstract">Abstract</h2>
+
+<p>        Accurately predicting property prices is a challenging but important problem. An
+accurate understanding of property prices is important both as guidance to individuals
+(buyers gauging a fair price, and sellers evaluating their properties), and as signals of
+broader economic trends. <br />
+        This thesis approaches the task of property price prediction as a spatial regression problem. Specifically, we investigate the efficacy of deep learning with attention mechanisms in the task of spatial regression, as applied to a city-scale areal dataset. This methodological exploration is conducted with particular application to predicting residential property prices in New York City (NYC), at the city block level. Residential property prices in NYC are among the most expensive in the world, and so accurate property price prediction has significant financial implications. <br />
+        A comprehensive exploratory data analysis was undertaken to uncover the complexities of the NYC residential property market. Through the use of modern deep learning techniques, and statistical methods including Bayesian optimisation and spatial cross-validation, multiple models were developed and rigorously evaluated, and their performances compared. <br />
+        We propose the use of a deep learning model that incorporates an attention mechanism. Empirical results show that this model outperforms traditional approaches such as Geographically Weighted Regression, and demonstrates a more modest performance improvement over deep learning models <em>without</em> attention. Furthermore, inspection of the attention weights of the model offers possible additional interpretability and insight. <br />
+        We propose several future directions in this active research area, including the use of multi-head attention and alternative positional encodings, which may offer further improvements in predictive performance.</p>
+
+<p><strong>Keywords</strong>: <em>spatial data, regression, deep learning, attention, property prices</em></p>]]></content><author><name>Mansour Ahmed</name><email>mail@mansourahmed.com</email></author><summary type="html"><![CDATA[I am excited to share that I have successfully completed and submitted my Master’s thesis, fulfilling the final requirement for my degree in Machine Learning and Data Science at Imperial College London.]]></summary></entry><entry><title type="html">2023 Reading List</title><link href="http://localhost:4000/2023/12/2023-reading-list/" rel="alternate" type="text/html" title="2023 Reading List" /><published>2023-12-28T07:02:00-05:00</published><updated>2023-12-28T07:02:00-05:00</updated><id>http://localhost:4000/2023/12/2023-reading-list</id><content type="html" xml:base="http://localhost:4000/2023/12/2023-reading-list/"><![CDATA[<p>Another year, another journey through a fascinating set of books. Some of my selections this year were inspired by the excellent <a href="https://www.rebelbook.club/"><em>Rebel Book Club</em></a>, a community I’m proud to be part of. Others were part of my ongoing Master’s degree studies in Machine learning. Explore my curated list below!</p>
 
 <h3 id="books">Books</h3>
 
@@ -67,7 +88,332 @@
   <li>Paleyes, A., Urma, R. G., &amp; Lawrence, N. D. (2022). <a href="https://dl.acm.org/doi/full/10.1145/3533378">Challenges in deploying machine learning: a survey of case studies</a>. <em>ACM computing surveys, 55(6), 1-29</em>.</li>
   <li>Kim, M., Zimmermann, T., DeLine, R., &amp; Begel, A. (2017). <a href="https://ieeexplore.ieee.org/abstract/document/8046093">Data Scientists in Software Teams: State of the Art and Challenges</a>. <em>IEEE Transactions on Software Engineering, 44(11), 1024-1038</em>.</li>
   <li>Verma, S., &amp; Rubin, J. (2018). <a href="https://dl.acm.org/doi/abs/10.1145/3194770.3194776">Fairness Definitions Explained</a>. <em>In Proceedings of the international workshop on software fairness (pp. 1-7)</em>.</li>
-</ul>]]></content><author><name>Mansour Ahmed</name><email>mail@mansourahmed.com</email></author><summary type="html"><![CDATA[Another year, another journey through a fascinating set of books. Some of my selections this year were inspired by the excellent Rebel Book Club, a community I’m proud to be part of. Others were part of my ongoing Master’s degree studies in Machine learning. Explore my curated list below!]]></summary></entry><entry><title type="html">2022 Reading List</title><link href="http://localhost:4000/2022/12/2022-reading-list/" rel="alternate" type="text/html" title="2022 Reading List" /><published>2022-12-11T07:02:00-05:00</published><updated>2022-12-11T07:02:00-05:00</updated><id>http://localhost:4000/2022/12/2022-reading-list</id><content type="html" xml:base="http://localhost:4000/2022/12/2022-reading-list/"><![CDATA[<p>A much shorter list of <em>books</em> this year, as I’m reading more academic papers instead</p>
+</ul>]]></content><author><name>Mansour Ahmed</name><email>mail@mansourahmed.com</email></author><summary type="html"><![CDATA[Another year, another journey through a fascinating set of books. Some of my selections this year were inspired by the excellent Rebel Book Club, a community I’m proud to be part of. Others were part of my ongoing Master’s degree studies in Machine learning. Explore my curated list below!]]></summary></entry><entry><title type="html">Multiclass Image Classification with CNNs</title><link href="http://localhost:4000/2023/12/cnn-image-classification/" rel="alternate" type="text/html" title="Multiclass Image Classification with CNNs" /><published>2023-12-21T07:02:00-05:00</published><updated>2023-12-21T07:02:00-05:00</updated><id>http://localhost:4000/2023/12/cnn-image-classification</id><content type="html" xml:base="http://localhost:4000/2023/12/cnn-image-classification/"><![CDATA[<h2 id="introduction">Introduction</h2>
+
+<p>In this post, I’ll present the analysis and processing of an images dataset, and the training and application of <a href="https://en.wikipedia.org/wiki/Convolutional_neural_network">Convolutional Neural Network</a> (CNN) models (using <a href="https://pytorch.org/">PyTorch</a>) for the purpose of <a href="https://en.wikipedia.org/wiki/Multiclass_classification"><em>multiclass classification</em></a> of the dataset. The dataset is the ‘The Simpsons Characters Dataset’ <a href="#references">[1]</a> (obtained from Kaggle <a href="#references">[1]</a>), and contains still images of different characters taken from the television show <em>The Simpsons</em> <a href="#references">[2]</a>.</p>
+
+<p>The goal of the analysis and modelling, and hence the problem statement, is: <strong>Given the Simpsons Characters image dataset, how accurately can the characters in the images be correctly identified?</strong></p>
+
+<p>The accompanying code and data repository can be found <a href="https://github.com/ma489/mlds-uda-hw4">here</a>.</p>
+
+<h2 id="the-data">The Data</h2>
+
+<h3 id="background--overview">Background &amp; Overview</h3>
+
+<p>The full image dataset contains ~22,000 still images of 42 different cartoon characters. The images are taken from the popular, animated, American television show The Simpsons <a href="#references">[2]</a>. As of 2023, the show has broadcast 760 episodes across 35 ‘seasons’ since 1989 <a href="#references">[3]</a>. Over this time, (human) fans of the television show have become familiar with the characters and can easily identify them. Figures 1-6 below show example images from the dataset, with the captions indicating the respective character’s name. Each image in the dataset contains only one character.</p>
+
+<p>For the purposes of this analysis, a sub-sample of the data was selected. This is because, given its size, using the full dataset presents a computational challenge: training a model on it would take impractically long. Instead a sub-sample of ~⅓ of the size of the full sample was taken. This subsample contains <strong>8,363 images of 6 characters</strong>.</p>
+
+<p>These characters are (short names in brackets): Homer Simpson (<em>Homer</em>), Marge Simpson (<em>Marge</em>), Bart Simpson (<em>Bart</em>), Lisa Simpson (<em>Lisa</em>), Krusty the Clown (<em>Krusty</em>) and Apu Nahasapeemapetilon (<em>Apu</em>). These 6 characters are the same ones shown in Figures 1-6. Further detail on this sub-sampling is described in the <a href="#pre-processing">Pre-Processing</a> section. Note: in the Github repo, the dataset was further sub-sampled to reduce the size to under 100mb; again, this is described in the Pre-Processing section.</p>
+
+<p><img src="/assets/img/simpsons_characters_fig1-6.png" alt="Fig1-6" class="center-image" /></p>
+
+<h3 id="dataset-challenges">Dataset Challenges</h3>
+
+<p>There are a number of challenges to working with this dataset, which fall into two categories: (1) complexity due to the quality of the images, and (2) intrinsic complexity of the content of the images.</p>
+
+<p>(1) The quality of the images introduces complexity:</p>
+
+<ul>
+  <li>Firstly, the images vary in both size and resolution. For example, Figure 7 shows a low resolution noisy image (288 × 432 pixels, 72 pixels/inch).</li>
+  <li>Secondly, there is varying character cropping and centering. For example, Figure 8 shows the character is partially cropped, possibly losing useful information. In Figure 9 the character is not centred, and so there is possibly a lot of irrelevant information included in the image.</li>
+</ul>
+
+<p>(2) There is intrinsic complexity to the content of the images:</p>
+
+<ul>
+  <li>For example, there is significant variation between images: the characters change outfits, or the characters appear against varying backgrounds (compare Figure 7 with Figure 9).</li>
+  <li>There are also similarities that may make it difficult to discern between characters: the most obvious of which is the show’s hallmark animation style wherein most characters are yellow skin tone and circular eyes <a href="#references">[3]</a> (consider Figures 1, 2, 3 and 4).</li>
+</ul>
+
+<p><img src="/assets/img/simpsons_marge_fig7-9.png" alt="Fig7-9" class="center-image" /></p>
+
+<h2 id="pre-processing">Pre-Processing</h2>
+
+<p>The full dataset comprises two sets of images:</p>
+
+<ul>
+  <li>Training set: ~21,000 images of 42 characters</li>
+  <li>Test set: ~1,000 images of 20 characters (a subset of the characters in the training set)</li>
+</ul>
+
+<p>The data was already mostly organised into a training and test set, however some movement and manipulation of the filenames and directories was required in order to facilitate loading and processing by the Pytorch library <a href="#references">[6]</a>. One such shell script for performing these file operations is included in the Github submission for completeness (<code class="language-plaintext highlighter-rouge">script_to_move_and_rename_test_data_files.sh</code>) .</p>
+
+<p>As mentioned in the Data <a href="#background--overview">Background &amp; Overview</a> section, a subsample of this dataset was used for this analysis. The sub-sample was taken by selecting 6 characters, and using all of their training and test images. The <em>analysis</em> sub-sample thus comprises:</p>
+
+<ul>
+  <li>Training Set: 8,063 images of 6 characters</li>
+  <li>Test Set: 300 images of 6 characters</li>
+</ul>
+
+<p>The 6 characters in the sub-sample were selected in following way, and represent an interesting subset of characters:</p>
+
+<ul>
+  <li>
+    <p><em>Homer, Marge, Bart,</em> and <em>Lisa</em> were selected as they are all important characters from the show’s eponymous, central family <em>The Simpsons</em>. Additionally, analysis by Schneider (2016) <a href="#references">[4]</a> (see Figure 10) shows that they are also the 4 top characters in the show based on number of words spoken.</p>
+  </li>
+  <li><em>Krusty</em> was selected as he is also a top-10 character <a href="#references">[4]</a> and, more interestingly, this character’s appearance strongly resembles that of Homer. This was a deliberate design decision by the show’s creators <a href="#references">[7]</a>. Classifying two characters that resemble each other might provide an interesting challenge to the model.</li>
+  <li><em>Apu</em> was selected as he is one of the show’s few characters who does not have ‘yellow’ skin tone (a hallmark of the the show’s animation style). Again, this character’s unique skin tone might provide an interesting challenge to model, and give some insight into which image features the model learns from.</li>
+</ul>
+
+<p><img src="/assets/img/simpsons_fig10.png" alt="Fig10" class="center-image" /></p>
+
+<p>Figure 11 shows the distribution of character images in the training set. The <em>Training set</em> exhibits some class imbalance (e.g. Homer has ~4x as many images as Apu). In contrast, the <em>Test set</em> is balanced: 50 images each for the 6 characters.</p>
+
+<p>Note that in the final accompany Github repo, further subsampling was performed to bring
+the submitted dataset to under 100mb in size (<code class="language-plaintext highlighter-rouge">image_data_subsample_subset.zip</code>) (Training Set: 2,980 images, Test Set: 300 images). This ‘sub-sub-sample‘ contains images of the same 6 characters.</p>
+
+<p>Note however that the analysis in this post uses the analysis subset of 8363 images, and not the Github repo sub-sub-sample.</p>
+
+<p><img src="/assets/img/simpsons_fig11.png" alt="Fig11" class="center-image" /></p>
+
+<p>The images in the dataset were pre-processed in 4 different ways; those 4 approaches are described below:</p>
+
+<ol>
+  <li>Pre-processing approach 1 <em>‘Vanilla’</em>: Resize all the images to 255x342 pixels, keeping the 4x3 (television broadcast) aspect ratio.</li>
+  <li>Pre-processing approach 2 <em>‘Bounding Box Crop’</em>: Apply pre-processing approach 1, plus: Crop the images using the bounding box coordinates in the ’annotations’ file supplied in the dataset. One of the bounding box coordinates was found to be erroneous and was removed.</li>
+  <li>Pre-processing approach 3 <em>‘Denoise’</em>: Apply pre-processing approach 1, plus: Denoise the image using the denoise tv chambolle function from skimage <a href="#references">[8]</a>.</li>
+  <li>Pre-processing approach 4 <em>‘Super Resolution’</em>: Apply pre-processing approach 1, plus: Improve the image resolution by using the ninasr b0 ‘super-resolution’ neural network model from the torchSR package <a href="#references">[9]</a>.</li>
+</ol>
+
+<p>As a final step in all the pre-processing approaches, all of the images are converted to <code class="language-plaintext highlighter-rouge">Pytorch</code> tensors, for inputting to the model.</p>
+
+<p>To implement the pre-processing steps described above, a custom Pytorch <code class="language-plaintext highlighter-rouge">ImageFolder</code> class was defined <code class="language-plaintext highlighter-rouge">ImageFolderWithPath</code>, which not only loads the image but also captures the path name (the paths include the character names which are used as the class names in the classification model), and applies the pre-processing transformations.</p>
+
+<p>Figures 12-15 below show the results of the different processing approach on the same image.</p>
+
+<p><img src="/assets/img/simpsons_fig12-15.png" alt="Fig12-15" class="center-image" /></p>
+
+<h2 id="modelling">Modelling</h2>
+
+<p>Restating the problem statement: <em>Given the Simpsons Characters image dataset, how accurately can the characters in the images be correctly identified?</em>. This is formulated here as a multi-class classification problem, where the character names are the classes, and the images are to be classified as belonging to a particular class if the image depicts that particular character. Each image contains only one character.</p>
+
+<p>To perform the classification task, a Convolutional Neural Network (CNN) was constructed, using pytorch. CNNs are a popular deep learning technique with many applications but are particularly useful in image classification tasks. A CNN was developed with the following layers:</p>
+
+<ul>
+  <li><em>Input layer</em>: Images are inputted as tensors (following pre-processing)</li>
+  <li><em>Layer 1 (hidden layer)</em>: Applies: a 2D convolution over the image, followed by <a href="https://en.wikipedia.org/wiki/Batch_normalization">Batch Normalization</a>, followed by a <a href="https://en.wikipedia.org/wiki/Rectifier_(neural_networks)">ReLU</a> (rectified linear unit) function, and finally 2D max <a href="https://en.wikipedia.org/wiki/Pooling_layer">pooling</a>.</li>
+  <li><em>Layer 2 (hidden layer)</em>: The same as layer 1, but on the output from layer 1</li>
+  <li><em>Fully connected layer</em>: Applies a linear transformation.</li>
+  <li><em>Dropout</em>: Applies the <a href="https://en.wikipedia.org/wiki/Dilution_(neural_networks)">dropout</a> regularisation technique, with probability 0.5.</li>
+</ul>
+
+<p>As an illustration, Figures 16-18 below show an example original input image, and the intermediate outputs of the network’s hidden layers. (This was taken from ‘Vanilla’ model described below).</p>
+
+<p><img src="/assets/img/simpsons_fig16-18.png" alt="Fig16-18" class="center-image" /></p>
+
+<p>The image dataset was processed separately in each the 4 ways described in the Pre-Processing section, and then inputted into 4 separate CNNs. Thus, there are 4 models that all have the same model architecture but were trained on input data pre-processed in 4 different ways:</p>
+
+<ol>
+  <li>Model 1: Referred to as ‘Vanilla’. This model was inputted with the image dataset where only basic pre-processing applied, e.g. resize but keep 4x3 ratio, converting the images to a tensors (‘Pre-processing Approach 1’).</li>
+  <li>Model 2: Referred to as ‘Bounding Box Crop’. This model was inputted with the image dataset with all of the same basic pre-processing steps as Model 1, plus the images were cropped using the bounding box annotations supplied with the dataset (‘Pre-processing Approach 2’).</li>
+  <li>Model 3: Referred to as ‘Denoise’. This model was inputted with the image dataset with all of the same basic pre-processing steps as Model 1, plus the images were denoised (‘Pre-processing Approach 3’).</li>
+  <li>Model 4: Referred to as ‘Super Resolution’. This model was inputted with the image dataset with all of the same basic pre-processing steps as Model 1, plus the resolution of the images was enhanced using a super resolution model (‘Pre-processing Approach 4’).</li>
+</ol>
+
+<p>For each of the models: The training data was loaded in batches of 100, and training was performed for 5 epochs over the training data. The number of epochs was chosen to be 5 as to provide a balance between model performance (with respect to test accuracy) and to complete training within a practical length of time.</p>
+
+<p>Training took approximately 2 hours on a Macbook Pro (2020) laptop with the following specs:</p>
+
+<ul>
+  <li>Processor: 2 GHz Quad-Core Intel Core i5</li>
+  <li>Graphics: Intel Iris Plus Graphics 1536 MB</li>
+  <li>Memory: 16 GB 3733 MHz LPDDR4X</li>
+  <li>Operating System: macOS 14.2.1</li>
+</ul>
+
+<p>Figures 19-22 show, for each of the models, the training loss over the course of the batches. We can see that they all converged fairly quickly, within ~50 batches. The captions give the training loss for the final batch. Model 4 had the highest Training loss but, as explained in the later <a href="results--interpretation">Results &amp; Interpretation</a> section, generalised well to the Test set and demonstrated a high accuracy and f1-score.</p>
+
+<p><img src="/assets/img/simpsons_fig19-22.png" alt="Fig19-22" class="center-image" /></p>
+
+<h2 id="results--interpretation">Results &amp; Interpretation</h2>
+
+<p>The 4 models were evaluated against a Test set of 300 unseen images: 50 images for each of the 6 characters.<br />
+        Table 1 compares the models based on a number classification evaluation metrics: Accuracy, Precision, Recall, and f1-score. Micro averages are provided for those latter 3 metrics - since there is no class imbalance in the test data and all classes are of equal importance. The numbers are given to 2 d.p. We can see that Models 1 and 4 performed the best across the metrics: Model 4 had the highest Accuracy and f1-score (both 0.81), Model 1 had the highest Precision (0.84), and both models had equal Recall (0.8). In contrast, Models 2 and 3 performed less well, and specifically Model 2 performed the worst across all metrics.<br />
+        The relative poor performance of Models 2 and 3 suggests that removing perceived (but not actually) irrelevant information from an image (Model 2 - bounding box cropping), or removing noise (Model 3 - denoising) may in fact harm the quality of the image and information therein, and thus affect model performance.<br />
+        The slightly improved Accuracy and f1-score of Model 4 suggests that improving the resolution of the images can improve model performance, however the improvement is small and so may not justify the increased model training time.<br />
+        Table 2 shows the metrics for the Github subset (included here for completeness). We can see that the models’ performance is worst on this subset than for the larger sub-sample - which may be explained by having less data to train on and learn from. However the relative performances of the models remains similar: Model 3 is the worst, and Model 1 and Model 4 perform similarly well.</p>
+
+<p><img src="/assets/img/simpsons_table1-2.png" alt="Table1-2" class="center-image" /></p>
+
+<p>Figures 23-26 show the confusion matrices for the each of the models.<br />
+        Across all 4 models, it appears that the character Apu is the most misclassified. This is interesting: Apu is unique among the characters in the dataset in that he is the only one without (mostly) yellow skin tone, which <em>intuitively</em> might suggest that correctly classifying an image of him would be easier. However, this colour information may have been missed/lost by the model (e.g. see Figures 17 and 18 for intermediate model outputs), thus reducing the ability to discern his appearance without that information.<br />
+        In contrast, Marge was the least misclassified character across all models - perhaps the unique shape of the character’s head/hair facilitates classification.<br />
+        We can also see that Krusty was (as expected) occasionally misclassified as Homer by all of the models, however this was not the most common misclassification: e.g. Model 2 misclassified Krusty as Apu more times than it did Krusty as Homer (13 vs 8 times). This suggests that the animator’s intended similarity between Homer and Krusty did not dominate the features that the models learned.</p>
+
+<p><img src="/assets/img/simpsons_fig23-26.png" alt="Fig23-26" class="center-image" /></p>
+
+<p>The results of this analysis can be compared to the results from another project by the dataset’s curator (Attia 2017) <a href="#references">[5]</a>. In that project, the f1-score, precision and recall were all 0.9. That was achieved through:</p>
+<ol>
+  <li>Using the full dataset of 22k images</li>
+  <li>Implementing a more sophisticated and complex deep learning neural network architecture with more layers</li>
+  <li>Training for more epochs (200 epochs).</li>
+</ol>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>In conclusion, this analysis and report has shown that, through careful pre-processing of image data and appropriate model selection and training, it is possible to achieve reasonably good performance in the multi-class classification problem of identifying characters in still images taken from the television show <em>The Simpsons</em>.</p>
+
+<p>An accuracy and f1-score of 0.81 were achieved through a combination of applying super-resolution to the images in the pre-processing stage, and training a convolutional neural network with 2 hidden layers for 5 epochs over the data. It was shown that applying image cropping and denoising could have a <em>negative</em> impact on classification performance.</p>
+
+<p>Further analysis could explore how to improve classification performance further, for example by <em>combining</em> these pre-processing techniques, or training the model for more epochs, or adding more layers to the network.</p>
+
+<hr />
+
+<h2 id="references">References</h2>
+
+<ol>
+  <li>Attia, A. (2017). <a href="https://www.kaggle.com/datasets/alexattia/the-simpsons-characters-dataset">The Simpsons Characters Dataset</a></li>
+  <li>Groening, M., et al. (1989) The Simpsons. Fox Broadcasting Company.</li>
+  <li>Wikipedia. (2023) <a href="https://en.wikipedia.org/wiki/The Simpsons">The Simpsons</a>.</li>
+  <li>Schneider, T. (2016). <a href="https://toddwschneider.com/posts/the-simpsons-by-the-data/">The Simpsons by the Data</a></li>
+  <li>Attia, A. (2017). <a href="https://medium.com/alex-attia-blog/the-simpsons-character-recognition-using-keras-d8e1796eae36">The Simpsons characters recognition and detection using Keras (Part 1)</a>.</li>
+  <li>Paszke, A., et al. (2019) Pytorch: An imperative style, high-performance deep learning library. Advances in neural information processing systems 32.</li>
+  <li>Caroll, L. (2007). <a href="https://web.archive.org/web/20071220140402/http://www.mtv.com/movies/news/articles/1565538/20070725/story.jhtml">‘Simpsons’ Trivia (MTV website archived)</a>.</li>
+  <li>Van der Walt, S. et al. (2014) scikit-image: image processing in Python. PeerJ, 2, p.e453.</li>
+  <li>Gouvine, G. (2021). <a href="https://doi.org/10.5281/zenodo.4868308">torchSR</a>.</li>
+</ol>]]></content><author><name>Mansour Ahmed</name><email>mail@mansourahmed.com</email></author><summary type="html"><![CDATA[Introduction]]></summary></entry><entry><title type="html">Census Data Classification with PySpark ML</title><link href="http://localhost:4000/2023/07/pyspark-ml-classification/" rel="alternate" type="text/html" title="Census Data Classification with PySpark ML" /><published>2023-07-19T08:01:00-04:00</published><updated>2023-07-19T08:01:00-04:00</updated><id>http://localhost:4000/2023/07/pyspark-ml</id><content type="html" xml:base="http://localhost:4000/2023/07/pyspark-ml-classification/"><![CDATA[<h2 id="introduction">Introduction</h2>
+
+<p>In this post, I’ll present a statistical analysis of the ‘Census Income’ dataset created by Becker &amp; Kohavi <a href="references">[1]</a>, using the PySpark MLlib package <a href="references">[2]</a>. The dataset was downloaded from the <a href="https://archive.ics.uci.edu/">UCI Machine Learning Repository</a>, and contains various demographic details of ~48k individuals (from the 1996 US Census) and whether their respective income exceeds $50<em>k</em> USD.</p>
+
+<p>The goal of this analysis is to answer the question: <strong>Given US Census demographic data, to what accuracy can the individuals in the dataset be classified as
+earning either above or below $50k?</strong>.</p>
+
+<p>The accompanying code and data repository can be found <a href="https://github.com/ma489/pyspark-ml-classification">here</a>.</p>
+
+<h2 id="exploratory-data-analysis">Exploratory Data Analysis</h2>
+
+<p>First, an initial exploratory data analyis is conducted. The full dataset contains 48,842 instances, but 45,222 when instances with unknown values are removed (this latter subset is used in this analysis). The dataset comprises 15 variables - a mixture of 14 continuous and categorical demographic features (used in this analysis as explanatory variables) and 1 categorical variable (<code class="language-plaintext highlighter-rouge">class</code>) indicating whether this person earns ≤ $50<em>k</em> or &gt; $50<em>k</em> (used in this analysis as the dependent variable). Table 1 lists the variables, their data types, and examples.</p>
+
+<p><img src="/assets/img/pyspark_ml_table1.png" alt="Table1" class="center-image" /></p>
+
+<p>Note that the variable <code class="language-plaintext highlighter-rouge">fnlwgt</code> is (essentially) an estimate, by the Census, of how many people share these characteristics. This variable is dropped in this analysis, as it is just metadata (correlation calculations confirm its irrelevance).</p>
+
+<p>Table 2 provides selected summary statistics per-Class: the mean for continuous variables, and the mode for categorical variables. We can see that on average, those earning above $50k are (1) older (44 years vs 34.7 years), (2) have more years of education (11.6 vs 9.6) and (3) work more hours per week (45.7 vs 39.4). All of which make intuitive sense.</p>
+
+<p><img src="/assets/img/pyspark_ml_table2.png" alt="Table2" class="center-image" /></p>
+
+<p>Figure 1 below confirms the correlations suggested by the per-Class means of continuous variables above: the top 3 variables positively correlated with the over $50k class are age, education-num, and hours-per-week. Figure 2 further examines selected <em>categorical</em> variables by <em>Class</em>.</p>
+
+<p><img src="/assets/img/pyspark_ml_fig1-2.png" alt="Table2" class="center-image" /></p>
+
+<h2 id="modelling">Modelling</h2>
+
+<p>The research question of interest that this report considers is, concretely: <em>Given US Census demographic data, how accurately can the individuals in the dataset be classified as earning either above or below $50k?</em>. This question is approached as a Classification problem, and modelling was performed using PySpark and its ML package <a href="#references">[2]</a>.</p>
+
+<p>The data obtained was already split into training and test sets. Both training and test data sets were preprocessed, for example to remove missing values from all columns, and to apply consistent formatting to the Class column in order to then convert it to the binary 0/1 valed column. All feature columns except <code class="language-plaintext highlighter-rouge">fnlwgt</code> were kept. The data was then transformed using a <code class="language-plaintext highlighter-rouge">FeatureHasher</code> and <code class="language-plaintext highlighter-rouge">VectorAssembler</code> from PySpark’s MLlib package, to combine the continous and categorical variables. Then a <code class="language-plaintext highlighter-rouge">MaxAbsScaler</code>, from PySpark’s MLlib package, was applied to the data. This series of data transformation steps were combined using a Pipeline in order to easily define and reproduce the steps.</p>
+
+<p>Finally, different Classifier models were trained on the training data set, and evaluated on a the test set. The AUROC scores for the different Classifiers is given in Table 3 - Logistic Regression was found to perform best, with an AUROC of 0.9022, and Naive Bayes the worst at 0.363.</p>
+
+<p><img src="/assets/img/pyspark_ml_table3.png" alt="Table3" class="center-image" /></p>
+
+<h2 id="interpretation--conclusion">Interpretation &amp; Conclusion</h2>
+
+<p>These results show that, with correctly processed training data, and the right selection of model (Logistic Regression), it is possible to accurately classify individuals as earning either above or below $50k with an AUROC of 0.9022. Unfortunately, the application of a <code class="language-plaintext highlighter-rouge">VectorAssembler</code> during pre-processing makes it difficult to extract feature importance information in detail, however the most important features could be expected to align with the positively correlated features identified in the exploratory data analysis.</p>
+
+<hr />
+
+<h2 id="references">References</h2>
+
+<ol>
+  <li>Becker, B and Kohavi, R. (1996). <a href="https://doi.org/10.24432/C5XW20">Census Income dataset</a>. UCI Machine Learning Repository.</li>
+  <li><a href="https://spark.apache.org/docs/latest/api/python/reference/pyspark.ml.html">PySpark ML package</a>.</li>
+</ol>]]></content><author><name>Mansour Ahmed</name><email>mail@mansourahmed.com</email></author><summary type="html"><![CDATA[Introduction]]></summary></entry><entry><title type="html">Exploring Language in Classic Fiction with Data and R</title><link href="http://localhost:4000/2023/04/analysing-language-fiction/" rel="alternate" type="text/html" title="Exploring Language in Classic Fiction with Data and R" /><published>2023-04-19T08:01:00-04:00</published><updated>2023-04-19T08:01:00-04:00</updated><id>http://localhost:4000/2023/04/analysing-language-fiction</id><content type="html" xml:base="http://localhost:4000/2023/04/analysing-language-fiction/"><![CDATA[<h2 id="introduction">Introduction</h2>
+
+<p>In this post, I will present an exploratory data analysis and visualisation of natural language data from a collection of 26 fiction books by six English-language authors. The data was downloaded from the <a href="https://www.gutenberg.org/">Project Gutenberg</a> website <a href="#references">[1]</a>. For the purposes of this analysis, we treat each book as a document, and the collection of 26 books as a corpus. The text content of each book was pre-processed to remove irrelevant text added by Project Gutenberg.</p>
+
+<p>The analysis is performed using <a href="https://www.r-project.org/">R</a>. As part of the analysis, I applied dimensionality reduction techniques such as <a href="https://en.wikipedia.org/wiki/Principal_component_analysis">Principal Component Analysis</a> (PCA), <a href="https://en.wikipedia.org/wiki/Multidimensional_scaling">Multidimensional Scaling</a> (MDS), and <a href="https://en.wikipedia.org/wiki/T-distributed_stochastic_neighbor_embedding">t-SNE</a>. I also used clustering methods such as <a href="https://en.wikipedia.org/wiki/K-means_clustering">K-means</a> and <a href="https://en.wikipedia.org/wiki/Hierarchical_clustering">Hierarchical clustering</a>.</p>
+
+<h2 id="initial-exploratory-data-analysis">Initial Exploratory Data Analysis</h2>
+
+<p>For an initial exploratory analysis of the data, a subset of the corpus containing 2 documents was selected (hence, the ’Corpus Subset’). The Corpus Subset comprises: <em>Great Expectations</em>, by Charles Dickens, and <em>The Sign of the Four</em>, by Sir Arthur Conan Doyle. Statistics of the Corpus Subset texts are presented in Table 1.</p>
+
+<p><img src="/assets/img/analysing_language_table1.jpg" alt="Table1" class="center-image" /></p>
+
+<p>The statistics in Table 1 give some insight into the writing style of the documents. For example, we see that Dickens’ sentences were longer than Doyle’s, containing 19.2% more words on average. Dickens’ book is also longer, containing 4 times as many words as Doyle’s. This difference in word count and sentence length possibly reflects the nature and era of the texts and their intended audiences: Dickens’ text is a relatively older novel that depicts and critiques the social and cultural landscape of 19th Century England (requiring more words and more complex sentences) whereas Doyle’s work is of the entertainment genre (detective mystery).</p>
+
+<p>Figure 1 presents the top ten words in each Corpus Subset document based on tf-idf (the definition of tf-idf used is the one implemented by bind tf idf in tidytext <a href="#references">[2]</a>). Pre-processing was performed to remove the ‘stop’ words (based on a list of stop words in the <code class="language-plaintext highlighter-rouge">tidytext</code> package <a href="#references">[2]</a>). From Figure 1, we can quickly see the key characters and themes of each book. For example, ‘Holmes’ is the name of the main character in ‘The Sign of Four’, and ‘Joe’ is the name of one of the main characters in ‘Great Expectations’.</p>
+
+<p><img src="/assets/img/analysing_language_fig1.png" alt="Figure1" class="center-image" /></p>
+
+<p>Similarly, Figure 2 shows the most common words in each of the subset documents, in the form of word clouds, and gives insight into the key characters in the documents.</p>
+
+<p><img src="/assets/img/analysing_language_fig2.png" alt="Figure2" class="center-image" /></p>
+
+<p>Figure 3 provides another view into the language used in this Corpus Subset: the bigraph shows common bigrams (based on frequency) and their interconnections. There is a large cluster at the top, centered on the words ‘miss’ and ‘dear’; possibly reflecting the formal language used in the books, both of which were published in the 19th century.</p>
+
+<p><img src="/assets/img/analysing_language_fig3.png" alt="Figure3" class="center-image" /></p>
+
+<h2 id="similarity-of-language">Similarity of Language</h2>
+
+<p>We now turn our attention to the full data set containing the corpus of all 26 books, which is analysed to assess the similarity of language used across the corpus. The data was first pre-processed in the following way:</p>
+
+<ol>
+  <li>Each document in the corpus is tokenized into bigrams</li>
+  <li>The bigrams are filtered to remove any bigrams that contain at least one stop word, producing p bigrams. In this corpus, p is ~145,000.</li>
+  <li>The <a href="https://en.wikipedia.org/wiki/Tf%E2%80%93idf"><em>tf-idf</em></a> of the remaining bigrams is calculated (using <code class="language-plaintext highlighter-rouge">bind_tf_idf</code> from <code class="language-plaintext highlighter-rouge">tidytext</code> <a href="#references">[2]</a>)
+    <ul>
+      <li>tf-idf is used here rather than raw term frequency count because we want to account for varying document lengths</li>
+    </ul>
+  </li>
+  <li>A data matrix (<strong>DataMatrix</strong>) is constructed, converting the data from wide format to long format
+    <ul>
+      <li>This matrix has dimensions 26 × p. That is, 26 rows (one for each document), and p columns (one for each bigram).</li>
+      <li>Each cell in the matrix contains the corresponding tf-idf value. The value in <strong>DataMatrix<sub>i,j</sub></strong> is the tf-idf of bigram j in document i.</li>
+    </ul>
+  </li>
+</ol>
+
+<h3 id="distance-as-similarity">Distance as Similarity</h3>
+
+<p>A distance matrix is then calculated from the <strong>DataMatrix</strong>, and visualised in Figure 4; it shows that document 13 in the corpus (<em>The Eyes Have It</em>, by Dick) is most distance to the rest, followed by document 23 (<em>The Missing Will</em> by Christie). In this analysis, we consider distance in the tf-idf vector space as a signal of similarity of language - i.e. documents whose tf-idf vectors (represented in <strong>DataMatrix</strong>) that are close in that space use similar language.</p>
+
+<p><img src="/assets/img/analysing_language_fig4.png" alt="Figure4" class="center-image" /></p>
+
+<h3 id="dimensionality-reduction">Dimensionality Reduction</h3>
+
+<p>Next, Dimensionality Reduction is performed on the DataM atrix. Reduced dimensions are necessary for reducing the computational cost of the subsequent clustering operations, as well as facilitating visualisation. Dimensionality Reduction (down to two dimensions) is performed using three techniques (1) <a href="https://en.wikipedia.org/wiki/Principal_component_analysis">Principal Component Analysis</a> (PCA), (2) <a href="https://en.wikipedia.org/wiki/Multidimensional_scaling">Multidimensional Scaling</a> (MDS), and (3) PCA followed by <a href="https://en.wikipedia.org/wiki/T-distributed_stochastic_neighbor_embedding">t-SNE</a>; the results of which are visualised in Figures 5, 6, and 7 respectively. Importantly, these methods preserve ’closeness’ (points that are close in the higher-dimensional space are close in the lower-dimensional space).</p>
+
+<p>Notes on the implementation: In method (1), the first two principal components were found to explain only 18% of the variance in the data. In method (3), PCA is performed first as t-SNE is computationally expensive, and using it directly is impractical on a dataset of this size. Finally, the two outlier points mentioned earlier - documents 13 and 23 - were removed to improve the visualisations by ’zooming in’ on the main cluster points.</p>
+
+<p><img src="/assets/img/analysing_language_fig5.png" alt="Figure5" class="center-image" /></p>
+
+<p><img src="/assets/img/analysing_language_fig6.png" alt="Figure6" class="center-image" /></p>
+
+<p><img src="/assets/img/analysing_language_fig7.png" alt="Figure7" class="center-image" /></p>
+
+<h3 id="clustering">Clustering</h3>
+
+<p>In order to group the documents by similarity of language, <em>k-means</em> clustering was performed on the three reduced-dimension data sets. Figures 8, 9, and 10 show the resultant clusters (book titles are replaced by the authors’ initials in Figures 8 and 9, for better visualisation). In each case, the values for <em>K</em> were selected using a combnination the <a href="https://en.wikipedia.org/wiki/Elbow_method_(clustering)">elbow method</a> (using <code class="language-plaintext highlighter-rouge">fviz_nbclust</code> from the <code class="language-plaintext highlighter-rouge">factoextra</code> R package) and visual inspection of the resulting clusters. We can see that the third approach in Figure 11 (PCA followed by t-SNE followed by K-Means) results in the clearest separation of clusters; we see some of the works by the same author are grouped to together, e.g. three of Dickens’ works appear together in the middle red cluster, and two of Austen’s works appear together in the pink cluster (bottom left).</p>
+
+<p><img src="/assets/img/analysing_language_fig8.png" alt="Figure8" class="center-image" /></p>
+
+<p><img src="/assets/img/analysing_language_fig9.png" alt="Figure9" class="center-image" /></p>
+
+<p><img src="/assets/img/analysing_language_fig10.png" alt="Figure10" class="center-image" /></p>
+
+<p>Hierarchical Clustering was also performed on the documents, in the high-dimensional space. Figure 12 shows the resultant dendrogram. Towards the left of the diagram, we see a cluster for The Eyes Have It (document 13, the outlier, from earlier), suggesting this book’s language is quite different from the other books. Towards the right we see clusters for Doyle’s books, The Sign of the Four and A Study in Scarlet.</p>
+
+<p><img src="/assets/img/analysing_language_fig11.png" alt="Figure11" class="center-image" /></p>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>In conclusion, this report has demonstrated that a number of techniques can be applied to analyse and visualise unstructured textual data and identify patterns. While <em>some</em> patterns do emerge when clustering (i.e. subsets of the same author’s works appearing together), in all methods there are limitations, as shown by the lack of intuitively-understood clusters.</p>
+
+<p>Prior to performing clustering, this report’s author had some expectations of the number of clusters that would possibly emerge in this corpus: perhaps six clusters reflecting the six authors, or three clusters reflecting the three genres that might broadly categorise the corpus (<em>Detective Mystery</em> - Christie and Doyle, <em>Sci-Fi</em> - Wells and Dick, <em>Victorian Life</em> - Dickens and Austen), or clusters around publication dates (intuitively: language changes over time). Further analysis and exploration should pursue uncovering these deeper patterns.</p>
+
+<hr />
+
+<h2 id="references">References</h2>
+
+<ol>
+  <li>Project Gutenberg. (n.d.). Retrieved April 2023, from <a href="https://www.gutenberg.org/">www.gutenberg.org</a>.</li>
+  <li>Silge, J., &amp; Robinson, D. (2016). <a href="https://joss.theoj.org/papers/10.21105/joss.00037">Tidytext: Text mining and analysis using tidy data principles</a>. <em>R. Journal of Open Source Software, 1(3), 37.</em></li>
+</ol>
+
+<hr />
+
+<p>Note: This post is based on a report written for an assignment as part of my degree in <em>Machine Learning &amp; Data Science</em> at <a href="https://www.imperial.ac.uk">Imperial College London</a>. The assignment was part of <em>Exploratory Data Analysis &amp; Visualisation</em> module taught by the inspiring, knowledgable and supportive Dr. J Martin (all credit due for the assignment setting, the goals and objectives of the analysis, and the selection and provision of the dataset).</p>]]></content><author><name>Mansour Ahmed</name><email>mail@mansourahmed.com</email></author><summary type="html"><![CDATA[Introduction]]></summary></entry><entry><title type="html">2022 Reading List</title><link href="http://localhost:4000/2022/12/2022-reading-list/" rel="alternate" type="text/html" title="2022 Reading List" /><published>2022-12-11T07:02:00-05:00</published><updated>2022-12-11T07:02:00-05:00</updated><id>http://localhost:4000/2022/12/2022-reading-list</id><content type="html" xml:base="http://localhost:4000/2022/12/2022-reading-list/"><![CDATA[<p>A much shorter list of <em>books</em> this year, as I’m reading more academic papers instead</p>
 
 <h3 id="books">Books</h3>
 
@@ -1046,140 +1392,4 @@
 
 <p>If we base it on rating, by restricting this to just films I rated &gt;= 8: A Drama, directed by Spielberg, made in 1999, that’s 120 minutes long. Perhaps, ‘Saving Private Ryan’?</p>
 
-<p>This however would be an interesting small ML project: to create a model to predict a numeric rating for a given film, based on my previous ratings.</p>]]></content><author><name>Mansour Ahmed</name><email>mail@mansourahmed.com</email></author><summary type="html"><![CDATA[Intro I decided to dig into my film-watching habits as a data exploration exercise.]]></summary></entry><entry><title type="html">Working From Home</title><link href="http://localhost:4000/2021/03/wfh/" rel="alternate" type="text/html" title="Working From Home" /><published>2021-03-10T13:01:00-05:00</published><updated>2021-03-10T13:01:00-05:00</updated><id>http://localhost:4000/2021/03/wfh</id><content type="html" xml:base="http://localhost:4000/2021/03/wfh/"><![CDATA[<p>For me and countless others, this week marks one year of working from home (WFH). I decided to take a moment to reflect on what it’s been like, lessons learnt, and a view of the future.</p>
-
-<h2 id="what-its-been-like">What it’s been like</h2>
-
-<p>I’ll admit, I wildly underestimated how long this would all go on for (not a unique thought, I’m sure). I smile as I recall thinking it would just be a couple of weeks (I confidently left some snacks in my desk drawer!).</p>
-
-<p>I’d had some previous extended WFH experience: a few years ago, I worked from home for six weeks following a sports injury. And, of course, I regularly work on personal projects in my spare time from home. However, this was very different. To name but a few reasons:</p>
-
-<ol>
-  <li>The uncertainty of when it would end made strategising difficult</li>
-  <li>The lack of locations options of where one could work (one couldn’t just work in, say, a library or a coffee shop)</li>
-  <li>The general background stress of the ongoing pandemic</li>
-</ol>
-
-<p>2020 was a bizarre year, to be sure. But, I must count my blessings. So, here’s an attempt at a balanced view:</p>
-
-<p>Pros</p>
-
-<ul>
-  <li>More time to the day since I reclaimed my commute time</li>
-  <li>A chance to take stock and focus on the most valuable tasks</li>
-  <li>The cold, snowy NYC winter made not having to leave my home quite appealing!</li>
-</ul>
-
-<p>Cons</p>
-
-<ul>
-  <li>Not collaborating in certain ways, such as spontaneous ‘whiteboarding’ or ‘hallway conversations.’</li>
-  <li>Collegial coffee breaks aren’t quite the same over video call(!)</li>
-  <li>Missing out on commute-specific productivity (no phone signal? no problem!)</li>
-  <li>Needing to recreate the structure and routine that a conventional in-office workday naturally provides</li>
-</ul>
-
-<h2 id="lessons-learnt">Lessons learnt</h2>
-
-<p>I hope the circumstances which brought about this shift to WFH never recur. But should I find myself WFH for an extended period again, for whatever reason, I’ll leave a note to myself with some helpful tips to hit the ground running:</p>
-
-<ul>
-  <li>Prepare a good home office setup.
-    <ul>
-      <li>A spacious desk, comfortable chair, large monitor, and quality headphones/microphone will make the entire experience better.</li>
-    </ul>
-  </li>
-  <li>Have a professional background for video calls and meetings.
-    <ul>
-      <li>Alternatively, configure a virtual one on your video call client.</li>
-      <li>While I envy those with imposing bookshelves filled with weighty tomes as backgrounds, small New York City apartments don’t quite allow for that(!)</li>
-    </ul>
-  </li>
-  <li>Recapture the value of commute time.
-    <ul>
-      <li>My subway rides used to be quite productive: I would read books, listen to podcasts, respond to emails; the morning commute was a great way to get a headstart on the day, and the evening commute was a great way to decompress between the office and home.</li>
-      <li>Recreate this experience by going for a walk around your neighbourhood at the start and end of your workday.</li>
-    </ul>
-  </li>
-  <li>Take well-earned breaks.
-    <ul>
-      <li>Be sure to take both small coffee breaks during the day, as well as annual leave days off.</li>
-      <li>Self-care is vital both for your health and your productivity at work.</li>
-    </ul>
-  </li>
-</ul>
-
-<h2 id="the-future">The future</h2>
-
-<p>I now go into the office one day per week, making for a nice change of scenery. Fortunately, I live within cycling distance of the office, and so I can avoid the subway!</p>
-
-<p>With news of the rollout of multiple vaccines underway, I remain optimistic about the future. I look forward to a safe return to the office, whenever that might be.</p>
-
-<p>Predictions of mass telecommuting have been around since the 1970s, and while 2020 certainly accelerated that, I don’t know if that trend will generally continue beyond the pandemic. From a personal perspective, I find that being together with my colleagues, present and in-person, maximises my collaboration, creativity, and productivity. Conversely, <a href="https://hbr.org/2020/08/research-knowledge-workers-are-more-productive-from-home">research suggests</a> that that is not the case more generally.</p>
-
-<p>From a human perspective, I think we’re fundamentally social beings who need to connect to others in a way that video calls can never really replace. That alone might provide the impetus to return to the office. I look forward to the return to <em>normal</em>.</p>
-
-<p><em>The views expressed are my own and not those of my employer.</em></p>]]></content><author><name>Mansour Ahmed</name><email>mail@mansourahmed.com</email></author><summary type="html"><![CDATA[For me and countless others, this week marks one year of working from home (WFH). I decided to take a moment to reflect on what it’s been like, lessons learnt, and a view of the future.]]></summary></entry><entry><title type="html">2020 Reading List</title><link href="http://localhost:4000/2020/12/2020-reading-list/" rel="alternate" type="text/html" title="2020 Reading List" /><published>2020-12-01T14:02:00-05:00</published><updated>2020-12-01T14:02:00-05:00</updated><id>http://localhost:4000/2020/12/2020-reading-list</id><content type="html" xml:base="http://localhost:4000/2020/12/2020-reading-list/"><![CDATA[<p>Another year, another retrospective reading list. With the ongoing pandemic, I have found myself reading more. I have continued with the trend of leaning towards audiobooks (I think this format works really well for non-fiction that is not <em>too</em> technical). This year, the list is mostly a mix of pop-science and racism analyses.</p>
-
-<p>As usual, this isn’t necessarily an endorsement of any of these books, but I hope, at least, that you might find them interesting to read.</p>
-
-<h3 id="books">Books</h3>
-<ul>
-  <li><a href="https://www.goodreads.com/book/show/26048551-fundamentals-of-deep-learning">Fundamentals of Deep Learning (Buduma/Locascio)</a></li>
-  <li><a href="https://www.goodreads.com/book/show/22860191-introducing-economics">Introducing Economics: A Graphic Guide (Orrell)</a></li>
-</ul>
-
-<h3 id="audiobooks">Audiobooks</h3>
-<ul>
-  <li><a href="https://www.goodreads.com/book/show/43848929-talking-to-strangers">Talking To Strangers (Gladwell)</a></li>
-  <li><a href="https://www.goodreads.com/book/show/2612.The_Tipping_Point">Tipping Point (Gladwell)</a></li>
-  <li><a href="https://www.goodreads.com/book/show/15751404-david-and-goliath">David &amp; Goliath (Gladwell)</a></li>
-  <li><a href="https://www.goodreads.com/book/show/40102.Blink">Blink (Gladwell)</a></li>
-  <li><a href="https://www.goodreads.com/book/show/88061.Dreams_from_My_Father">Dreams From My Father (Obama)</a></li>
-  <li><a href="https://www.goodreads.com/book/show/51152447-caste">Caste (Wilkerson)</a></li>
-  <li><a href="https://www.goodreads.com/book/show/43708708-white-fragility">White Fragility (DiAngelo)</a></li>
-  <li><a href="https://www.goodreads.com/book/show/25489625-between-the-world-and-me">Between the World and Me (Coates)</a></li>
-  <li><a href="https://www.goodreads.com/book/show/35099718-so-you-want-to-talk-about-race">So You Want To Talk About Race (Oluo)</a></li>
-  <li><a href="https://www.goodreads.com/book/show/92057.The_Autobiography_of_Malcolm_X">The Autobiography of Malcolm X (Malcolm X/Haley)</a></li>
-  <li><a href="https://www.goodreads.com/book/show/43726556-self-portrait-in-black-and-white">Self-Portrait in Black and White (Williams)</a></li>
-  <li><a href="https://www.goodreads.com/book/show/28186015-weapons-of-math-destruction">Weapons of Math Destruction (O’Neil)</a></li>
-  <li><a href="https://www.goodreads.com/book/show/40121378-atomic-habits">Atomic Habits (Clear)</a></li>
-  <li><a href="https://www.goodreads.com/book/show/40792344-mere-christianity">Mere Christianity (Lewis)</a></li>
-  <li><a href="https://www.goodreads.com/book/show/52300107-caffeine">Caffeine (Pollan)</a></li>
-</ul>]]></content><author><name>Mansour Ahmed</name><email>mail@mansourahmed.com</email></author><summary type="html"><![CDATA[Another year, another retrospective reading list. With the ongoing pandemic, I have found myself reading more. I have continued with the trend of leaning towards audiobooks (I think this format works really well for non-fiction that is not too technical). This year, the list is mostly a mix of pop-science and racism analyses.]]></summary></entry><entry><title type="html">AWS Certified</title><link href="http://localhost:4000/2020/01/2020-aws-certified/" rel="alternate" type="text/html" title="AWS Certified" /><published>2020-01-07T14:02:00-05:00</published><updated>2020-01-07T14:02:00-05:00</updated><id>http://localhost:4000/2020/01/aws-certified</id><content type="html" xml:base="http://localhost:4000/2020/01/2020-aws-certified/"><![CDATA[<p>I am now an <em>AWS Certified Solutions Architect (Associate)</em>.</p>
-
-<p>I was a little nervous before taking the exam (it’s been a while!), but I’m glad to have been able to validate my technical skills.  Learn more about it <a href="https://aws.amazon.com/certification/certified-solutions-architect-associate/">here</a>.</p>
-
-<center><a href="https://www.youracclaim.com/badges/9622ebb8-ad75-4937-aceb-119d3cbdd3b7/public_url"><img src="/assets/img/aws.png" alt="AWS Certified" width="300px" align="middle" /></a></center>]]></content><author><name>Mansour Ahmed</name><email>mail@mansourahmed.com</email></author><summary type="html"><![CDATA[I am now an AWS Certified Solutions Architect (Associate).]]></summary></entry><entry><title type="html">2019 Reading List</title><link href="http://localhost:4000/2019/12/2019-reading-list/" rel="alternate" type="text/html" title="2019 Reading List" /><published>2019-12-30T14:02:00-05:00</published><updated>2019-12-30T14:02:00-05:00</updated><id>http://localhost:4000/2019/12/2019-reading-list</id><content type="html" xml:base="http://localhost:4000/2019/12/2019-reading-list/"><![CDATA[<p>A little different this year, with the addition of audiobooks!</p>
-
-<p>As ever, this isn’t necessarily an endorsement of any of these books :)</p>
-
-<h3 id="books">Books</h3>
-<ul>
-  <li><a href="https://www.goodreads.com/en/book/show/21963238-basics-of-financial-econometrics">The Basics of Financial Econometrics (Fabozzi, et al.)</a></li>
-  <li><a href="https://www.amazon.com/dp/075155703X">The ‘Very British Problems’ series (Temple)</a></li>
-</ul>
-
-<h3 id="audiobooks">Audiobooks</h3>
-<ul>
-  <li><a href="https://www.goodreads.com/book/show/3228917-outliers">Outliers (Gladwell)</a></li>
-  <li><a href="https://en.wikipedia.org/wiki/Guns,_Germs,_and_Steel">Guns Germs And Steel (Diamond)</a></li>
-  <li><a href="https://www.goodreads.com/book/show/38901702-lab-rats">Lab Rats (Lyons)</a></li>
-  <li><a href="https://www.goodreads.com/book/show/26030703-disrupted">Disrupted: Ludicrous Misadventures into the Tech Start-Up Bubble (Lyons)</a></li>
-  <li><a href="https://www.goodreads.com/en/book/show/40407320-biased">Biased (Eberhardt)</a></li>
-  <li><a href="https://www.goodreads.com/book/show/36352480-natives">Natives: Race and Class in the Ruins of Empire (Akala)</a></li>
-  <li><a href="https://www.goodreads.com/book/show/10408011-chavs">Chavs: The Demonization of the Working (Owen Jones)</a></li>
-  <li><a href="https://www.goodreads.com/book/show/38527194-civilisations">First Contact/The Cult of Progress: Civilisations (Olusoga)</a></li>
-  <li><a href="https://www.goodreads.com/en/book/show/37780792-hired">Hired (Bloodworth)</a></li>
-  <li><a href="https://www.goodreads.com/book/show/242472.The_Black_Swan">Black Swan (Taleb)</a></li>
-  <li><a href="https://www.goodreads.com/book/show/33261026-black-tudors">Black Tudors (Kaufmann)</a></li>
-  <li><a href="https://www.goodreads.com/book/show/23158207-how-google-works">How Google Works (Schmidt)</a></li>
-  <li><a href="https://www.goodreads.com/book/show/36609352-what-truth-sounds-like">What Truth Sounds Like (Dyson)</a></li>
-  <li><a href="https://www.goodreads.com/book/show/2657.To_Kill_a_Mockingbird">To Kill a Mockingbird (Lee)</a></li>
-  <li><a href="https://www.goodreads.com/book/show/36072.The_7_Habits_of_Highly_Effective_People">7 Habits of Highly Effective People (Covey)</a></li>
-  <li><a href="https://www.goodreads.com/book/show/30257963-12-rules-for-life">12 Rules for Life: An Antidote to Chaos (Peterson)</a></li>
-  <li><a href="https://www.goodreads.com/book/show/40170039-how-not-to-get-shot">How Not To Get Shot (Hughley)</a></li>
-  <li><a href="https://www.goodreads.com/book/show/29780253-born-a-crime">Born a Crime: Stories from a South African Childhood (Noah)</a></li>
-  <li><a href="https://www.goodreads.com/book/show/900.The_Game">The Game (Strauss)</a></li>
-  <li><a href="https://www.goodreads.com/book/show/33559198-black-privilege">Black Privilege (Charlamagne)</a></li>
-</ul>]]></content><author><name>Mansour Ahmed</name><email>mail@mansourahmed.com</email></author><summary type="html"><![CDATA[A little different this year, with the addition of audiobooks!]]></summary></entry></feed>
+<p>This however would be an interesting small ML project: to create a model to predict a numeric rating for a given film, based on my previous ratings.</p>]]></content><author><name>Mansour Ahmed</name><email>mail@mansourahmed.com</email></author><summary type="html"><![CDATA[Intro I decided to dig into my film-watching habits as a data exploration exercise.]]></summary></entry></feed>

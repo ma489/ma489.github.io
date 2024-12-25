@@ -37,6 +37,11 @@
         {{ author.bio }}
       </p>
     {% endif %}
+    {% if author.bio_extended %}
+      <p class="author__bio_ext" itemprop="description">
+        {{ author.bio_extended }}
+      </p>
+    {% endif %}
   </div>
 
   <div class="author__urls-wrapper">
@@ -276,9 +281,4 @@
       {% include author-profile-custom-links.html %}
     </ul>
   </div>
-  {% if author.bio_extended %}
-    <p class="author__bio" itemprop="description">
-      {{ author.bio_extended }}
-    </p>
-  {% endif %}
 </div>
