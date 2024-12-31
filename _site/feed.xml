@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-12-30T20:00:02-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Mansour Ahmed</title><subtitle>Mansour Ahmed&apos;s Personal Blog</subtitle><author><name>Mansour Ahmed</name><email>mail@mansourahmed.com</email></author><entry><title type="html">2024 Reading List</title><link href="http://localhost:4000/2024/12/2024-reading-list/" rel="alternate" type="text/html" title="2024 Reading List" /><published>2024-12-20T07:02:00-05:00</published><updated>2024-12-20T07:02:00-05:00</updated><id>http://localhost:4000/2024/12/2024-reading-list</id><content type="html" xml:base="http://localhost:4000/2024/12/2024-reading-list/"><![CDATA[<p>As 2024 draws to a close, it’s time for another retrospective list of the most interesting books I’ve read this year.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-12-30T20:06:40-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Mansour Ahmed</title><subtitle>Mansour Ahmed&apos;s Personal Blog</subtitle><author><name>Mansour Ahmed</name><email>mail@mansourahmed.com</email></author><entry><title type="html">2024 Reading List</title><link href="http://localhost:4000/2024/12/2024-reading-list/" rel="alternate" type="text/html" title="2024 Reading List" /><published>2024-12-20T07:02:00-05:00</published><updated>2024-12-20T07:02:00-05:00</updated><id>http://localhost:4000/2024/12/2024-reading-list</id><content type="html" xml:base="http://localhost:4000/2024/12/2024-reading-list/"><![CDATA[<p>As 2024 draws to a close, it’s time for another retrospective list of the most interesting books I’ve read this year.</p>
 
 <p>The list is decidedly shorter than usual, a result of my focus on completing my Master’s degree — a year spent diving into academic papers more than leisure reading. (I’ve not included the papers I read for my thesis here).</p>
 
@@ -47,7 +47,95 @@ broader economic trends. <br />
         We propose the use of a deep learning model that incorporates an attention mechanism. Empirical results show that this model outperforms traditional approaches such as Geographically Weighted Regression, and demonstrates a more modest performance improvement over deep learning models <em>without</em> attention. Furthermore, inspection of the attention weights of the model offers possible additional interpretability and insight. <br />
         We propose several future directions in this active research area, including the use of multi-head attention and alternative positional encodings, which may offer further improvements in predictive performance.</p>
 
-<p><strong>Keywords</strong>: <em>spatial data, regression, deep learning, attention, property prices</em></p>]]></content><author><name>Mansour Ahmed</name><email>mail@mansourahmed.com</email></author><summary type="html"><![CDATA[I am excited to share that I have successfully completed and submitted my Master’s thesis, fulfilling the final requirement for my degree in Machine Learning and Data Science at Imperial College London.]]></summary></entry><entry><title type="html">2023 Reading List</title><link href="http://localhost:4000/2023/12/2023-reading-list/" rel="alternate" type="text/html" title="2023 Reading List" /><published>2023-12-28T07:02:00-05:00</published><updated>2023-12-28T07:02:00-05:00</updated><id>http://localhost:4000/2023/12/2023-reading-list</id><content type="html" xml:base="http://localhost:4000/2023/12/2023-reading-list/"><![CDATA[<p>Another year, another journey through a fascinating set of books. Some of my selections this year were inspired by the excellent <a href="https://www.rebelbook.club/"><em>Rebel Book Club</em></a>, a community I’m proud to be part of. Others were part of my ongoing Master’s degree studies in Machine learning. Explore my curated list below!</p>
+<p><strong>Keywords</strong>: <em>spatial data, regression, deep learning, attention, property prices</em></p>]]></content><author><name>Mansour Ahmed</name><email>mail@mansourahmed.com</email></author><summary type="html"><![CDATA[I am excited to share that I have successfully completed and submitted my Master’s thesis, fulfilling the final requirement for my degree in Machine Learning and Data Science at Imperial College London.]]></summary></entry><entry><title type="html">Generating Audio from Spoken Digits, with VQ-VAE and LSTM models</title><link href="http://localhost:4000/2024/04/dl-audio-generation/" rel="alternate" type="text/html" title="Generating Audio from Spoken Digits, with VQ-VAE and LSTM models" /><published>2024-04-22T08:02:00-04:00</published><updated>2024-04-22T08:02:00-04:00</updated><id>http://localhost:4000/2024/04/audio-generation-dl</id><content type="html" xml:base="http://localhost:4000/2024/04/dl-audio-generation/"><![CDATA[<h2 id="introduction">Introduction</h2>
+
+<p>This post presents an analysis of the <a href="https://github.com/Jakobovski/free-spoken-digit-dataset">Free Spoken Digit Dataset</a> (FSDD) (an “audio/speech dataset consisting of recordings of spoken digits” <a href="#references">[1]</a>) and the use of this dataset in the development of two machine learning models (a <a href="https://papers.nips.cc/paper_files/paper/2017/hash/7a98af17e63a0ac09ce2e96d03992fbc-Abstract.html">VQ-VAE</a> model and an <a href="https://en.wikipedia.org/wiki/Long_short-term_memory">LSTM</a> model) which are combined for the purpose of generating new samples of audio of spoken digits.</p>
+
+<h2 id="exploratory-data-analysis">Exploratory Data Analysis</h2>
+
+<p>The FSDD dataset consists of 2500 audio recordings, by 5 speakers, of 10 different digits (where there is 50 recordings per digit per speaker). These recordings are in wav files with a 8kHz sample rate, and are of variable duration.</p>
+
+<p>Figure 1 below shows the audio waveforms of a sample recording for 9 of the 10 digits; we can see that recordings of different digits by different speakers have different shaped waveforms. Figure 2 shows the distribution of durations of the recordings; we can see that most recordings are quite short - indeed 99% are shorter than 0.78 seconds.</p>
+
+<p><img src="/assets/img/audio-generation-fig1-2.png" alt="Fig1-2" class="center-image" /></p>
+
+<p>Audio characteristics of the samples were computed (using <a href="https://librosa.org/doc/latest/index.html"><code class="language-plaintext highlighter-rouge">librosa</code></a>: <a href="https://en.wikipedia.org/wiki/Zero-crossing_rate">Zero-Crossing Rate</a> (ZCR), <a href="https://en.wikipedia.org/wiki/Spectral_centroid">Spectral Centroid</a>, <a href="https://en.wikipedia.org/wiki/Bandwidth_(signal_processing)">Spectral Bandwidth</a>, <a href="https://librosa.org/doc/main/generated/librosa.feature.spectral_rolloff.html">Spectral Rolloff</a>, and <a href="https://en.wikipedia.org/wiki/Mel-frequency_cepstrum">Mel-frequency cepstral coefficients</a> (MFCC). Figure 3 below summarises the means of these values for each digit. We can see for example that the digit ‘6’ has a distinctive mean ZCR value that is much higher than for other digits. Similarly, we see that the digit ‘5’ has a mean Spectral Rolloff value that is much lower than the other digits.</p>
+
+<p><img src="/assets/img/audio-generation-fig3.png" alt="Fig3" class="center-image" /></p>
+
+<h2 id="modelling--results">Modelling &amp; Results</h2>
+
+<p>The goal was to develop models for the purpose of generating new samples of audio of spoken digits. To achieve this, two models were developed and their functionality combined into one system for generating new audio samples. These two models are referred to as model <em>A</em> and model <em>B</em>, respectively, and are described in detail below.</p>
+
+<p>At a high-level: model <em>A</em> (Figure 4) is a <em>Vector-Quantized Variational Autoencoder</em> (VQ-VAE), similar to that introduced in <a href="#references">[2]</a>, and is used to learn efficient encodings of the audio data. Model <em>B</em> (Figure 5) is an LSTM model that is trained on model <em>A</em>’s output (indeed, one LSTM per VQ codebook), and is used to generate new encoding sequences; these sequences are in turn reconstructed into listenable audio clips using model <em>A</em>’s decoder. Figures 6 and 7 below show the training and inference processes of the combined model system.</p>
+
+<p><img src="/assets/img/audio-generation-fig4-7.png" alt="Fig4-7" class="center-image" /></p>
+
+<h3 id="model-a-vq-vae">Model A: VQ-VAE</h3>
+
+<p>The FSDD data was processed by first extracting the audio component (for each clip, this is a 1-D array representing amplitude over time), then filtering out very long and short clips, then zero-padding the remaining clips to 1 second duration (uniform size to simplify code). The data was then split into training and test sets, and finally shuffled and batched.</p>
+
+<p>The training data was used to train the ‘VQ-VAE’ model. The model has 3 components:</p>
+<ul>
+  <li>An encoder comprising three 1-D convolutional layers</li>
+  <li>An RVQ-VAE layer comprising Nq VQ-VAE layers</li>
+  <li>A decoder comprising three 1-D convolutional transpose layers</li>
+</ul>
+
+<p>The model was trained using customised training logic that optimised for loss defined as loss = reconstruction loss + RVQVAE loss.</p>
+
+<p>Various settings for the hyperparameters were explored as part of experimentation, specifically:</p>
+<ul>
+  <li>The hyperameter Nq that controls the number of codebooks in the RVQ-VAE layer (values: 5, 10, 50).</li>
+  <li>The number of epochs that training is conducted for (values: 30, 100, 500).</li>
+</ul>
+
+<p>Higher Nq values and extended training epochs resulted in improved outcomes; however, this led to longer training times. To assess the results, a combination of training loss comparisons and subjective manual auditory evaluations was used (audio samples can be found in the notebook). The optimal combination achieved an overall loss of 0.0761 (reconstruction loss of 0.0349 and an RVQVAE loss of 0.0412). With a <a href="https://www.nvidia.com/en-us/data-center/tesla-t4/">Nvidia T4 GPU</a> on <a href="https://colab.research.google.com/">Google Colab</a>, this setup took approximately 1.5 hours to train. Figures 8 and 9 compare the loss curves for two sets of hyperparameter settings, showing that higher Nq values result in lower loss in fewer epochs.</p>
+
+<p><img src="/assets/img/audio-generation-fig8-9.png" alt="Fig8-9" class="center-image" /></p>
+
+<h3 id="model-b-lstm-model">Model B: LSTM model</h3>
+
+<p>The audio training data was once again processed by (forward) passing it through the trained VQ-VAE model’s encoder and RVQ-VAE layers (notably, not the decoder) to generate the corresponding Nq encodings (one for each codebook in the RVQ-VAE). These encodings were then used to train Nq LSTM models.</p>
+
+<p>Each LSTM model comprises:</p>
+<ul>
+  <li>An embedding layer with an input dimension of 64 (same as the codebook vectors), and an output
+dimension of 64</li>
+  <li>Two LSTM layers with 256 units</li>
+  <li>A Dense output layer with softmax activation that outputs probabilities over the possible tokens (additional logic later chooses the token with the highest probability)</li>
+</ul>
+
+<p>The model was trained using the standard tensorflow fit method and training logic, with 10% of the training data used as a validation set. Various settings for the hyperparameters were explored as part of experimentation, including a different number of LSTM layers and different dropout rates (ultimately 2 and 0.2 was chosen, respectively), while trading off against training duration.</p>
+
+<p>Performance was measured using training and validation loss and accuracy. While performance against training/validation was good (~70% accuracy across the LSTM models), the performance against the unseen test set was not good: it was found that the model outputted constant vectors of the same code. This unfortunately leads to poor quality reconstructed audio. With more time, this poor performance could be investigated.</p>
+
+<h2 id="future-work">Future Work</h2>
+
+<p>With more time, future work in this direction could involve:</p>
+
+<ol>
+  <li>Explore the use of representing audio as an image instead of a series of amplitude values over time, possibly by combining graphical representations of audio characteristics (i.e. spectrograms and MFCCs) into an image. Modify the encoder and decoder of the VQ-VAE to use 2-D convolutional layers accordingly. This was partially attempted in the notebook, but futher implementation is needed to convert the reconstructed image representation back to audio (this may be challenging).</li>
+  <li>Train both models for more epochs to achieve better performance (lower loss and higher accuracy). Due to time limitations and available resources, training was conducted for fewer epochs than desired.</li>
+  <li>Investigate and optimise the hyperparameters of both models, especially the LSTM (model Q3b). Conduct more experimentation to find the optimal settings for improved performance.</li>
+</ol>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>In conclusion, this report demonstrates the feasibility of generating new samples of audio data by first training a VQ-VAE model to learn efficient codings of the audio data, and then using those encodings to train an LSTM model to generate new encodings, which can in turn be decoded into listenable audio. While the final audio clips generated are not of the highest quality, the report details possible directions for future work to pursue better performance.</p>
+
+<hr />
+
+<h2 id="references">References</h2>
+
+<ol>
+  <li>Zohar J., et al. (2018). <a href="https://doi.org/10.5281/zenodo.1342401">Jakobovski/free-spoken-digit-dataset: v1.0.8 (v1.0.8)</a>. Zenodo.</li>
+  <li>van den Oord, A., Vinyals, O. &amp; Kavukcuoglu, K. (2017). <a href="https://papers.nips.cc/paper_files/paper/2017/hash/7a98af17e63a0ac09ce2e96d03992fbc-Abstract.html">Neural discrete representation learning</a>. <em>Proceedings of the 31st International Conference on Neural Information Processing Systems, 6309-6318</em>.</li>
+</ol>
+
+<hr />
+
+<p>Note: This post is based on a report written for an assignment as part of my degree in <em>Machine Learning &amp; Data Science</em> at <a href="https://www.imperial.ac.uk">Imperial College London</a>. The assignment was part of <em>Deep Learning</em> module taught by the highly knowledgable and supportive Dr. K Webster (all credit due for the assignment setting, the goals and objectives of the modelling, and the selection and provision of the dataset).</p>]]></content><author><name>Mansour Ahmed</name><email>mail@mansourahmed.com</email></author><summary type="html"><![CDATA[Introduction]]></summary></entry><entry><title type="html">2023 Reading List</title><link href="http://localhost:4000/2023/12/2023-reading-list/" rel="alternate" type="text/html" title="2023 Reading List" /><published>2023-12-28T07:02:00-05:00</published><updated>2023-12-28T07:02:00-05:00</updated><id>http://localhost:4000/2023/12/2023-reading-list</id><content type="html" xml:base="http://localhost:4000/2023/12/2023-reading-list/"><![CDATA[<p>Another year, another journey through a fascinating set of books. Some of my selections this year were inspired by the excellent <a href="https://www.rebelbook.club/"><em>Rebel Book Club</em></a>, a community I’m proud to be part of. Others were part of my ongoing Master’s degree studies in Machine learning. Explore my curated list below!</p>
 
 <h3 id="books">Books</h3>
 
@@ -272,7 +360,66 @@ the submitted dataset to under 100mb in size (<code class="language-plaintext hi
   <li>Caroll, L. (2007). <a href="https://web.archive.org/web/20071220140402/http://www.mtv.com/movies/news/articles/1565538/20070725/story.jhtml">‘Simpsons’ Trivia (MTV website archived)</a>.</li>
   <li>Van der Walt, S. et al. (2014) scikit-image: image processing in Python. PeerJ, 2, p.e453.</li>
   <li>Gouvine, G. (2021). <a href="https://doi.org/10.5281/zenodo.4868308">torchSR</a>.</li>
-</ol>]]></content><author><name>Mansour Ahmed</name><email>mail@mansourahmed.com</email></author><summary type="html"><![CDATA[Introduction]]></summary></entry><entry><title type="html">Census Data Classification with PySpark ML</title><link href="http://localhost:4000/2023/07/pyspark-ml-classification/" rel="alternate" type="text/html" title="Census Data Classification with PySpark ML" /><published>2023-07-19T08:01:00-04:00</published><updated>2023-07-19T08:01:00-04:00</updated><id>http://localhost:4000/2023/07/pyspark-ml</id><content type="html" xml:base="http://localhost:4000/2023/07/pyspark-ml-classification/"><![CDATA[<h2 id="introduction">Introduction</h2>
+</ol>]]></content><author><name>Mansour Ahmed</name><email>mail@mansourahmed.com</email></author><summary type="html"><![CDATA[Introduction]]></summary></entry><entry><title type="html">Sentiment Analysis with scikit-learn, nltk and word2vec</title><link href="http://localhost:4000/2023/11/sentiment-classification/" rel="alternate" type="text/html" title="Sentiment Analysis with scikit-learn, nltk and word2vec" /><published>2023-11-29T07:02:00-05:00</published><updated>2023-11-29T07:02:00-05:00</updated><id>http://localhost:4000/2023/11/sentiment-classification</id><content type="html" xml:base="http://localhost:4000/2023/11/sentiment-classification/"><![CDATA[<h2 id="introduction">Introduction</h2>
+
+<p>This post presents a process of performing <a href="https://en.wikipedia.org/wiki/Sentiment_analysis">sentiment analysis</a> the <a href="https://www.kaggle.com/datasets/harshalhonde/starbucks-reviews-dataset"><em>Starbucks Reviews Dataset</em></a> from <a href="https://www.kaggle.com/">Kaggle</a>. The goal was to classify reviews as either Positive or Negative. Two models were developed for this purpose, and their performances compared.</p>
+
+<p>The accompanying code and data repository can be found <a href="https://github.com/ma489/sentiment-classification-starbucks">here</a>.</p>
+
+<h2 id="data">Data</h2>
+
+<p>The ‘Starbucks Reviews Dataset’ contains data from online customer reviews of Starbucks coffee shop locations. The dataset contains 850 samples containing (among other features) a text review and a numeric rating (on a scale of 1-5).</p>
+
+<p>First this data was cleaned up to remove incomplete samples: Only 705 of the 850 samples contained a numeric rating, and of those only 703 also contained an actual text review. This set of 703 reviews and ratings was used for modeling.</p>
+
+<p>The distribution of the numeric ratings is given in Figure 1. We can see that the distribution of ratings is right-skewed (more negative ratings). A modelling choice was made to set a threshold of <em>3 and above</em> to be a <em>Positive</em> rating, and <em>below 3</em> to be a <em>Negative</em> rating - these would be the class labels. Figure 2 shows the resulting distribution of sentiment classes (Positive/Negative) - with a clear class imbalance.</p>
+
+<p>The text reviews were then pre-processed, with the following steps applied to each document:</p>
+
+<ul>
+  <li>Remove hyperlinks</li>
+  <li>Make all words lower case</li>
+  <li>Remove new line characters</li>
+  <li>Remove characters that are not whitespace and not in English alphabet</li>
+  <li>Remove words that are in the stopwords list provided by the <a href="https://www.nltk.org/"><code class="language-plaintext highlighter-rouge">nltk</code></a> package</li>
+  <li>Remove the word ‘Starbucks’</li>
+  <li>Perform stemming, using the <code class="language-plaintext highlighter-rouge">PorterStemmer</code> from <a href="https://www.nltk.org/"><code class="language-plaintext highlighter-rouge">nltk</code></a></li>
+</ul>
+
+<p><img src="/assets/img/sentiment_classification_hists1-2.png" alt="Fig1" class="center-image" /></p>
+
+<h2 id="modelling">Modelling</h2>
+
+<p>The reviews dataset was used as follows:</p>
+
+<ul>
+  <li>The text reviews were vectorized to create the independent variables</li>
+  <li>The numeric ratings were converted to sentiment classes, these would be the class labels (the dependent variable ’Y’)</li>
+</ul>
+
+<p>The reviews dataset was then split into training and test sets, with a 75%/25% split (with shuffling).</p>
+
+<p>Two models were developed, both based on <code class="language-plaintext highlighter-rouge">RandomForestClassifier</code> from <a href="https://scikit-learn.org/stable/">scikit-learn</a>. A Random Forest Classifer was chosen as it is robust to datasets with class imbalance (as is the case here). Where the two models diverge, however, is in the choice of text vectorization method:</p>
+<ul>
+  <li>Model 1 uses a <code class="language-plaintext highlighter-rouge">TfidfVectorizer</code></li>
+  <li>Model 2 uses a <a href="https://en.wikipedia.org/wiki/Word2vec"><code class="language-plaintext highlighter-rouge">word2vec</code></a> implementation from the <a href="https://radimrehurek.com/gensim/"><code class="language-plaintext highlighter-rouge">gensim</code></a> package.</li>
+</ul>
+
+<p>Figure 3 shows a visualisation of one of the decision trees from Model 1, up to depth 5.</p>
+
+<p>Note: when the models are applied to the test set, out-of-vocabulary terms are ignored.</p>
+
+<p><img src="/assets/img/sentiment_classification_model1.png" alt="Fig3" class="center-image" /></p>
+
+<h2 id="results">Results</h2>
+
+<p>The two models were applied to the test set and evaluated. Table 1 compares the models based on a number classification evaluation metrics: Accuracy, Precision, Recall, and f1-score. Macro averages are provided for those latter 3 metrics - since there is a class imbalance in the data, this should be taken into account when evaluating the models’ performance. The first model, <code class="language-plaintext highlighter-rouge">RandomForestClassifer</code> with <code class="language-plaintext highlighter-rouge">TfidfVectorizer</code>, performed better across all metrics. Figures 4 and 5 show the respective confusion matrices.</p>
+
+<p><img src="/assets/img/sentiment_classification_table1fig4-5.png" alt="Fig4-5" class="center-image" /></p>
+
+<hr />
+
+<p>Note: This post is based on a report written for an assignment as part of my degree in <em>Machine Learning &amp; Data Science</em> at <a href="https://www.imperial.ac.uk">Imperial College London</a>. The assignment was part of <em>Unstructured Data Analysis</em> module taught by Dr A. Calissano (all credit due for the assignment setting, the goals and objectives of the modelling, and the selection and provision of the dataset).</p>]]></content><author><name>Mansour Ahmed</name><email>mail@mansourahmed.com</email></author><summary type="html"><![CDATA[Introduction]]></summary></entry><entry><title type="html">Census Data Classification with PySpark ML</title><link href="http://localhost:4000/2023/07/pyspark-ml-classification/" rel="alternate" type="text/html" title="Census Data Classification with PySpark ML" /><published>2023-07-19T08:01:00-04:00</published><updated>2023-07-19T08:01:00-04:00</updated><id>http://localhost:4000/2023/07/pyspark-ml</id><content type="html" xml:base="http://localhost:4000/2023/07/pyspark-ml-classification/"><![CDATA[<h2 id="introduction">Introduction</h2>
 
 <p>In this post, I’ll present a statistical analysis of the ‘Census Income’ dataset created by Becker &amp; Kohavi <a href="references">[1]</a>, using the PySpark MLlib package <a href="references">[2]</a>. The dataset was downloaded from the <a href="https://archive.ics.uci.edu/">UCI Machine Learning Repository</a>, and contains various demographic details of ~48k individuals (from the 1996 US Census) and whether their respective income exceeds $50<em>k</em> USD.</p>
 
@@ -413,7 +560,104 @@ earning either above or below $50k?</strong>.</p>
 
 <hr />
 
-<p>Note: This post is based on a report written for an assignment as part of my degree in <em>Machine Learning &amp; Data Science</em> at <a href="https://www.imperial.ac.uk">Imperial College London</a>. The assignment was part of <em>Exploratory Data Analysis &amp; Visualisation</em> module taught by the inspiring, knowledgable and supportive Dr. J Martin (all credit due for the assignment setting, the goals and objectives of the analysis, and the selection and provision of the dataset).</p>]]></content><author><name>Mansour Ahmed</name><email>mail@mansourahmed.com</email></author><summary type="html"><![CDATA[Introduction]]></summary></entry><entry><title type="html">2022 Reading List</title><link href="http://localhost:4000/2022/12/2022-reading-list/" rel="alternate" type="text/html" title="2022 Reading List" /><published>2022-12-11T07:02:00-05:00</published><updated>2022-12-11T07:02:00-05:00</updated><id>http://localhost:4000/2022/12/2022-reading-list</id><content type="html" xml:base="http://localhost:4000/2022/12/2022-reading-list/"><![CDATA[<p>A much shorter list of <em>books</em> this year, as I’m reading more academic papers instead</p>
+<p>Note: This post is based on a report written for an assignment as part of my degree in <em>Machine Learning &amp; Data Science</em> at <a href="https://www.imperial.ac.uk">Imperial College London</a>. The assignment was part of <em>Exploratory Data Analysis &amp; Visualisation</em> module taught by the inspiring, knowledgable and supportive Dr. J Martin (all credit due for the assignment setting, the goals and objectives of the analysis, and the selection and provision of the dataset).</p>]]></content><author><name>Mansour Ahmed</name><email>mail@mansourahmed.com</email></author><summary type="html"><![CDATA[Introduction]]></summary></entry><entry><title type="html">Evaluating the Robustness of Linear Discriminant Analysis</title><link href="http://localhost:4000/2023/02/lda-evaluation/" rel="alternate" type="text/html" title="Evaluating the Robustness of Linear Discriminant Analysis" /><published>2023-02-01T07:02:00-05:00</published><updated>2023-02-01T07:02:00-05:00</updated><id>http://localhost:4000/2023/02/lda-evaluation</id><content type="html" xml:base="http://localhost:4000/2023/02/lda-evaluation/"><![CDATA[<h2 id="introduction">Introduction</h2>
+
+<p>In this blog post, I will evaluate the performance of <a href="https://en.wikipedia.org/wiki/Linear_discriminant_analysis">Linear Discriminant Analysis</a> (<strong>LDA</strong>) in a classification task, when LDA’s underlying assumptions are violated. Through a series of simulations, the effects of different types of misspecifications, and different severities of those misspecifications, on LDA’s performance are explored <a href="#references">[1]</a>.</p>
+
+<h2 id="linear-discriminant-analysis">Linear Discriminant Analysis</h2>
+
+<p>As a reminder, LDA is a statistical method that can be used as a supervised classification model.
+LDA makes the following assumptions <a href="#references">[2]</a> (however, it is believed that LDA is ”robust to slight violations of these” <a href="#references">[2]</a>):</p>
+
+<ol>
+  <li>The independent variables have (Multivariate) Normal distribution within each class</li>
+  <li>The Variance/covariance of the predictors is equal across all classes, whereas the mean (vector) is class-specific</li>
+  <li>Observations in the sample are independent</li>
+  <li>Predictive power can decrease in the presence of multicollinearity</li>
+</ol>
+
+<h2 id="the-classification-task">The Classification Task</h2>
+
+<p>The task is that of binary classification of observations in a dataset. The dataset (<em>n</em> = 200) is composed of two covariates, X1 and X2, simulated from a multivariate Normal distribution, and a binary response variable Y representing two classes (0 and 1). The mean vector of the covariates is class-specific (i.e. dependent on the value of the <em>Y</em>), but the variance-covariance matrix is the same across classes. The initial dataset is equally balanced between the two classes (100 observations of each). To illustrate, a subset of an example dataset is given in Table 1. A complete example dataset is visualised in Figure 1.</p>
+
+<p><img src="/assets/img/lda_tab1_fig1.png" alt="Fig1" class="center-image" /></p>
+
+<h2 id="experiments">Experiments</h2>
+
+<h3 id="methodology">Methodology</h3>
+
+<p>Classification performance here is measured in terms of misclassification rate:</p>
+
+\[\frac{\text{Number of Misclassified Observations}}{\text{Total Number of Observations}}\]
+
+<p>The three misspecification types (MSTs) that are explored are as follows (misspecifications are
+in the form of input datasets that violate LDA assumptions):</p>
+
+<ol>
+  <li><strong>MST1</strong>: “The covariate data come from a distribution with a heavier tail than the normal, e.g. a t-distribution” <a href="#references">[1]</a>.</li>
+  <li><strong>MST2</strong>: “The sampling of classes is imbalanced. This means that the proportions of observations in the two classes in the training sample are not representative of the proportions in the population” <a href="#references">[1]</a>.</li>
+  <li><strong>MST3</strong>: “The data are ‘poisoned’. This means that the class labels of a small proportion of
+the of the training observations are switched” <a href="#references">[1]</a>.</li>
+</ol>
+
+<p>To conduct this exploration, simulations were performed for each of the 3 misspecification types
+as follows (for brevity, the <code class="language-plaintext highlighter-rouge">R</code> code used is not included here).</p>
+
+<p>As a first step, 1000 datasets were generated, in 10 batches of 100, where each successive batch
+had an increasing severity of the misspecification being explored.</p>
+
+<p>Then, for each batch of 100 datasets, the following steps are performed:</p>
+<ol>
+  <li>For each of the 100 datasets of 200 observations in the batch:
+    <ul>
+      <li>Split the dataset such that 70% of observations are used for training and 30% are used for testing.</li>
+      <li>Fit an LDA model, using <code class="language-plaintext highlighter-rouge">MASS</code> <a href="#references">[3]</a>, on the training subset and classify the test subset</li>
+      <li>Calculate the misclassification rate over the test subset</li>
+    </ul>
+  </li>
+  <li>Calculate the mean misclassification rate (MMR) over the batch</li>
+  <li>Plot, using <code class="language-plaintext highlighter-rouge">ggplot2</code> <a href="#references">[4]</a>, the MMR against a measure of misspecification severity for that batch</li>
+</ol>
+
+<p>As a baseline for comparison: for the initial dataset without deliberate misspecification, the MMR over 1000 simulated datasets was <strong>12.49%</strong>.</p>
+
+<h3 id="mst1">MST1</h3>
+
+<p>In this simulation, the <code class="language-plaintext highlighter-rouge">stats</code> package in <code class="language-plaintext highlighter-rouge">R</code> <a href="#references">[5]</a> was used to generate datasets that followed the <a href="https://en.wikipedia.org/wiki/Student%27s_t-distribution"><em>t</em>-distribution</a>, which has heavier tails than the <a href="https://en.wikipedia.org/wiki/Normal_distribution">Normal distribution</a> (i.e. positive excess <a href="https://en.wikipedia.org/wiki/Kurtosis">kurtosis</a>). The <a href="https://en.wikipedia.org/wiki/Degrees_of_freedom_(statistics)">degrees of freedom</a> control the kurtosis of the t-distribution: by decreasing the degrees of freedom for each dataset batch, the positive excess kurtosis is increased, and thus the misspecification severity is increased. Figure 2 shows a weak negative <a href="https://en.wikipedia.org/wiki/Correlation">correlation</a> between degrees of freedom and MMR. As the misspecification severity increases, MMR increases from <strong>12.1%</strong> to <strong>14.3%</strong>.</p>
+
+<p><img src="/assets/img/lda_fig2.png" alt="Fig2" class="center-image" /></p>
+
+<h3 id="mst2">MST2</h3>
+
+<p>In this simulation, to increase the severity of the misspecification, the proportion of Class 1 observations in the training sample was reduced in each batch, from 0.5 (i.e. the classes were balanced in representation in training) down to 0.025 (classes are imbalanced: fewer observations of Class 1). Figure 3 shows a strong negative correlation between class balance and MMR. As the misspecification severity (class imbalance) increases, MMR increases from <strong>12%</strong> to <strong>23%</strong>.</p>
+
+<p><img src="/assets/img/lda_fig3.png" alt="Fig3" class="center-image" /></p>
+
+<h3 id="mst3">MST3</h3>
+
+<p>In this simulation, to increase the severity of the misspecification, the proportion of observations with incorrect (switched) labels in the training sample was increased in each batch, from 0 (i.e. no poison: all observations are correctly labelled) up to 0.95. Figure 3 shows a strong positive correlation between poisoned-proportion and MMR. As the misspecification severity (poisoned-proportion) increases, MMR increases from <strong>12.3%</strong> to <strong>82.8%</strong>.</p>
+
+<p><img src="/assets/img/lda_fig4.png" alt="Fig4" class="center-image" /></p>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>We have seen how LDA performance changes under different types of, and severities of, misspecifications. While LDA is relatively robust under violations of its Normal distribution assumption (<strong>MST1</strong>), its performance drops more rapidly under more egregious violations such as <strong>MST2</strong> and <strong>MST3</strong>, where it is given misrepresentative and incorrect training data respectively.</p>
+
+<hr />
+
+<h2 id="references">References</h2>
+
+<ol>
+  <li>Hallsworth, C. <em>MLDS Supervised Learning</em>. Imperial College London. 2022.</li>
+  <li>Wikipedia: <a href="https://en.wikipedia.org/wiki/Linear_discriminant_analysis">Linear Discriminant Analysis</a>.</li>
+  <li>Venables WN, Ripley BD (2002). <a href="https://www.stats.ox.ac.uk/pub/MASS4/">Modern Applied Statistics with S</a>, Fourth edition. Springer, New York. ISBN 0-387-95457-0,</li>
+  <li>Wickham, H. <a href="https://ggplot2.tidyverse.org/">ggplot2</a>: Elegant Graphics for Data Analysis. Springer-Verlag New York, 2016.</li>
+  <li>R Core Team (2022). <a href="https://www.R-project.org">R: A language and environment for statistical computing</a>. R Foundation for Statistical Computing, Vienna, Austria.</li>
+</ol>
+
+<hr />
+
+<p>Note: This post is based on a report written for an assignment as part of my degree in <em>Machine Learning &amp; Data Science</em> at <a href="https://www.imperial.ac.uk">Imperial College London</a>. The assignment was part of <em>Supervised Learning</em> module taught by Dr. C Hallsworth (all credit due for the assignment setting and the goals and objectives of the analysis).</p>]]></content><author><name>Mansour Ahmed</name><email>mail@mansourahmed.com</email></author><summary type="html"><![CDATA[Introduction]]></summary></entry><entry><title type="html">2022 Reading List</title><link href="http://localhost:4000/2022/12/2022-reading-list/" rel="alternate" type="text/html" title="2022 Reading List" /><published>2022-12-11T07:02:00-05:00</published><updated>2022-12-11T07:02:00-05:00</updated><id>http://localhost:4000/2022/12/2022-reading-list</id><content type="html" xml:base="http://localhost:4000/2022/12/2022-reading-list/"><![CDATA[<p>A much shorter list of <em>books</em> this year, as I’m reading more academic papers instead</p>
 
 <h3 id="books">Books</h3>
 
@@ -442,954 +686,4 @@ earning either above or below $50k?</strong>.</p>
   <li>Awad, E., Dsouza, S., Kim, R. et al. <a href="https://doi.org/10.1038/s41586-018-0637-6">The Moral Machine experiment</a>. <em>Nature 563, 59–64 (2018)</em>.</li>
   <li>Ribeiro, M. T., Singh, S. &amp; Guestrin, C. (2016). <a href="https://doi.org/10.1145/2939672.2939778">“Why Should I Trust You?”: Explaining the Predictions of Any Classifier</a>. <em>Proceedings of the 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining. 1135-1144</em>.</li>
   <li>Ameisen, E. (2020). <em>(Chapter 11)</em>. In <a href="https://www.oreilly.com/library/view/building-machine-learning/9781492045106/"><em>Building machine learning powered applications: going from idea to product</em></a>. First edition. O’Reilly Media, Inc.</li>
-</ul>]]></content><author><name>Mansour Ahmed</name><email>mail@mansourahmed.com</email></author><summary type="html"><![CDATA[A much shorter list of books this year, as I’m reading more academic papers instead]]></summary></entry><entry><title type="html">Mathematics for Machine Learning Specialisation</title><link href="http://localhost:4000/2022/5/maths-ml/" rel="alternate" type="text/html" title="Mathematics for Machine Learning Specialisation" /><published>2022-05-15T15:02:00-04:00</published><updated>2022-05-15T15:02:00-04:00</updated><id>http://localhost:4000/2022/5/2022-maths-ml</id><content type="html" xml:base="http://localhost:4000/2022/5/maths-ml/"><![CDATA[<p>I have just <a href="https://www.coursera.org/account/accomplishments/specialization/ZC9LYDJ8A9RP">completed</a> the <a href="https://www.coursera.org/specializations/mathematics-machine-learning">Mathematics for Machine Learning Specialisation</a>, by Imperial College London on Coursera. It was a three part course, covering: Linear Algebra, Multivariate Calculus and Principal Component Analysis.</p>
-
-<p><a href="https://www.coursera.org/account/accomplishments/specialization/ZC9LYDJ8A9RP"><img src="/assets/img/Coursera_mml.png" alt="certificate" /></a></p>]]></content><author><name>Mansour Ahmed</name><email>mail@mansourahmed.com</email></author><summary type="html"><![CDATA[I have just completed the Mathematics for Machine Learning Specialisation, by Imperial College London on Coursera. It was a three part course, covering: Linear Algebra, Multivariate Calculus and Principal Component Analysis.]]></summary></entry><entry><title type="html">2021 Reading List</title><link href="http://localhost:4000/2021/12/2021-reading-list/" rel="alternate" type="text/html" title="2021 Reading List" /><published>2021-12-16T14:02:00-05:00</published><updated>2021-12-16T14:02:00-05:00</updated><id>http://localhost:4000/2021/12/2021-reading-list</id><content type="html" xml:base="http://localhost:4000/2021/12/2021-reading-list/"><![CDATA[<p>This year I discovered I could get Kindle ebooks through my local public library! I also joined a book club, which has been useful in diversifying the range of books I read. I’m also starting to learn how to abandon books part-way that I no longer enjoy reading - rather than finishing them <em>just because</em> I started (I’m no longer convinced this is a good thing).</p>
-
-<h3 id="books">Books</h3>
-
-<ul>
-  <li><a href="https://www.goodreads.com/book/show/3869.A_Brief_History_of_Time">A Brief History of Time (Hawking)</a></li>
-  <li><a href="https://www.goodreads.com/book/show/41457400-the-life-changing-magic-of-numbers">The Life-Changing Magic of Numbers (Seagull)</a></li>
-  <li><a href="https://www.goodreads.com/book/show/40745.Mindset">Mindset (Dweck)</a></li>
-</ul>
-
-<h3 id="audiobooks">Audiobooks</h3>
-
-<ul>
-  <li><a href="https://www.goodreads.com/book/show/55361205-a-promised-land">A Promised Land (Obama)</a></li>
-  <li><a href="https://www.goodreads.com/book/show/170448.Animal_Farm">Animal Farm (Orwell)</a></li>
-  <li><a href="https://www.goodreads.com/book/show/18144590-the-alchemist">The Alchemist (Coelho)</a></li>
-  <li><a href="https://www.goodreads.com/book/show/37424706-the-art-of-gathering">The Art of Gathering (Parker)</a></li>
-  <li><a href="https://www.goodreads.com/book/show/51933.Madness_and_Civilization">Madness &amp; Civilization (Foucault)</a></li>
-  <li><a href="https://www.goodreads.com/book/show/52585099-surrender-white-people">Surrender! (Hughley)</a></li>
-  <li><a href="https://www.goodreads.com/en/book/show/53302332-sea-wall-a-life">Sea Wall/A Life (Stephens/Payne)</a></li>
-  <li><a href="https://www.goodreads.com/book/show/29502354-rest">Rest (Pang)</a></li>
-  <li><a href="https://www.goodreads.com/en/book/show/41882450-the-fate-of-food">The Fate of Food (Little)</a></li>
-  <li><a href="https://www.goodreads.com/book/show/3828382-tribes">Tribes (Godin)</a></li>
-  <li><a href="https://www.goodreads.com/book/show/23878688-the-5-love-languages">The Five Love Languages (Chapman)</a></li>
-  <li><a href="https://www.goodreads.com/book/show/4069.Man_s_Search_for_Meaning">Man’s Search for Meaning (Frankl)</a></li>
-  <li><a href="https://www.goodreads.com/book/show/57509170-the-science-of-love">The Science of Love (Goodfriend)</a></li>
-  <li><a href="https://www.goodreads.com/book/show/485894.The_Metamorphosis">Metamorphosis (Kafka)</a></li>
-  <li><a href="https://www.goodreads.com/book/show/17690.The_Trial">The Trial (Kafka)</a></li>
-  <li><a href="https://www.goodreads.com/book/show/27213329-grit">Grit (Duckworth)</a></li>
-  <li><a href="https://www.goodreads.com/book/show/46002342-me-and-white-supremacy">Me and White Supremacy (Saad)</a></li>
-  <li><a href="https://www.goodreads.com/book/show/25387895-the-confidence-game">Confidence Game (Konnikova)</a></li>
-  <li><a href="https://www.goodreads.com/book/show/25744928-deep-work">Deep Work (Newport)</a></li>
-  <li><a href="https://www.goodreads.com/book/show/52879286-humankind">Humankind (Bregman)</a></li>
-  <li><a href="https://www.goodreads.com/book/show/28862.The_Prince">The Prince (Machiavelli)</a></li>
-  <li><a href="https://www.goodreads.com/book/show/368593.The_4_Hour_Workweek">4-Hour Work Week (Ferris)</a></li>
-  <li><a href="https://www.goodreads.com/book/show/52529.The_Secret">The Secret (Byrne)</a></li>
-  <li><a href="https://www.goodreads.com/book/show/57205027-nice-racism">Nice Racism (DiAngelo)</a></li>
-  <li><a href="https://www.goodreads.com/book/show/51022071-catch-and-kill">Catch and Kill (Farrow)</a></li>
-  <li><a href="https://www.goodreads.com/en/book/show/53138238-the-three-mothers">The Three Mothers (Tubbs)</a></li>
-  <li><a href="https://www.goodreads.com/book/show/58408562-move-fast">Move Fast (Meyerson)</a></li>
-  <li><a href="https://www.goodreads.com/book/show/26156469-never-split-the-difference">Never Split The Difference (Voss)</a></li>
-  <li><a href="https://www.goodreads.com/book/show/56668328-the-bomber-mafia">Bomber Mafia (Gladwell)</a></li>
-  <li><a href="https://www.goodreads.com/book/show/9547888-attached">Attached (Levine)</a></li>
-  <li><a href="https://www.goodreads.com/book/show/56019043-beyond-order">Beyond Order (Peterson)</a></li>
-  <li><a href="https://www.goodreads.com/book/show/45731395-the-deficit-myth">The Deficit Myth (Kelton)</a></li>
-  <li><a href="https://www.goodreads.com/book/show/7873438-sleights-of-mind">Sleights of Mind (Macknik et al)</a></li>
-</ul>]]></content><author><name>Mansour Ahmed</name><email>mail@mansourahmed.com</email></author><summary type="html"><![CDATA[This year I discovered I could get Kindle ebooks through my local public library! I also joined a book club, which has been useful in diversifying the range of books I read. I’m also starting to learn how to abandon books part-way that I no longer enjoy reading - rather than finishing them just because I started (I’m no longer convinced this is a good thing).]]></summary></entry><entry><title type="html">Movie data analysis</title><link href="http://localhost:4000/2021/09/movie-data-analysis/" rel="alternate" type="text/html" title="Movie data analysis" /><published>2021-09-01T15:02:00-04:00</published><updated>2021-09-01T15:02:00-04:00</updated><id>http://localhost:4000/2021/09/movie-data-analysis</id><content type="html" xml:base="http://localhost:4000/2021/09/movie-data-analysis/"><![CDATA[<h2 id="intro">Intro</h2>
-<p>I decided to dig into my film-watching habits as a data exploration exercise.</p>
-
-<p>I <em>used</em> to watch a <em>lot</em> of films. And while watching movies is no longer a significant pastime for me, it was fun at the time. Aside from the apparent interest in the films themselves, the extensive pop-culture knowledge I gained acted as some social currency. Back then, I would make the (outrageous) claim that I’d probably watched every film that would ever come up in casual conversation.</p>
-
-<p>After each film I watched, I would immediately then give it a rating out of 10 on <a href="https://www.imdb.com/">IMDb</a>. I didn’t think I was a critic - this was just the best way to get recommendations for even more films in the pre-Netflix era. A pleasant side effect of this ritual is that I now have a record of every movie I ever watched in that time, along with when I watched it, what I thought of it and other metadata. With the help of IMDb’s data export feature, I now have my hands on my own little cinematic time capsule <em>!</em> This blog post aims to take a look at that data in pursuit of insights.</p>
-
-<h3 id="some-of-the-questions-i-want-to-answer">Some of the questions I want to answer</h3>
-<ul>
-  <li>What were my viewing habits?</li>
-  <li>Did I have interesting or unusual tastes, or was I poser?</li>
-  <li>How do my ratings compare to other IMDB users?</li>
-</ul>
-
-<h3 id="housekeeping-notes">Housekeeping notes</h3>
-<ul>
-  <li>I’ve written this post as a <a href="https://jupyter.org/">Jupyter</a> notebook, with inline code snippets, and exported as markdown (you can see the original notebook <a href="https://github.com/ma489/imdb/blob/main/imdb_data.ipynb">here</a>).</li>
-  <li>If you’re not familiar with Jupyter, it’s a <a href="https://en.wikipedia.org/wiki/Notebook_interface">notebook environment</a> that enables <a href="https://en.wikipedia.org/wiki/Literate_programming">literate programming</a>.</li>
-  <li>I will keep my dataset private (see <a href="https://arxiv.org/abs/cs/0610105">here</a> for why <em>!</em>), but you can grab your own dataset <a href="https://www.imdb.com/list/ratings">here</a>.</li>
-  <li>I’ll be using the terms <em>‘movies’</em> and <em>‘films’</em> interchangably throughout. I’m sure there’s some technical distinction, but generally I think <a href="https://en.wiktionary.org/wiki/movie#Noun">the former is an Americanism</a>.</li>
-  <li>I’ll be making use of the two canonical Python libraries: <a href="https://pandas.pydata.org/"><code class="language-plaintext highlighter-rouge">pandas</code></a> (for data analysis) and <a href="https://seaborn.pydata.org/"><code class="language-plaintext highlighter-rouge">seaborn</code></a> (for visualisation).</li>
-</ul>
-
-<h2 id="setup">Setup</h2>
-<p>First, some (non-interesting) initial setup</p>
-
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># Imports
-</span><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="n">pd</span>
-<span class="kn">import</span> <span class="nn">seaborn</span> <span class="k">as</span> <span class="n">sns</span>
-
-<span class="c1"># Configuration
-</span><span class="n">pd</span><span class="p">.</span><span class="n">options</span><span class="p">.</span><span class="n">display</span><span class="p">.</span><span class="n">float_format</span> <span class="o">=</span> <span class="s">'{:.1f}'</span><span class="p">.</span><span class="nb">format</span>
-<span class="n">pd</span><span class="p">.</span><span class="n">options</span><span class="p">.</span><span class="n">mode</span><span class="p">.</span><span class="n">chained_assignment</span> <span class="o">=</span> <span class="bp">None</span>  <span class="c1"># default='warn'
-</span><span class="n">sns</span><span class="p">.</span><span class="nb">set</span><span class="p">(</span><span class="n">rc</span><span class="o">=</span><span class="p">{</span><span class="s">'figure.figsize'</span><span class="p">:(</span><span class="mi">16</span><span class="p">,</span><span class="mi">12</span><span class="p">)})</span>
-</code></pre></div></div>
-
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># Let's read in the data
-</span><span class="n">INPUT_FILE_ENCODING</span> <span class="o">=</span> <span class="s">"ISO-8859-1"</span>
-<span class="n">input_data_path</span> <span class="o">=</span> <span class="s">"imdb_ratings.csv"</span>
-<span class="n">imdb_data</span> <span class="o">=</span> <span class="n">pd</span><span class="p">.</span><span class="n">read_csv</span><span class="p">(</span><span class="n">input_data_path</span><span class="p">,</span> <span class="n">encoding</span><span class="o">=</span><span class="n">INPUT_FILE_ENCODING</span><span class="p">)</span>
-<span class="c1"># ... and preview it
-</span><span class="n">imdb_data</span><span class="p">.</span><span class="n">head</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
-</code></pre></div></div>
-
-<style>
-  table {
-    display: block;
-    max-width: -moz-fit-content;
-    max-width: fit-content;
-    margin: 50 auto;
-    overflow-x: auto;
-    white-space: nowrap;
-  }
-</style>
-
-<div>
-<style scoped="">
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>Const</th>
-      <th>Your Rating</th>
-      <th>Date Rated</th>
-      <th>Title</th>
-      <th>URL</th>
-      <th>Title Type</th>
-      <th>IMDb Rating</th>
-      <th>Runtime (mins)</th>
-      <th>Year</th>
-      <th>Genres</th>
-      <th>Num Votes</th>
-      <th>Release Date</th>
-      <th>Directors</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>tt0100053</td>
-      <td>1</td>
-      <td>2013-01-18</td>
-      <td>Loose Cannons</td>
-      <td>https://www.imdb.com/title/tt0100053/</td>
-      <td>movie</td>
-      <td>4.9</td>
-      <td>94.0</td>
-      <td>1990</td>
-      <td>Action, Comedy, Crime, Thriller</td>
-      <td>4394.0</td>
-      <td>1990-02-09</td>
-      <td>Bob Clark</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># Let's perform some minor cleanup of the data
-# ... filtering out the non-movie entries (TV shows, video games, etc.)
-</span><span class="n">movies</span> <span class="o">=</span> <span class="n">imdb_data</span><span class="p">[</span><span class="n">imdb_data</span><span class="p">[</span><span class="s">'Title Type'</span><span class="p">]</span> <span class="o">==</span> <span class="s">'movie'</span><span class="p">]</span>
-<span class="c1"># ... and formatting the date field
-</span><span class="n">movies</span><span class="p">[</span><span class="s">'Date Rated'</span><span class="p">]</span> <span class="o">=</span> <span class="n">pd</span><span class="p">.</span><span class="n">to_datetime</span><span class="p">(</span><span class="n">movies</span><span class="p">[</span><span class="s">'Date Rated'</span><span class="p">])</span>
-</code></pre></div></div>
-
-<p>Great, now we’re ready to explore!</p>
-
-<h2 id="summary">Summary</h2>
-<p>Next, let’s look at some <a href="https://en.wikipedia.org/wiki/Summary_statistics">summary statistics</a> to get an overview of the dataset. Think of this as a <a href="https://en.wiktionary.org/wiki/tl;dr#Phrase">tl;dr</a>.</p>
-
-<p>We have different datatypes in our dataset, so we’ll summarize these separately:</p>
-
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># Numeric fields
-</span><span class="n">movies</span><span class="p">.</span><span class="n">describe</span><span class="p">()</span>
-</code></pre></div></div>
-
-<div>
-<style scoped="">
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>Your Rating</th>
-      <th>IMDb Rating</th>
-      <th>Runtime (mins)</th>
-      <th>Year</th>
-      <th>Num Votes</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>count</th>
-      <td>869.0</td>
-      <td>868.0</td>
-      <td>868.0</td>
-      <td>869.0</td>
-      <td>868.0</td>
-    </tr>
-    <tr>
-      <th>mean</th>
-      <td>5.1</td>
-      <td>6.8</td>
-      <td>111.6</td>
-      <td>2000.3</td>
-      <td>273587.3</td>
-    </tr>
-    <tr>
-      <th>std</th>
-      <td>2.2</td>
-      <td>1.1</td>
-      <td>22.2</td>
-      <td>11.7</td>
-      <td>320816.3</td>
-    </tr>
-    <tr>
-      <th>min</th>
-      <td>1.0</td>
-      <td>2.1</td>
-      <td>60.0</td>
-      <td>1941.0</td>
-      <td>88.0</td>
-    </tr>
-    <tr>
-      <th>25%</th>
-      <td>4.0</td>
-      <td>6.2</td>
-      <td>96.0</td>
-      <td>1995.0</td>
-      <td>65191.5</td>
-    </tr>
-    <tr>
-      <th>50%</th>
-      <td>6.0</td>
-      <td>6.9</td>
-      <td>107.0</td>
-      <td>2002.0</td>
-      <td>166071.5</td>
-    </tr>
-    <tr>
-      <th>75%</th>
-      <td>7.0</td>
-      <td>7.6</td>
-      <td>123.2</td>
-      <td>2009.0</td>
-      <td>361292.5</td>
-    </tr>
-    <tr>
-      <th>max</th>
-      <td>10.0</td>
-      <td>9.3</td>
-      <td>210.0</td>
-      <td>2018.0</td>
-      <td>2301033.0</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># Object fields
-</span><span class="n">movies</span><span class="p">.</span><span class="n">describe</span><span class="p">(</span><span class="n">include</span><span class="o">=</span><span class="p">[</span><span class="nb">object</span><span class="p">])</span>
-</code></pre></div></div>
-
-<div>
-<style scoped="">
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>Const</th>
-      <th>Title</th>
-      <th>URL</th>
-      <th>Title Type</th>
-      <th>Genres</th>
-      <th>Release Date</th>
-      <th>Directors</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>count</th>
-      <td>869</td>
-      <td>869</td>
-      <td>869</td>
-      <td>869</td>
-      <td>868</td>
-      <td>868</td>
-      <td>869</td>
-    </tr>
-    <tr>
-      <th>unique</th>
-      <td>869</td>
-      <td>867</td>
-      <td>869</td>
-      <td>1</td>
-      <td>300</td>
-      <td>835</td>
-      <td>533</td>
-    </tr>
-    <tr>
-      <th>top</th>
-      <td>tt0277371</td>
-      <td>The Omen</td>
-      <td>https://www.imdb.com/title/tt0061695/</td>
-      <td>movie</td>
-      <td>Comedy</td>
-      <td>2007-06-12</td>
-      <td>Steven Spielberg</td>
-    </tr>
-    <tr>
-      <th>freq</th>
-      <td>1</td>
-      <td>2</td>
-      <td>1</td>
-      <td>869</td>
-      <td>56</td>
-      <td>3</td>
-      <td>14</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-
-<p>OK, so I’ve watched (at least) 869 films. A quick glance of the IMDb website shows that figure includes 96 of <a href="https://www.imdb.com/chart/top/">their Top 250 films</a> (and also 6 of <a href="https://www.imdb.com/chart/bottom">their bottom 100 films</a>). It goes without saying that 869 is a lower-bound for my total lifetime count, since I’ve continued to watch films but not rate them, and of course I watched films before I discovered IMDb.</p>
-
-<h2 id="questions">Questions</h2>
-<p>Now, let’s ask some questions of the data</p>
-
-<h3 id="what-do-my-ratings-look-like">What do my ratings look like?</h3>
-<p>Zooming in on just the <em>ratings</em>, I’ll use a <a href="https://en.wikipedia.org/wiki/Histogram">histogram</a> to visualise the <a href="https://en.wikipedia.org/wiki/Frequency_distribution">frequency distribution</a>:</p>
-
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">sns</span><span class="p">.</span><span class="n">catplot</span><span class="p">(</span><span class="n">data</span><span class="o">=</span><span class="n">movies</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s">"count"</span><span class="p">,</span>  <span class="n">x</span><span class="o">=</span><span class="s">'Your Rating'</span><span class="p">)</span>
-</code></pre></div></div>
-
-<p><img src="/assets/img/output_12_1.png" alt="png" /></p>
-
-<p>A lot more ‘1’ ratings than I expected! I must have been hard to please.</p>
-
-<p>We can also plot the <a href="https://en.wikipedia.org/wiki/Kernel_density_estimation">KDE</a> for an estimate of the <a href="https://en.wikipedia.org/wiki/Probability_density_function">probability density</a> (the y-axis here is ‘density’):</p>
-
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">sns</span><span class="p">.</span><span class="nb">set</span><span class="p">(</span><span class="n">rc</span><span class="o">=</span><span class="p">{</span><span class="s">'figure.figsize'</span><span class="p">:(</span><span class="mi">8</span><span class="p">,</span><span class="mi">6</span><span class="p">)})</span>
-<span class="n">sns</span><span class="p">.</span><span class="n">distplot</span><span class="p">(</span><span class="n">a</span><span class="o">=</span><span class="n">movies</span><span class="p">[</span><span class="s">'Your Rating'</span><span class="p">],</span> <span class="n">bins</span><span class="o">=</span><span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">11</span><span class="p">))</span>
-</code></pre></div></div>
-
-<p><img src="/assets/img/output_14_1.png" alt="png" /></p>
-
-<p>It look’s like about half of my ratings were either a 6 or a 7 out of 10. How very diplomatic(!)</p>
-
-<h3 id="how-do-my-ratings-compare-to-other-imdb-users">How do my ratings compare to other IMDB users?</h3>
-<p>Let’s calculate the <a href="https://en.wikipedia.org/wiki/Spearman%27s_rank_correlation_coefficient">Spearman’s rank correlation coefficient</a>, as a measure of <a href="https://en.wikipedia.org/wiki/Inter-rater_reliability">Inter-rater reliability</a>. It’s values range from -1 to 1 (fully opposed to identical). We’re using Spearman here because our data (Ratings out of 10) is <a href="https://en.wikipedia.org/wiki/Ordinal_data">ordinal</a>.</p>
-
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">movies</span><span class="p">[</span><span class="s">'Your Rating'</span><span class="p">].</span><span class="n">corr</span><span class="p">(</span><span class="n">movies</span><span class="p">[</span><span class="s">'IMDb Rating'</span><span class="p">],</span> <span class="n">method</span><span class="o">=</span><span class="s">'spearman'</span><span class="p">)</span>
-</code></pre></div></div>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>0.4413428717210753
-</code></pre></div></div>
-
-<p>Intuitively, a weak positive correlation.</p>
-
-<p>Let’s visualize this relationship. I’ll use a catplot here to get around the problem of representing categorical data with a scatter plot</p>
-
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">sns</span><span class="p">.</span><span class="n">catplot</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="s">'Your Rating'</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="s">'IMDb Rating'</span><span class="p">,</span> <span class="n">data</span><span class="o">=</span><span class="n">movies</span><span class="p">)</span>
-</code></pre></div></div>
-
-<p><img src="/assets/img/output_19_1.png" alt="png" /></p>
-
-<h3 id="what-day-did-i-tend-to-watch-films">What day did I tend to watch films?</h3>
-
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># non-interesting date formatting
-</span><span class="n">movies</span><span class="p">[</span><span class="s">'Weekday'</span><span class="p">]</span> <span class="o">=</span> <span class="n">movies</span><span class="p">[</span><span class="s">'Date Rated'</span><span class="p">].</span><span class="n">dt</span><span class="p">.</span><span class="n">day_name</span><span class="p">()</span>
-<span class="n">movies</span><span class="p">[</span><span class="s">'WeekdayNumeric'</span><span class="p">]</span> <span class="o">=</span> <span class="n">movies</span><span class="p">[</span><span class="s">'Date Rated'</span><span class="p">].</span><span class="n">dt</span><span class="p">.</span><span class="n">weekday</span>
-<span class="n">movies</span> <span class="o">=</span> <span class="n">movies</span><span class="p">.</span><span class="n">sort_values</span><span class="p">(</span><span class="s">'WeekdayNumeric'</span><span class="p">,</span> <span class="n">inplace</span><span class="o">=</span><span class="bp">False</span><span class="p">)</span>
-<span class="c1"># Let's plot 
-</span><span class="n">sns</span><span class="p">.</span><span class="n">catplot</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="s">"Weekday"</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s">"count"</span><span class="p">,</span> <span class="n">data</span><span class="o">=</span><span class="n">movies</span><span class="p">,</span> <span class="n">height</span><span class="o">=</span><span class="mi">5</span><span class="p">,</span> <span class="n">aspect</span><span class="o">=</span><span class="mi">12</span><span class="o">/</span><span class="mi">9</span><span class="p">)</span>
-</code></pre></div></div>
-
-<p><img src="/assets/img/output_21_1.png" alt="png" /></p>
-
-<p>The weekends of course make sense. But Monday is unexpected - TGIM?</p>
-
-<h3 id="what-year-did-i-watch-the-most-films">What year did I watch the most films?</h3>
-
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">movies</span><span class="p">[</span><span class="s">'YearWatched'</span><span class="p">]</span> <span class="o">=</span> <span class="n">movies</span><span class="p">[</span><span class="s">'Date Rated'</span><span class="p">].</span><span class="n">dt</span><span class="p">.</span><span class="n">year</span>
-<span class="n">sns</span><span class="p">.</span><span class="n">catplot</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="s">"YearWatched"</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s">"count"</span><span class="p">,</span> <span class="n">data</span><span class="o">=</span><span class="n">movies</span><span class="p">,</span> <span class="n">height</span><span class="o">=</span><span class="mi">6</span><span class="p">,</span> <span class="n">aspect</span><span class="o">=</span><span class="mi">12</span><span class="o">/</span><span class="mi">9</span><span class="p">)</span>
-</code></pre></div></div>
-
-<p><img src="/assets/img/output_24_1.png" alt="png" /></p>
-
-<p>2008, clearly! That was about 1 film per weekday! It looks like the intensity waned over time: 2010, in contrast, was my first year in college - studying obviously took precedence!</p>
-
-<h3 id="what-is-the-least-well-known-film-ive-watched-by-number-of-ratings-by-other-users">What is the <em>least</em> well-known film I’ve watched? (by number of ratings by other users)</h3>
-
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">movies</span><span class="p">.</span><span class="n">sort_values</span><span class="p">(</span><span class="s">'Num Votes'</span><span class="p">).</span><span class="n">head</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
-</code></pre></div></div>
-
-<div>
-<style scoped="">
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>Const</th>
-      <th>Your Rating</th>
-      <th>Date Rated</th>
-      <th>Title</th>
-      <th>URL</th>
-      <th>Title Type</th>
-      <th>IMDb Rating</th>
-      <th>Runtime (mins)</th>
-      <th>Year</th>
-      <th>Genres</th>
-      <th>Num Votes</th>
-      <th>Release Date</th>
-      <th>Directors</th>
-      <th>Weekday</th>
-      <th>WeekdayNumeric</th>
-      <th>YearWatched</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>878</th>
-      <td>tt0097073</td>
-      <td>1</td>
-      <td>2007-08-11</td>
-      <td>Code Name Vengeance</td>
-      <td>https://www.imdb.com/title/tt0097073/</td>
-      <td>movie</td>
-      <td>4.1</td>
-      <td>96.0</td>
-      <td>1987</td>
-      <td>Action, Adventure, Drama, Thriller</td>
-      <td>88.0</td>
-      <td>1987-12-31</td>
-      <td>David Winters</td>
-      <td>Saturday</td>
-      <td>5</td>
-      <td>2007</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-
-<p>Frankly, this movie looks terrible. Thankfully, I don’t remember watching it (!)</p>
-
-<h3 id="what-is-the-most-well-known-film-ive-watched-by-number-of-ratings-by-other-users">What is the <em>most</em> well-known film I’ve watched? (by number of ratings by other users)</h3>
-
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">movies</span><span class="p">.</span><span class="n">sort_values</span><span class="p">(</span><span class="s">'Num Votes'</span><span class="p">,</span> <span class="n">ascending</span><span class="o">=</span><span class="bp">False</span><span class="p">).</span><span class="n">head</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
-</code></pre></div></div>
-
-<div>
-<style scoped="">
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>Const</th>
-      <th>Your Rating</th>
-      <th>Date Rated</th>
-      <th>Title</th>
-      <th>URL</th>
-      <th>Title Type</th>
-      <th>IMDb Rating</th>
-      <th>Runtime (mins)</th>
-      <th>Year</th>
-      <th>Genres</th>
-      <th>Num Votes</th>
-      <th>Release Date</th>
-      <th>Directors</th>
-      <th>Weekday</th>
-      <th>WeekdayNumeric</th>
-      <th>YearWatched</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>100</th>
-      <td>tt0111161</td>
-      <td>10</td>
-      <td>2007-08-11</td>
-      <td>The Shawshank Redemption</td>
-      <td>https://www.imdb.com/title/tt0111161/</td>
-      <td>movie</td>
-      <td>9.3</td>
-      <td>142.0</td>
-      <td>1994</td>
-      <td>Drama</td>
-      <td>2301033.0</td>
-      <td>1994-09-10</td>
-      <td>Frank Darabont</td>
-      <td>Saturday</td>
-      <td>5</td>
-      <td>2007</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-
-<p>This one needs no introduction!</p>
-
-<h3 id="what-was-the-least-liked-film-ive-watched-by-ratings-by-other-users">What was the <em>least</em> liked film I’ve watched? (by ratings by other users)</h3>
-
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">movies</span><span class="p">.</span><span class="n">sort_values</span><span class="p">(</span><span class="s">'IMDb Rating'</span><span class="p">).</span><span class="n">head</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
-</code></pre></div></div>
-
-<div>
-<style scoped="">
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>Const</th>
-      <th>Your Rating</th>
-      <th>Date Rated</th>
-      <th>Title</th>
-      <th>URL</th>
-      <th>Title Type</th>
-      <th>IMDb Rating</th>
-      <th>Runtime (mins)</th>
-      <th>Year</th>
-      <th>Genres</th>
-      <th>Num Votes</th>
-      <th>Release Date</th>
-      <th>Directors</th>
-      <th>Weekday</th>
-      <th>WeekdayNumeric</th>
-      <th>YearWatched</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>704</th>
-      <td>tt0473024</td>
-      <td>1</td>
-      <td>2007-08-11</td>
-      <td>Crossover</td>
-      <td>https://www.imdb.com/title/tt0473024/</td>
-      <td>movie</td>
-      <td>2.1</td>
-      <td>95.0</td>
-      <td>2006</td>
-      <td>Action, Sport</td>
-      <td>8910.0</td>
-      <td>2006-07-22</td>
-      <td>Preston A. Whitmore II</td>
-      <td>Saturday</td>
-      <td>5</td>
-      <td>2007</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-
-<p>Ah, this doesn’t look <em>that</em> bad</p>
-
-<h3 id="what-was-the-most-liked-film-ive-watched-by-ratings-by-other-users">What was the <em>most</em> liked film I’ve watched? (by ratings by other users)</h3>
-
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">movies</span><span class="p">.</span><span class="n">sort_values</span><span class="p">(</span><span class="s">'IMDb Rating'</span><span class="p">,</span> <span class="n">ascending</span><span class="o">=</span><span class="bp">False</span><span class="p">).</span><span class="n">head</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
-</code></pre></div></div>
-
-<div>
-<style scoped="">
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>Const</th>
-      <th>Your Rating</th>
-      <th>Date Rated</th>
-      <th>Title</th>
-      <th>URL</th>
-      <th>Title Type</th>
-      <th>IMDb Rating</th>
-      <th>Runtime (mins)</th>
-      <th>Year</th>
-      <th>Genres</th>
-      <th>Num Votes</th>
-      <th>Release Date</th>
-      <th>Directors</th>
-      <th>Weekday</th>
-      <th>WeekdayNumeric</th>
-      <th>YearWatched</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>100</th>
-      <td>tt0111161</td>
-      <td>10</td>
-      <td>2007-08-11</td>
-      <td>The Shawshank Redemption</td>
-      <td>https://www.imdb.com/title/tt0111161/</td>
-      <td>movie</td>
-      <td>9.3</td>
-      <td>142.0</td>
-      <td>1994</td>
-      <td>Drama</td>
-      <td>2301033.0</td>
-      <td>1994-09-10</td>
-      <td>Frank Darabont</td>
-      <td>Saturday</td>
-      <td>5</td>
-      <td>2007</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-
-<p>A certified classic.</p>
-
-<h3 id="biggest-disparity-in-my-vote-vs-imdb">Biggest disparity in my vote vs IMDB?</h3>
-<ul>
-  <li>What was the popularly-least-liked film I’ve enjoyed?</li>
-  <li>And the popularly-most-liked film I didn’t?</li>
-</ul>
-
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">movies</span><span class="p">[</span><span class="s">'Vote Disparity - IMDb Liked more'</span><span class="p">]</span> <span class="o">=</span> <span class="n">movies</span><span class="p">[</span><span class="s">'IMDb Rating'</span><span class="p">]</span> <span class="o">-</span> <span class="n">movies</span><span class="p">[</span><span class="s">'Your Rating'</span><span class="p">]</span>
-<span class="n">movies</span><span class="p">.</span><span class="n">sort_values</span><span class="p">([</span><span class="s">'Vote Disparity - IMDb Liked more'</span><span class="p">,</span> <span class="s">'IMDb Rating'</span><span class="p">,</span> <span class="s">'Num Votes'</span><span class="p">],</span> <span class="n">ascending</span><span class="o">=</span><span class="bp">False</span><span class="p">).</span><span class="n">head</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
-</code></pre></div></div>
-
-<div>
-<style scoped="">
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>Const</th>
-      <th>Your Rating</th>
-      <th>Date Rated</th>
-      <th>Title</th>
-      <th>URL</th>
-      <th>Title Type</th>
-      <th>IMDb Rating</th>
-      <th>Runtime (mins)</th>
-      <th>Year</th>
-      <th>Genres</th>
-      <th>Num Votes</th>
-      <th>Release Date</th>
-      <th>Directors</th>
-      <th>Weekday</th>
-      <th>WeekdayNumeric</th>
-      <th>YearWatched</th>
-      <th>Vote Disparity - IMDb Liked more</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>95</th>
-      <td>tt0110912</td>
-      <td>1</td>
-      <td>2008-08-19</td>
-      <td>Pulp Fiction</td>
-      <td>https://www.imdb.com/title/tt0110912/</td>
-      <td>movie</td>
-      <td>8.9</td>
-      <td>154.0</td>
-      <td>1994</td>
-      <td>Crime, Drama</td>
-      <td>1796406.0</td>
-      <td>1994-05-21</td>
-      <td>Quentin Tarantino</td>
-      <td>Tuesday</td>
-      <td>1</td>
-      <td>2008</td>
-      <td>7.9</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-
-<p>Yeah, Pulp Fiction is overrated.</p>
-
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">movies</span><span class="p">[</span><span class="s">'Vote Disparity - I Liked more'</span><span class="p">]</span> <span class="o">=</span> <span class="n">movies</span><span class="p">[</span><span class="s">'Your Rating'</span><span class="p">]</span> <span class="o">-</span> <span class="n">movies</span><span class="p">[</span><span class="s">'IMDb Rating'</span><span class="p">]</span>
-<span class="n">movies</span><span class="p">.</span><span class="n">sort_values</span><span class="p">([</span><span class="s">'Vote Disparity - I Liked more'</span><span class="p">,</span> <span class="s">'IMDb Rating'</span><span class="p">,</span> <span class="s">'Num Votes'</span><span class="p">],</span> <span class="n">ascending</span><span class="o">=</span><span class="bp">False</span><span class="p">).</span><span class="n">head</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
-</code></pre></div></div>
-
-<div>
-<style scoped="">
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>Const</th>
-      <th>Your Rating</th>
-      <th>Date Rated</th>
-      <th>Title</th>
-      <th>URL</th>
-      <th>Title Type</th>
-      <th>IMDb Rating</th>
-      <th>Runtime (mins)</th>
-      <th>Year</th>
-      <th>Genres</th>
-      <th>Num Votes</th>
-      <th>Release Date</th>
-      <th>Directors</th>
-      <th>Weekday</th>
-      <th>WeekdayNumeric</th>
-      <th>YearWatched</th>
-      <th>Vote Disparity - IMDb Liked more</th>
-      <th>Vote Disparity - I Liked more</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>469</th>
-      <td>tt0250310</td>
-      <td>7</td>
-      <td>2009-02-19</td>
-      <td>Corky Romano</td>
-      <td>https://www.imdb.com/title/tt0250310/</td>
-      <td>movie</td>
-      <td>4.7</td>
-      <td>86.0</td>
-      <td>2001</td>
-      <td>Comedy, Crime</td>
-      <td>12425.0</td>
-      <td>2001-10-12</td>
-      <td>Rob Pritts</td>
-      <td>Thursday</td>
-      <td>3</td>
-      <td>2009</td>
-      <td>-2.3</td>
-      <td>2.3</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-
-<p>Corky Romano is a masterpiece!</p>
-
-<h1 id="general-patterns">General patterns</h1>
-<p>Finally, let’s visualize some general patterns</p>
-
-<h3 id="film-durations">Film durations</h3>
-
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">sns</span><span class="p">.</span><span class="n">distplot</span><span class="p">(</span><span class="n">movies</span><span class="p">[</span><span class="s">'Runtime (mins)'</span><span class="p">])</span>
-</code></pre></div></div>
-
-<p><img src="/assets/img/output_45_1.png" alt="png" /></p>
-
-<h3 id="film-release-years">Film Release Years</h3>
-
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">sns</span><span class="p">.</span><span class="n">catplot</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="s">"Year"</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s">"count"</span><span class="p">,</span> <span class="n">data</span><span class="o">=</span><span class="n">movies</span><span class="p">,</span> <span class="n">height</span><span class="o">=</span><span class="mi">10</span><span class="p">,</span> <span class="n">aspect</span><span class="o">=</span><span class="mi">21</span><span class="o">/</span><span class="mi">9</span><span class="p">)</span>
-</code></pre></div></div>
-
-<p><img src="/assets/img/output_47_1.png" alt="png" /></p>
-
-<h3 id="film-genres">Film genres</h3>
-
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">genres</span> <span class="o">=</span> <span class="n">movies</span><span class="p">[</span><span class="s">'Genres'</span><span class="p">].</span><span class="n">astype</span><span class="p">(</span><span class="s">'str'</span><span class="p">).</span><span class="n">tolist</span><span class="p">()</span>
-<span class="n">genres</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="nb">map</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">x</span><span class="p">.</span><span class="n">split</span><span class="p">(</span><span class="s">','</span><span class="p">),</span> <span class="n">genres</span><span class="p">))</span>
-<span class="n">genres</span> <span class="o">=</span> <span class="nb">sum</span><span class="p">(</span><span class="nb">list</span><span class="p">(</span><span class="n">genres</span><span class="p">),</span> <span class="p">[])</span>
-<span class="n">genres</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="nb">map</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">x</span><span class="p">.</span><span class="n">strip</span><span class="p">(),</span> <span class="n">genres</span><span class="p">))</span>
-<span class="n">genres</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="nb">map</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="p">[</span><span class="n">x</span><span class="p">],</span> <span class="n">genres</span><span class="p">))</span>
-<span class="n">genres</span> <span class="o">=</span> <span class="n">pd</span><span class="p">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">genres</span><span class="p">,</span> <span class="n">columns</span><span class="o">=</span><span class="p">[</span><span class="s">'Genres'</span><span class="p">])</span>
-<span class="n">sns</span><span class="p">.</span><span class="n">catplot</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="s">"Genres"</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s">"count"</span><span class="p">,</span> <span class="n">data</span><span class="o">=</span><span class="n">genres</span><span class="p">,</span> <span class="n">height</span><span class="o">=</span><span class="mi">9</span><span class="p">,</span> <span class="n">aspect</span><span class="o">=</span><span class="mi">21</span><span class="o">/</span><span class="mi">9</span><span class="p">,</span> <span class="n">order</span> <span class="o">=</span> <span class="n">genres</span><span class="p">[</span><span class="s">'Genres'</span><span class="p">].</span><span class="n">value_counts</span><span class="p">().</span><span class="n">index</span><span class="p">)</span>
-</code></pre></div></div>
-
-<p><img src="/assets/img/output_49_1.png" alt="png" /></p>
-
-<h3 id="directors">Directors</h3>
-
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">directors</span> <span class="o">=</span> <span class="n">movies</span><span class="p">[</span><span class="s">'Directors'</span><span class="p">].</span><span class="n">astype</span><span class="p">(</span><span class="s">'str'</span><span class="p">).</span><span class="n">tolist</span><span class="p">()</span>
-<span class="n">directors</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="nb">map</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">x</span><span class="p">.</span><span class="n">split</span><span class="p">(</span><span class="s">','</span><span class="p">),</span> <span class="n">directors</span><span class="p">))</span>
-<span class="n">directors</span> <span class="o">=</span> <span class="nb">sum</span><span class="p">(</span><span class="nb">list</span><span class="p">(</span><span class="n">directors</span><span class="p">),</span> <span class="p">[])</span>
-<span class="n">directors</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="nb">map</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">x</span><span class="p">.</span><span class="n">strip</span><span class="p">(),</span> <span class="n">directors</span><span class="p">))</span>
-<span class="n">directors</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="nb">map</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="p">[</span><span class="n">x</span><span class="p">],</span> <span class="n">directors</span><span class="p">))</span>
-<span class="n">directors</span> <span class="o">=</span> <span class="n">pd</span><span class="p">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">directors</span><span class="p">,</span> <span class="n">columns</span><span class="o">=</span><span class="p">[</span><span class="s">'Directors'</span><span class="p">])</span>
-<span class="n">directors</span> <span class="o">=</span> <span class="n">directors</span><span class="p">.</span><span class="n">groupby</span><span class="p">([</span><span class="s">'Directors'</span><span class="p">]).</span><span class="n">size</span><span class="p">()</span>
-<span class="n">directors</span> <span class="o">=</span> <span class="n">directors</span><span class="p">.</span><span class="n">reset_index</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="s">'size'</span><span class="p">)</span>
-<span class="n">directors</span> <span class="o">=</span> <span class="n">directors</span><span class="p">.</span><span class="n">sort_values</span><span class="p">([</span><span class="s">'size'</span><span class="p">],</span> <span class="n">ascending</span><span class="o">=</span><span class="bp">False</span><span class="p">)</span>
-<span class="n">directors</span><span class="p">.</span><span class="n">head</span><span class="p">(</span><span class="mi">10</span><span class="p">)</span>
-</code></pre></div></div>
-
-<div>
-<style scoped="">
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>Directors</th>
-      <th>size</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>514</th>
-      <td>Steven Spielberg</td>
-      <td>15</td>
-    </tr>
-    <tr>
-      <th>453</th>
-      <td>Robert Zemeckis</td>
-      <td>10</td>
-    </tr>
-    <tr>
-      <th>111</th>
-      <td>David Fincher</td>
-      <td>8</td>
-    </tr>
-    <tr>
-      <th>345</th>
-      <td>Martin Scorsese</td>
-      <td>8</td>
-    </tr>
-    <tr>
-      <th>415</th>
-      <td>Peter Jackson</td>
-      <td>7</td>
-    </tr>
-    <tr>
-      <th>423</th>
-      <td>Quentin Tarantino</td>
-      <td>7</td>
-    </tr>
-    <tr>
-      <th>256</th>
-      <td>John Hughes</td>
-      <td>7</td>
-    </tr>
-    <tr>
-      <th>85</th>
-      <td>Christopher Nolan</td>
-      <td>6</td>
-    </tr>
-    <tr>
-      <th>464</th>
-      <td>Ron Howard</td>
-      <td>6</td>
-    </tr>
-    <tr>
-      <th>155</th>
-      <td>Ethan Coen</td>
-      <td>6</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-
-<h3 id="whats-the-perfect-film-for-me">What’s the perfect film for me?</h3>
-<p>Based on frequent attributes: It looks like that would be a Drama or Comedy, directed by Spielberg, made in 2011, that is about 100 minutes long! ‘War Horse’, anybody?</p>
-
-<p>If we base it on rating, by restricting this to just films I rated &gt;= 8: A Drama, directed by Spielberg, made in 1999, that’s 120 minutes long. Perhaps, ‘Saving Private Ryan’?</p>
-
-<p>This however would be an interesting small ML project: to create a model to predict a numeric rating for a given film, based on my previous ratings.</p>]]></content><author><name>Mansour Ahmed</name><email>mail@mansourahmed.com</email></author><summary type="html"><![CDATA[Intro I decided to dig into my film-watching habits as a data exploration exercise.]]></summary></entry></feed>
+</ul>]]></content><author><name>Mansour Ahmed</name><email>mail@mansourahmed.com</email></author><summary type="html"><![CDATA[A much shorter list of books this year, as I’m reading more academic papers instead]]></summary></entry></feed>

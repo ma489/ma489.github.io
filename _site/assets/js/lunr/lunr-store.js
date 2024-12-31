@@ -164,6 +164,11 @@ var store = [{
         "tags": [],
         "url": "http://localhost:4000/2022/12/2022-reading-list/",
         "teaser":null},{
+        "title": "Evaluating the Robustness of Linear Discriminant Analysis",
+        "excerpt":"Introduction In this blog post, I will evaluate the performance of Linear Discriminant Analysis (LDA) in a classification task, when LDA’s underlying assumptions are violated. Through a series of simulations, the effects of different types of misspecifications, and different severities of those misspecifications, on LDA’s performance are explored [1]. Linear...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/2023/02/lda-evaluation/",
+        "teaser":null},{
         "title": "Exploring Language in Classic Fiction with Data and R",
         "excerpt":"Introduction In this post, I will present an exploratory data analysis and visualisation of natural language data from a collection of 26 fiction books by six English-language authors. The data was downloaded from the Project Gutenberg website [1]. For the purposes of this analysis, we treat each book as a...","categories": [],
         "tags": [],
@@ -174,6 +179,11 @@ var store = [{
         "tags": [],
         "url": "http://localhost:4000/2023/07/pyspark-ml-classification/",
         "teaser":null},{
+        "title": "Sentiment Analysis with scikit-learn, nltk and word2vec",
+        "excerpt":"Introduction This post presents a process of performing sentiment analysis the Starbucks Reviews Dataset from Kaggle. The goal was to classify reviews as either Positive or Negative. Two models were developed for this purpose, and their performances compared. The accompanying code and data repository can be found here. Data The...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/2023/11/sentiment-classification/",
+        "teaser":null},{
         "title": "Multiclass Image Classification with CNNs",
         "excerpt":"Introduction In this post, I’ll present the analysis and processing of an images dataset, and the training and application of Convolutional Neural Network (CNN) models (using PyTorch) for the purpose of multiclass classification of the dataset. The dataset is the ‘The Simpsons Characters Dataset’ [1] (obtained from Kaggle [1]), and...","categories": [],
         "tags": [],
@@ -183,6 +193,11 @@ var store = [{
         "excerpt":"Another year, another journey through a fascinating set of books. Some of my selections this year were inspired by the excellent Rebel Book Club, a community I’m proud to be part of. Others were part of my ongoing Master’s degree studies in Machine learning. Explore my curated list below! Books...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/2023/12/2023-reading-list/",
+        "teaser":null},{
+        "title": "Generating Audio from Spoken Digits, with VQ-VAE and LSTM models",
+        "excerpt":"Introduction This post presents an analysis of the Free Spoken Digit Dataset (FSDD) (an “audio/speech dataset consisting of recordings of spoken digits” [1]) and the use of this dataset in the development of two machine learning models (a VQ-VAE model and an LSTM model) which are combined for the purpose...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/2024/04/dl-audio-generation/",
         "teaser":null},{
         "title": "Master's Thesis: Spatial Regression with Deep Learning and Attention",
         "excerpt":"I am excited to share that I have successfully completed and submitted my Master’s thesis, fulfilling the final requirement for my degree in Machine Learning and Data Science at Imperial College London. At a high-level, the project focused on using Deep Learning to predict property prices (with TensorFlow). I was...","categories": [],
